@@ -1,0 +1,297 @@
+% Hello mysterious person!
+% This is my massive text document for testing LaTeX
+% It will probably serve as simply a demonstration
+% for myself
+% of what it can do with allll these plugins. 
+
+\documentclass{article}   
+
+%This section is called the preamble
+\title{GM's World of Wonderful Words}  
+\author{G. M. Seskii}      
+\date{}      % Ooo magic changing date!
+
+%\usepackage{amsmath} %Not necessary due to mathtools loading it
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{csquotes} 
+\usepackage[style=authoryear,backend=biber]{biblatex}
+\usepackage{fancyhdr}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{siunitx}
+\usepackage{todonotes} %Stopped using this, not sure why I can't get rid of it
+\usepackage{wasysym}
+\usepackage{bm}
+\usepackage[version=4]{mhchem}
+\usepackage{cancel}
+\usepackage{circledsteps} 
+
+\usepackage{fontawesome}
+\usepackage{mdframed}
+\usepackage{cmap}
+\usepackage{fp}
+
+\usepackage{hyperref}
+
+\addbibresource{TestBibliography.bib}
+
+\MakeOuterQuote{"}
+
+\hypersetup{ colorlinks,
+	linkcolor={red!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+} %replaces obnoxious hyperlink boxes with neat colored text.
+%use the [hidelinks] option in hyperref to get rid of the colors. 
+
+\begin{document}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[C]{This Is A Fancy Header \thepage\ $\gluon$}
+\maketitle
+\tableofcontents
+
+Oh boy oh boy what have we here a fun little day on the word world? How interesting, let me just fill this document with all manner of text so we can figure out exactly how the default paragraph will appear. Good. Neat, even. Perhaps funky like chicken!
+
+\section{Fear Me}
+\subsection{You Aren't Listening}
+\subsubsection{That's it, Time to get Eaten}
+
+Anyway we appear to be using TeXworks Editor, which is neat and helpful already. Let's see what features it has by default. ``Running'' the file will generate it rather quickly. Default is pdf\LaTeX\ which makes a pdf. Which is nice. There are several others.
+
+We have some templates we could use, as well as, apparently, some minor form of version control, reverting to saved. There's a citation helper (if I had that) and a whole ton of preferences, which are mostly visual and technical things that probably don't need to be adjusted, like the icon size, document previous properties, the like. 
+
+Shift-tab doesn't work, so use the ctrl+[ ctrl+] commands. There's also scripting functionality, but we probably won't need to use that. And, oh, a link to the short manual for this program, hmm, that's probably something to look into. Yep. ((It wasn't all that good, honestly...)
+
+\[9-9-9=-9\]
+
+Anyway, we will now work through https://mirrors.rit.edu/\-CTAN\-/info\-/lshort\-/english\-/lshort.pdf and record what we find. After that we will investigate packages.
+
+\section{``Basic'' \LaTeX\ stuff}
+\subsection{From the ``Short'' guide}
+\subsubsection{It's really not short at all...}
+
+A list of awkward characters typed by adding a slash to them: \# \$ \% \^\ \& \_ \{ \} \~\ . You can't do this with the backslash, you have to use the textbackslash command to get \textbackslash. I was curious what all of them did so I looked it up. Other slash / is fine, though the slash command should be used to allow for hyphenation.
+
+\textbackslash is obviously the ``command'' character. \{ \} are there to contain things. \% is for comments. \^\ is evidentially reserved for exponent in math mode, and it won't print anything in normal mode. (Just throws an error.) This is the same for \_, the subscript. I know \$ as the math sign. \& is called the tabulator (tables) and \# is for parameters (which I've never seen used). \~\ is the protected space. 
+
+Fun fact: you can add hats with the commands! If there's no slash after, letters are fun: \~a \^a. No need for math mode! Notably, of these \~\ is the only one that doesn't break when typed normally, as it converts to protected space. (Technically \% too, I guess.) 
+
+The math command ``sim'' gives a proper tilde. $\sim$
+
+\ldots
+
+Sometimes we need to box things to make sure they stay together. mbox does this without making the box. fbox, meanwhile... \fbox{are you not entertained!?}
+
+Remember to use \`\ for beginning quotes. ''this'' is not like ``this''. The enquote command can also be used.
+
+Dash-dash--dash---dash$-$dash!
+
+\o $\tau$
+
+Ah yes, the importance of references. First, use the label command to label something \label{something}. Now let's refer back to that something using ref \ref{something} and pageref \pageref{something}. Note that these are not clickable and just point to where the reference is\footnote{also here's the footnote command}. ((A package enabled later made the references clickable)). 
+
+Now there are times we want to set up specific environments via the begin and end commands, each given an argument for said environment. I'm familiar with the matrix, but it can also be used for lists with ``itemize'' and ``enumerate'' while ``description'' is... descriptions. There are lots of these. There's also ones for text alignment, ``center'' is pretty helpful. Also special quotes, verse... an ``abstract'' \ldots (look at me mixing dots, how scandalous). ``verbatim'' can be used to break the rules. 
+
+\begin{verbatim}
+#%#@%$#@$@#%@# Look at how bad I am!
+Typewriters are fun and cool!
+Cirno vs Paimon go
+\end{verbatim}
+
+Lots of fun symbols can be typed in directly: €‰Žœ¶Ü‽₩℧. Not all, though, Unicode is not enabled by default, and we shouldn't need it in the first place. Some characters also seem to trip it up based on what ``compiler'' (or engine) we are using. 
+
+The``tabular'' environment does tables. 
+
+\begin{tabular}{c|c|c|c|c|c|c|c|c}
+Anemo & Geo & Electro & Dendro & Hydro & Pyro & Cryo & Quantum & Imaginary \\ 
+Wind & Rock & Lightning & Nature & Water & Fire & Ice & Dark & Light \\
+Teal & Yellow & Purple & Green & Blue & Orange & Cyan & Blurple & Yellow but different
+\end{tabular}
+
+Hmm, dunno how to justify that away from the margins yet. Table tooooo wide atm. Maybe fix...
+
+There is also a figure environment. This gives us the ability to do... GRAPHICS! ...using a package graphix so that's for later. Regardless, note that both the figure and table environments are considered ``floating'' environments and may move around all over the place.
+
+Floating environments (floats) can have specified arguments of where to place them (h)ere (t)op (b)ottom (p)age and (!). The last one is just SHUT UP PLACE THE STUPID DIAGRAM ALREADY! default is tbp. 
+
+Oh I suppose we have the math section here. I kind of already know how to use that, but let's be sure. Let's see what we can and can't do with loading amsmath. We already know we can do basic incline $x-x$ math and complex set apart \[x^2-x_2 \spadesuit\] math, but what else is on offer? One thing we have is the equation environment, which will automatically number things.
+\begin{equation} 
+1 = \sum^\infty_{n=1} \frac{1}{2^n}
+\end{equation}
+Look at that nice label. Pristine. It does appear that amsmath may be automatically enabled... AHA! It is not! Had to enable it to use the text command in math. Interesting... 
+
+NOTE: apparently it is bad practice to use \$\$...\$\$. Use the brackets instead.
+
+Handful of things I did not know how to do in MATH mode. The surd command gives $\surd$, which is sometimes helpful for conciseness. Overline can produce $0.0\overline{333}$ which is neat, not to mention the excessive underlining abilities!
+
+\[ 1\underline{1\underline{ 1\underline{1\underline{ 1\underline{1}}}}} \]
+
+Which does not look like but you know what that's still cool. There's also the overbrace and underbrace.
+
+\[ \underbrace{\overbrace{\text{Nahida}}^{\text{cage}}}_{\text{birdness}} \]
+
+Hmm, that brace isn't very smooth. Wonder what can be done about that, if anything? Also, the way to get limit notation on things that aren't the lim command is to define a new math operator. Also the qquad command can give a nice break. The binom command is for binomials. Now for something really neat: the stackrel command!
+
+\[ \stackrel{8}{8} \stackrel{8}{\stackrel{8}{8}} \]
+
+Make STACKS! 
+
+There's also stuff for dealing with long equations but that's irrelevant to me right now. 
+
+Arrays and matrices are basically tables. An array has no bounding unless you provide it. A matrix also does not, but a bmatrix has the [] bounds. In fact "b" is just a letter code stucn on the front: we have p() B\{\} v$||$ and V$\parallel\parallel$
+
+In math, there are spacing commands: , : ; space quad qquad. With space being `` '', y'know, empty. The ! command produces negative space! The phantom command reserves space for a character that is not shown. \phantom{MW} How mysterious that space there is. Almost like it's the size of MW...
+
+The math scripts are mathcal, mathfrak, and mathbb. There's also Re $\Re$ and Im $\Im$ for your real and imaginary needs. Also $\aleph$ and other random symbols exist. 
+\[ \mathcal{AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz}\]
+\[ \mathfrak{AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz}\]
+\[ \mathbb{AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz}\]
+
+
+You might notice that there's a lot of random symbols here. That's the lowercase letters, they've been transformed into other symbols, presumably since they don't actually exist in the script we want.
+
+The mathbf command gives you boldface. Boldmath works too but only outside of math mode, it holds math mode within it. boldsymbol can come from amsby or bm packages. 
+
+Alright, now, bibliographical stuff. Command bibitem[label]\{marker\}. The marker is what we use to refer to it when we use the cite command. The label is just the number by default, ``source [1]'' sort of deal. The actual citation goes directly after the bibitem command. 
+
+Size comands are a little strange. Instead of the usual command\{\} layout, it's \{ command text\} layout. We shall now allow the sizes to be self demonstrating:
+
+{\tiny tiny }{\scriptsize scriptsize }{\footnotesize footnotesize }{\small small }{\normalsize normalsize }{\large large }{\Large Large }{\LARGE LARGE }{\huge huge }{\Huge Huge }
+
+Evidentially there is not HUGE. There are also the basic font adjustment commands. Which are not done in the above manner.
+
+\textrm{textrm }\texttt{texttt }\textmd{textmd }\textup{textup }\textsl{textsl }\emph{emph }\textsf{textsf }\textbf{textbf }\textit{textit }\textsc{textsc }\textnormal{textnormal }
+
+The math commands can do text as well. mathAA, where AA is some code. rm is roman, bf is bold, sf is sans serif, tt is typewriter, it is italic, cal is caligraphic (breaking the pattern I see), and there's also a ``normal'' but it's an odd day when you need to specify that. 
+
+The par command is equal to a blank line. The PARagraph. Geddit? noindent removes the indent. Indent adds it. Now the stretch command can be used to make sure things fill the line:
+
+M\hspace{\stretch{1}}V\hspace{\stretch{2}}E\hspace{\stretch{4}}M\hspace{\stretch{16}}J\hspace{\stretch{32}}S\hspace{\stretch{64}}U\hspace{\stretch{128}}N
+
+There are also spacing commands. Which I should basically never need. Also messing with the *page layout* oh that's always fun.
+
+There is a standard picture environment. We should never use it, and instead rely on the TikZ package. Or, maybe, just maybe, do the graphs in python and export them...?
+
+There are also customization options where we can define new operators, new commands... but seriously the packages should be able to cover it. 
+
+The rule command can be used to draw boxes and lines.  \marginpar{{\scriptsize Hey people, here's a margin note using the marginpar command! Neat, innit?}}
+
+Some notes on ``compilers'': there are several built into TeXworks. The default was PDFLaTeX, but some suggestions  indicate that XeLaTeX is better. XeLaTeX does assume unicode and apparently that's convenient. PDFLaTeX has more sophisticated microtypograhy. So... take a pick? At this point the two have minimal difference in final output result. Babel appears to have issues. There's also LuaLaTeX. 
+
+Anyway that's supposedly the ``basics'' but we did have to dig into a few packages. Let's go dig into a few more!
+
+\section{PACKAGES!}
+\subsection{Too many packages...}
+\subsubsection{Someone get Kirara to get rid of these}
+
+I will attempt to restrict this to ones I intend to use, or at the very least find fun.
+
+\textbf{amslatex}: is by far the most important of the packages, as it's how all the math is DONE. (Or, well, most of it, anyway; basically indepensible though). The full amslatex package contains amsmath and amscls. amscls is not relevant to us as it's mainly for document perparation for the American Mathematical Society. amsmath, though, contains a truly tremendous amount of THINGS it can do. Fortunately I actually mostly know how to use it already due to experience, neat! And we demonstrated its capabilities up there a bit. Just make sure to load amssymb to make sure you get the full symbol package. Also, there is mathtools, which expands amsmath. Mathtools is a collection of various expansions, and if you load it it loads amsmath automatically, and can even pass arguments to it. It is mostly just bug fixes and small features to let weird math be written down. 
+
+\textbf{biblatex}: COMPREHENSIVE BIBLIOGRAPHY! This one's important for obvious reasons. Let's see what it can do! Oh boy the documentation is several hundred pages long whoooof... most of the work for biblatex happens outside the main document. You create a .bib file to hold all possible citation formats, and then load it in the preamble. Biblatex requires csquotes. Anyway, once we set up the .bib file and load it, we can just cite things with the cite command, using the name we gave the source; \cite{booka}. \nocite{*} Then we can generate the bibliography with printbibliography.
+
+\printbibliography
+
+NOTE: To properly generate this, build LaTeX, then build biber, then build LaTeX again. Probably something to do with file order. Biblatex has FAR more resources than I need, with almost every kind of citation imaginable. 
+
+\textbf{fancyhdr}: fancy headers. Adjusting the specificity of what is on the headers and footers, quite important. By default this document doesn't even have them. This appears to be primarily done by just inserting the type of header and/or footer. In order to enable this we first have to set pagestyle to fancy, and then clear the headers by calling fancyhead with an empty call. All of the header commands are done like command[location]\{content\}, where the location is given by various letter codes. O and E are for odd or even, LCR are directional, and HF are sometimes implied but can mean header and footer. Neat!
+
+\textbf{xcolor}: \color{red}C\color{orange}O\color{yellow}L\color{green}O\color{blue}R\color{purple}S\color{black}. Nice how self-desmonstrating this entry is, eh? simply use the color command to color everything after it. Remember to switch back to black at the end! There are plenty of named colors, and more colors can be accessed by setting the options for xcolor. This also implements colorbox for \colorbox{lime}{background coloring/highlights.} Custom colors can be done with the definecolor command, which has rgb, cmyk, and gray options for definition. What fun! pagecolor can also be set, but that would be a bit crazy, huh? A proper highlight would require the lua-ul package, but chances of that being necessary are low.
+
+\textbf{hyperref}: hyperlinks, for both internal and external linking. In fact, it should be able to handle a table of contents automatically. Generating a table of contents proves that it can, and amazingly it also connects with the bibliography!  So anything that has a reference can be clicked and it'll be arrived at. Amazing how that kind of handles itself, but it means I have to be dilligent with my references! However they do appear as ugly red and green boxes... aha, one can either hide the links by making them all invisible, OR by setting up hyperref with xcolor. External links are also allowed with the href and url commands: \href{https://www.youtube.com/watch?v=dQw4w9WgXcQ}{A Special Link}, \url{https://www.fimfiction.net/user/275276/GMSeskii}. Local file links are also supported, as are direct links from anywhere if you want to manually set them with hypertarget and hyperlink. 
+
+\textbf{graphicx}: for graphics and figures. Yes we need to put images into our pdfs thank you. Import graphix, then set the graphicspath to the necessary path to the images. Then just use the command includegraphics. However, that doesn't try to do anything with the image size or caption it or anything. Sooooo you can pass arguments, such as scale= or angle=. Figures can also be labeled but that's a normal thing, not really a function of graphicx itself.
+
+\begin{figure}[htb]
+\includegraphics[scale = 0.2, angle = 2]{NahidaStare.jpg}
+\centering
+\caption{Ever so \emph{slightly} out of alignment...}
+\end{figure}
+
+\textbf{adjustbox}: gain precise control over any boxed content, such as tables. Graphics can be adjusted with graphicx, but what of our fancy tables? Well, let's try it, our previous table was a bit too large.
+
+\adjustbox{scale = 0.75}{
+\begin{tabular}{c|c|c|c|c|c|c|c|c}
+Anemo & Geo & Electro & Dendro & Hydro & Pyro & Cryo & Quantum & Imaginary \\ 
+Wind & Rock & Lightning & Nature & Water & Fire & Ice & Dark & Light \\
+\color{teal}Teal & \color{Dandelion}Yellow & \color{Purple}Purple & \color{green}Green & \color{blue}Blue & \color{orange}Orange & \color{cyan}Cyan & \color{Periwinkle}Blurple & \color{Goldenrod}Yellow but different\color{black}
+\end{tabular}
+}
+
+Success! Give the adjustbox a box and it'll do stuff to it. Neat! Has similar controls to the figure environment. Can also frame the box, if you need that, as well as a ton of other options.
+
+\textbf{siunitx}: Formatting units properly. Also has functionality for making tables line up on the decimal point. Lots of other number display commands, can even display computer exponent 1e5 numbers expanded \num{1e5}. The post powerful and readily usable command is probably qty, which combines numbers and units. Say, \qty{1943678}{\meter\per\second}. Note the subtle spaces in the large number. Neat! Of course we can set the per-mode to fraction and get \qty[per-mode = fraction]{1943678}{\meter\per\second}. The prefixes can also be added with their own commands. Also wow it goes from -30 to 30 in terms of the orders of magnitude, whew.
+
+\newmdenv[linecolor=red]{infobox}
+
+\begin{infobox}[backgroundcolor=yellow]
+\textbf{mdframed}:  Do you want more involved, complex, and page-breakable boxes? Well look no further! Behold this self demonstrating amazingness!
+\end{infobox}
+
+\textbf{bm}: Boldify math. That's it. The command is bm. $\bm{9\pi N}, 9\pi N$
+
+\textbf{csquotes}: Hey, getting tired of manually typing in opening and closing quotes? Well look no further! csquotes "solves" the problem! Was also required for bibliography stuff but that's not the point I'm using it for. We are now freeeeee from textrual idiosynrocies. Which I totally spelled correctly, yes. Anyway this package can actually do a lot of contextual and nested proper quotes, may be worth looking into if quotes are becoming a problem
+
+\textbf{cmap}: make your resulting pdfs searchable and copyable, just to be convenient. Very important to include, but doesn't need anything done besides being enabled.
+
+\textbf{wasysym}: a font that has a ton of symbols in it, such as the astronomical symbols. Some math symbols too, $\sqsubset$. Then we have \sun \bell \smiley \clock \AC \photon \gluon \eighthnote \thorn \virgo \saturn\ among others.
+
+\textbf{mhchem}: You might think it odd that this is here and not the physics package. However, the physics package didn't really provide anything new that I couldn't do already, aside from bra-ket notation, and I won't be using that. However I will need to do chemical things every now and then (we love atmospheric chemistry). So... test! \ce{H2O} and \ce{H2O4U} and \ce{^{111}_{11}Th+9} yep it all checks out.
+
+\textbf{cancel}: draw lines through things. \cancel{9} \cancel{things} \bcancel{11} \xcancel{O} and perhaps the most useful, $\cancelto{\infty}{\frac{0}{0}}$
+
+\textbf{circledsteps}: numbers with circles around them. Good for annotating things. \Circled[outer color = red]{9} \Circled[inner color = blue]{3.14159} hmm the larger circle appears to be screwing up. Hmm. Oh well, single numbers still work fine, this is mainly for highlighting n stuff.
+
+\textbf{csvsimple}: work with csv files. Might be neat to make an automatically updating table at somepoint. Would also greatly simplify making of tables if it can just be autoloaded from csv. 
+
+\textbf{fontawesome}: adding symbols via a font. Similar to wasysym, just providing more symbols. \faicon{500px} \faAlignCenter \faApple \faBattery[1] \faCcMastercard \faDiamond \faDropbox \faEmpire \faFilePdfO \faFolderOpenO \faQq \faRecycle \faSpinner . Focused on lots of web items.
+
+\textbf{longtable}: for when your table is loooooooong. Yeah just lets you make multipage tables. Notably fails in the double column environment, but if you have a long table you probably want it to straddle anyway. (A puzzle for a later day...)
+
+\textbf{fp}: If you ever need to do floating point arithmetic for some reason. Probably best used for calculating table sizes or spacing, rather than displaying numbers you could just type. The major weridness in this package is that it doesn't accept normal arguments in braces, but rather ``variables'' which are defined with slashes. \verb|\FPset\x\y| sets x to y. If a specific value is desired, then it is set with braces. \verb|\FPset\x{2}|. There are arithmetic results and the like, and the FPprint value. Allow me to print x:\FPset\x{2} \FPprint\x. There's also  quite a few odd functions and logic that can be used. Also pi. \FPprint\FPpi 
+
+\textbf{At the end here I will note packages I don't intend to use, but are still important and may be needed at some point.}
+
+\textbf{babel}: managing multiple languages and language support in general. 
+
+\textbf{TikZ}: drawing your own graphics bit by bit. But why would we bother when we could just include images from tools better suited to this? Even the flowchart functionality can be done by Mermaid Chart! The pstricks package is very similar in being probably unecessary. 
+
+\textbf{booktabs}: Gain more control over tables... if needed, strictly speaking it's probably not necessary unless you're doing something odd or really want it to look nice. See also nicematrix for the math version. And colortbl for the colorful version.
+
+\textbf{cleveref}: cross-reference features improved! Always more references! Seems redundant with hyperref.
+
+\textbf{microtype}: when you \emph{really} want control over your document. Lots of tiny adjustments, it seems.
+
+\textbf{multicol}: For messing with text columns in the document. Normally we can get away with just two columns, but sometimes this might be necessary, especially if we end up with some ugly columns that need tweaking.
+
+\textbf{geometry}: at important package that allows you to adjust margins, paper size, etc. But we shouldn't use it unless we need to.
+
+\textbf{parskip}: Option to not indent your paragraphs and just make them separated. Affects entire document though, so not good for doing individual sections, but would be good if you wanted to use non-indent format for whatever reason. 
+
+\textbf{physics2}: so the usual package for doing this was physics, but physics apparently causes problems and conflicts, so physics2 is here. physics2 is big, so individual modules have to be loaded with usephysicsmodule\{modules\}. The ab module does automatic bracing. Contains quantum bra ket notation in ab.braket and braket modules, but are incompatible with one another. Quickly realized that this doesn't actually provide anything I can't already do, so... to the bottom of the doc wtih you!
+
+\textbf{caption and subcaption}: control over captions and subfigure caption support. And stuff. May be useful one day, but normal figure caption functionality seems fine for now.
+
+\textbf{iftex}: identify which ``compiler'' (engine) you're using, add some conditionals for it.
+
+\textbf{wallpaper}: background images! Probably won't ever need to use this but you never know.
+
+\textbf{section}: control over section headings and styles. Not necessary until it is, such as a formatting requirement for submission. 
+
+\textbf{subfig}: for when you need figures in your figures. When will it be necessary? I dunno. 
+
+\textbf{censor}: Somewhat Silly. Adds the ability to black out information. Or any color. 
+
+\textbf{bookshelf}: Somewhat Silly. Makes a bookshelf out of your bibliography.
+
+\textbf{logicpuzzle}: Somewhat Silly. Set up logic puzzles. However, the nice colors and grids here might be useful for other things, actually...
+
+\textbf{halloweenmath}: SILLY! Use halloweeny symbols in your mathematics, including some pretty neat and complicated ones. Skulls, pumpkins, ghosts, you name it!
+
+\textbf{chickenize}: SILLY! The silliest of packages! Rainbow text, turn things into chickens! CHICKENS! Requires LuaLaTeX though. 
+
+\end{document}

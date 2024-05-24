@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Fear Me}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}You Aren't Listening}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}That's it, Time to get Eaten}{1}{subsubsection.1.1.1}%
+\contentsline {section}{\numberline {2}``Basic'' \LaTeX \ stuff}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}From the ``Short'' guide}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}It's really not short at all...}{2}{subsubsection.2.1.1}%
+\contentsline {section}{\numberline {3}PACKAGES!}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Too many packages...}{5}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Someone get Kirara to get rid of these}{5}{subsubsection.3.1.1}%

@@ -1,0 +1,98 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{articlea}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=593e3077ef5bfda3f0cb88b6afb0d944}{%
+           family={McGee},
+           familyi={M\bibinitperiod},
+           given={Nameless},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{593e3077ef5bfda3f0cb88b6afb0d944}
+      \strng{fullhash}{593e3077ef5bfda3f0cb88b6afb0d944}
+      \strng{fullhashraw}{593e3077ef5bfda3f0cb88b6afb0d944}
+      \strng{bibnamehash}{593e3077ef5bfda3f0cb88b6afb0d944}
+      \strng{authorbibnamehash}{593e3077ef5bfda3f0cb88b6afb0d944}
+      \strng{authornamehash}{593e3077ef5bfda3f0cb88b6afb0d944}
+      \strng{authorfullhash}{593e3077ef5bfda3f0cb88b6afb0d944}
+      \strng{authorfullhashraw}{593e3077ef5bfda3f0cb88b6afb0d944}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Yes, it does stare back, right back at you.}
+      \field{journaltitle}{Abyssal Investigations}
+      \field{langid}{english}
+      \field{langidopts}{variant=american}
+      \field{number}{1}
+      \field{title}{Does the Abyss Stare Back?}
+      \field{volume}{11}
+      \field{year}{1111}
+      \true{nocite}
+      \field{pages}{111}
+      \range{pages}{1}
+    \endentry
+    \entry{booka}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e4bcb0509dd3adf288e6db472e01f22}{%
+           family={Mordecai},
+           familyi={M\bibinitperiod},
+           given={Mortimer},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Beyond the Veil}%
+      }
+      \list{publisher}{1}{%
+        {Those Beyond the Veil}%
+      }
+      \strng{namehash}{5e4bcb0509dd3adf288e6db472e01f22}
+      \strng{fullhash}{5e4bcb0509dd3adf288e6db472e01f22}
+      \strng{fullhashraw}{5e4bcb0509dd3adf288e6db472e01f22}
+      \strng{bibnamehash}{5e4bcb0509dd3adf288e6db472e01f22}
+      \strng{authorbibnamehash}{5e4bcb0509dd3adf288e6db472e01f22}
+      \strng{authornamehash}{5e4bcb0509dd3adf288e6db472e01f22}
+      \strng{authorfullhash}{5e4bcb0509dd3adf288e6db472e01f22}
+      \strng{authorfullhashraw}{5e4bcb0509dd3adf288e6db472e01f22}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{MORT MORT MORT MORT MORT MORT MORT MORT}
+      \field{edition}{1}
+      \field{langid}{english}
+      \field{langidopts}{variant=american}
+      \field{pagetotal}{666}
+      \field{title}{MORT}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

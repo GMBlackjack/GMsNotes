@@ -1,0 +1,12 @@
+\documentclass[margin=3mm]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+  \def\eggheight{3cm}
+  \path[preaction={fill=orange!50!white},
+  ball color=orange!60!gray,fill opacity=.5]
+  plot[domain=-pi:pi,samples=100]
+  ({.78*\eggheight *cos(\x/4 r)*sin(\x r)},{-\eggheight*(cos(\x r))})
+  -- cycle;
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,350 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Hayes2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=827fba669eec4b63815be103700f11c2}{%
+           family={Hayes},
+           familyi={H\bibinitperiod},
+           given={Alexander\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{827fba669eec4b63815be103700f11c2}
+      \strng{fullhash}{827fba669eec4b63815be103700f11c2}
+      \strng{fullhashraw}{827fba669eec4b63815be103700f11c2}
+      \strng{bibnamehash}{827fba669eec4b63815be103700f11c2}
+      \strng{authorbibnamehash}{827fba669eec4b63815be103700f11c2}
+      \strng{authornamehash}{827fba669eec4b63815be103700f11c2}
+      \strng{authorfullhash}{827fba669eec4b63815be103700f11c2}
+      \strng{authorfullhashraw}{827fba669eec4b63815be103700f11c2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Review article about Titan lakes and seas. Should usually cite what this cites, if anything. https://www.annualreviews.org/docserver/fulltext/earth/44/1/annurev-earth-060115-012247.pdf?expires=1716340084&id=id&accname=guest&checksum=001831241BEBEA9F58E639886C326106}
+      \field{journaltitle}{Annual Review of Earth and Planetary Sciences}
+      \field{langid}{english}
+      \field{title}{The Lakes and Seas of Titan}
+      \field{volume}{44}
+      \field{year}{2016}
+      \field{pages}{57\bibrangedash 83}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1146/annurev-earth-060115-012247
+      \endverb
+    \endentry
+    \entry{Li2023}{article}{}{}
+      \name{author}{16}{}{%
+        {{un=0,uniquepart=base,hash=98d02a0fdd662dce849277bfb3dc1864}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Liming},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4642dfd6ee104c8ddd30ab8adf0b9af7}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b67def95ee026d7691635774bfcf9bd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Sherry},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b675538c82dac0b7213b72a952c0204c}{%
+           family={Luu},
+           familyi={L\bibinitperiod},
+           given={Cindy},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfdabcdf8506de88d17d786ae5857454}{%
+           family={Heng},
+           familyi={H\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57fba8299c09ff307c144c200c8c4959}{%
+           family={Fry},
+           familyi={F\bibinitperiod},
+           given={Patrick\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec3343e60f709f509d6c54d4bfa8b7a7}{%
+           family={Creecy},
+           familyi={C\bibinitperiod},
+           given={Ellen\bibnamedelima C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ca725a7dc0cf18c0ce199c819408c0b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xinyue},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=881b3f149d1d8d44a7a4ec1a573a02fd}{%
+           family={Albright},
+           familyi={A\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5640ddc076c2e6d6d84e95e272cdb508}{%
+           family={{Karandana G.}},
+           familyi={K\bibinitperiod},
+           given={Thishan\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9787fbcd15f5bcfc94f9379309ae46e5}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Xun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77b7ff62731d1f63cadcd8b7ed4d53a9}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a12a64fd52dbb605ae1d2812d59a135}{%
+           family={Nixon},
+           familyi={N\bibinitperiod},
+           given={Conor\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab5593f0f89851da56001ca359bc0a6e}{%
+           family={Kenyon},
+           familyi={K\bibinitperiod},
+           given={Matthew\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1cec2a32521ebaed01fccba60184ab3}{%
+           family={Hendrix},
+           familyi={H\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f6b86a9236249b569cd5328a0f224c5}{%
+           family={Dyudina},
+           familyi={D\bibinitperiod},
+           given={Ulyana},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a41cee3ea8e429ec4dc6ffa0a231a530}
+      \strng{fullhash}{37355fa3dd1448237e11e6350057a946}
+      \strng{fullhashraw}{37355fa3dd1448237e11e6350057a946}
+      \strng{bibnamehash}{a41cee3ea8e429ec4dc6ffa0a231a530}
+      \strng{authorbibnamehash}{a41cee3ea8e429ec4dc6ffa0a231a530}
+      \strng{authornamehash}{a41cee3ea8e429ec4dc6ffa0a231a530}
+      \strng{authorfullhash}{37355fa3dd1448237e11e6350057a946}
+      \strng{authorfullhashraw}{37355fa3dd1448237e11e6350057a946}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Enceladus albedo. Geometric albedo is here as well. https://www.sciencedirect.com/science/article/pii/S0019103523000064?casa_token=5nzvuag-2cAAAAAA:hCIG8PCeByi2Kn02mUh9koQFdEidE0Ow-K9rXtm5_dFdQ1Nx5sI1i-DUSEjNJa3B7mHfWNJTgzU}
+      \field{journaltitle}{Icarus}
+      \field{langid}{english}
+      \field{title}{The Bolometric Bond Albedo of Enceladus}
+      \field{volume}{394}
+      \field{year}{2023}
+      \field{pages}{115429}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2023.115429
+      \endverb
+    \endentry
+    \entry{Mastrogiuseppe2016}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=9a181bf6d42da60264213482b7b94415}{%
+           family={Mastrogiuseppe},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17b7f73300877d322d753af120283913}{%
+           family={Hayes},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=290bf490c255fc721e05961d4636ca2a}{%
+           family={Poggiali},
+           familyi={P\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f63d4aa873d3c5e75e794e32f12a7c6a}{%
+           family={Seu},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cd3471199d3b4257d1f69ff710a208f}{%
+           family={Lunine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2631678e1c3f33cb5d4f726bc8adec42}{%
+           family={Hofgartner},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42adc17b878808f0f632ad9410ee01a9}
+      \strng{fullhash}{88ad2db0f895d35bb768fbb8f46c8fea}
+      \strng{fullhashraw}{88ad2db0f895d35bb768fbb8f46c8fea}
+      \strng{bibnamehash}{42adc17b878808f0f632ad9410ee01a9}
+      \strng{authorbibnamehash}{42adc17b878808f0f632ad9410ee01a9}
+      \strng{authornamehash}{42adc17b878808f0f632ad9410ee01a9}
+      \strng{authorfullhash}{88ad2db0f895d35bb768fbb8f46c8fea}
+      \strng{authorfullhashraw}{88ad2db0f895d35bb768fbb8f46c8fea}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Radar bathymetry analysis for Titan's lakes. Gives us lake composition. https://iris.uniroma1.it/retrieve/e3835316-51ec-15e8-e053-a505fe0a3de9/Mastrogiuseppe_Radar-sounding_2016.pdf}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{number}{10}
+      \field{title}{Radar Sounding Using the Cassini Altimeter: Waveform Modeling and Monte Carlo Approach for Data Inversion of Observations of Titan's Seas}
+      \field{volume}{54}
+      \field{year}{2016}
+      \field{pages}{5646\bibrangedash 5656}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TGRS.2016.2563426
+      \endverb
+    \endentry
+    \entry{Stephan2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8aac4f2a86bad9f4c5c076cc4986f5cc}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Katrin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9ee5ff3e2d7c4d62a5af58870a43c8d}{%
+           family={Jaumann},
+           familyi={J\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=215eec7b9595b2c858eca7ebc835d07f}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec9a5a7e3c386fed757ac918ec783697}
+      \strng{fullhash}{4a820dabf60c38352109f6a71b511e70}
+      \strng{fullhashraw}{4a820dabf60c38352109f6a71b511e70}
+      \strng{bibnamehash}{ec9a5a7e3c386fed757ac918ec783697}
+      \strng{authorbibnamehash}{ec9a5a7e3c386fed757ac918ec783697}
+      \strng{authornamehash}{ec9a5a7e3c386fed757ac918ec783697}
+      \strng{authorfullhash}{4a820dabf60c38352109f6a71b511e70}
+      \strng{authorfullhashraw}{4a820dabf60c38352109f6a71b511e70}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{The specular reflections paper, shows them off Kraken Mare. https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2009GL042312}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{langid}{english}
+      \field{number}{7}
+      \field{title}{Specular Reflection on Titan: Liquids in Kraken Mare}
+      \field{volume}{37}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1029/2009GL042312
+      \endverb
+    \endentry
+    \entry{Vixie2015}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b48430fefdc7798005e692f4f453df18}{%
+           family={Vixie},
+           familyi={V\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75ea4df7fd3685af750980bb54b0abde}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Jason\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf2db20cba4f4cf5f4399b1d28d5a781}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{285d0be05f31c110d93c58903253e5a7}
+      \strng{fullhash}{99c70daf721840f85aad2736d7f27097}
+      \strng{fullhashraw}{99c70daf721840f85aad2736d7f27097}
+      \strng{bibnamehash}{285d0be05f31c110d93c58903253e5a7}
+      \strng{authorbibnamehash}{285d0be05f31c110d93c58903253e5a7}
+      \strng{authornamehash}{285d0be05f31c110d93c58903253e5a7}
+      \strng{authorfullhash}{99c70daf721840f85aad2736d7f27097}
+      \strng{authorfullhashraw}{99c70daf721840f85aad2736d7f27097}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{The candidate lakes paper! Also helps discuss indirect specular reflections. https://www.sciencedirect.com/science/article/pii/S0019103515002110?casa_token=jZp9axY_T8EAAAAA:Em2OeCTIZQdYlVVSuF-iKH0cYN6m798l_iQLfo0BHMynq10kJYdA1pXqrOW6np-H1BF3XGZ44PA}
+      \field{journaltitle}{Icarus}
+      \field{langid}{english}
+      \field{title}{Possible Temperate Lakes on Titan}
+      \field{volume}{257}
+      \field{year}{2015}
+      \field{pages}{313\bibrangedash 323}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2015.05.009
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
