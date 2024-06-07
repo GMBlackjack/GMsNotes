@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.14)  21 MAY 2024 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.14)  25 MAY 2024 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,30 +814,34 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (16.13684pt too wide) in paragraph at lines 71--72
-[]\OT1/cmr/m/n/10 No model of Ti-tan is suf-fi-cient with-out an amo-sphere. SR
-TC++ uses (\OT1/cmr/bx/n/10 whatever
- []
-
-[3] [4]
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4{c:/t
+exlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Overfull \hbox (13.56554pt too wide) in paragraph at lines 111--112
 \OT1/cmr/m/n/10 Known lakes... per-haps also land next to the lakes... ta-ble o
 f used fly-bys/locations...
  []
 
-[5]<<ot1tt.cmap>> [6] [7] (./Titan Specular Paper.aux)
+[5] [6]<<ot1tt.cmap>>
+Overfull \hbox (0.2056pt too wide) in paragraph at lines 133--133
+[][]\OT1/cmr/m/n/10 Barnes, Ja-son W., Robert H. Brown, Lau-rence Soderblom, et
+ al. (2007). \  Global-
+ []
+
+
+Overfull \hbox (8.3185pt too wide) in paragraph at lines 133--133
+[][]\OT1/cmr/m/n/10 Kanjanasakul, Ch-a-nisa et al. (2020). \  Op-ti-cal Char-ac
+-ter-i-za-tion of Ethane Droplets
+ []
+
+[7] [8] (./Titan Specular Paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `"Titan Specular Paper".out' has not changed.
 
 (rerunfilecheck)             Checksum: C2D18A387C2D0062A26F7A80E66F7BE9;604.
+
 
 Package biblatex Warning: Please rerun LaTeX.
 (biblatex)                Page breaks have changed.
@@ -847,29 +851,31 @@ Package logreq Info: Writing requests to '"Titan Specular Paper".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22865 strings out of 474050
- 445996 string characters out of 5746298
- 1938754 words of memory out of 5000000
- 44984 multiletter control sequences out of 15000+600000
- 572572 words of font info for 89 fonts, out of 8000000 for 9000
+ 22984 strings out of 474050
+ 449112 string characters out of 5746298
+ 1940754 words of memory out of 5000000
+ 45082 multiletter control sequences out of 15000+600000
+ 573585 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,81p,1375b,1995s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,12n,81p,1370b,1995s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Titan Specular Paper.pdf" (7 pages, 188747 bytes).
+type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
+.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/te
+xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm1000.pfb>
+Output written on "Titan Specular Paper.pdf" (8 pages, 216905 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
  69 words of extra memory for PDF output out of 10000 (max. 10000000)
 

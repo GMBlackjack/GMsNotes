@@ -19,6 +19,308 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{Barnes2007}{article}{}{}
+      \name{author}{4}{ul=3}{%
+        {{un=0,uniquepart=base,hash=75ea4df7fd3685af750980bb54b0abde}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Jason\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=215eec7b9595b2c858eca7ebc835d07f}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78a3de336c449ab3970fbf1841211ffe}{%
+           family={Soderblom},
+           familyi={S\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{d985e355b0310ad5daa201594f2ba70c}
+      \strng{fullhash}{42cb08a7fd720281d5dd2da5fe6177aa}
+      \strng{fullhashraw}{42cb08a7fd720281d5dd2da5fe6177aa}
+      \strng{bibnamehash}{d985e355b0310ad5daa201594f2ba70c}
+      \strng{authorbibnamehash}{d985e355b0310ad5daa201594f2ba70c}
+      \strng{authornamehash}{d985e355b0310ad5daa201594f2ba70c}
+      \strng{authorfullhash}{42cb08a7fd720281d5dd2da5fe6177aa}
+      \strng{authorfullhashraw}{42cb08a7fd720281d5dd2da5fe6177aa}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{The eight windows. Or, seven, but this paper still reports two different ones for "the 2.8" window so it works. https://www.sciencedirect.com/science/article/pii/S001910350600306X}
+      \field{journaltitle}{Icarus}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Global-scale Surface Spectral Variations on Titan seen from Cassini/VIMS}
+      \field{volume}{186}
+      \field{year}{2007}
+      \field{pages}{242\bibrangedash 258}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2006.08.021
+      \endverb
+    \endentry
+    \entry{Barnes2005}{article}{}{}
+      \name{author}{4}{ul=3}{%
+        {{un=0,uniquepart=base,hash=75ea4df7fd3685af750980bb54b0abde}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Jason\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=215eec7b9595b2c858eca7ebc835d07f}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef442f636905bdf8dffed0c7ae6f89fd}{%
+           family={Turtle},
+           familyi={T\bibinitperiod},
+           given={Elizabeth\bibnamedelima P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae7d01e60fe64288c7789e76072fbb46}
+      \strng{fullhash}{c857906ae19664d954d6ddd672e741e7}
+      \strng{fullhashraw}{c857906ae19664d954d6ddd672e741e7}
+      \strng{bibnamehash}{ae7d01e60fe64288c7789e76072fbb46}
+      \strng{authorbibnamehash}{ae7d01e60fe64288c7789e76072fbb46}
+      \strng{authornamehash}{ae7d01e60fe64288c7789e76072fbb46}
+      \strng{authorfullhash}{c857906ae19664d954d6ddd672e741e7}
+      \strng{authorfullhashraw}{c857906ae19664d954d6ddd672e741e7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Jason color. Need to cite it somewhere. https://www.science.org/doi/10.1126/science.1117075}
+      \field{journaltitle}{Science}
+      \field{langid}{english}
+      \field{number}{5745}
+      \field{title}{A 5-Micron-Bright Spot on Titan: Evidence for Surface Diversity}
+      \field{volume}{310}
+      \field{year}{2005}
+      \field{pages}{92\bibrangedash 95}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1117075
+      \endverb
+    \endentry
+    \entry{Barnes2013}{article}{}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=75ea4df7fd3685af750980bb54b0abde}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Jason\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c930b86064a9a190e5d9eb0543dde853}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Roger\bibnamedelima N.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c6ea291ab4461f7e380b692d294a58f}{%
+           family={Sotin},
+           familyi={S\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccca2268c3029066fa9f4c45aee17e68}
+      \strng{fullhash}{23515479d6cdb312b05fc5bf4070ca0c}
+      \strng{fullhashraw}{23515479d6cdb312b05fc5bf4070ca0c}
+      \strng{bibnamehash}{ccca2268c3029066fa9f4c45aee17e68}
+      \strng{authorbibnamehash}{ccca2268c3029066fa9f4c45aee17e68}
+      \strng{authornamehash}{ccca2268c3029066fa9f4c45aee17e68}
+      \strng{authorfullhash}{23515479d6cdb312b05fc5bf4070ca0c}
+      \strng{authorfullhashraw}{23515479d6cdb312b05fc5bf4070ca0c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Demonstration of saturating specular reflections. https://iopscience.iop.org/article/10.1088/0004-637X/777/2/161/meta}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{langid}{english}
+      \field{title}{A Transmission Spectrum of Titan's North Polar Atmosphere from a Specular Reflection of the Sun}
+      \field{volume}{777}
+      \field{year}{2013}
+      \field{pages}{161}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0004-637X/777/2/161
+      \endverb
+    \endentry
+    \entry{Barnes2018}{article}{}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=75ea4df7fd3685af750980bb54b0abde}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Jason\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34d1e054d9dfc58a24f6d18075c1b02c}{%
+           family={MacKenzie},
+           familyi={M\bibinitperiod},
+           given={Shannon\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a990942dd53f945effce13eece653c10}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Eliot\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{3af30f523456db33098c9ab8be7cb0b4}
+      \strng{fullhash}{c6a4c00069868daffdf6fff7b88755ac}
+      \strng{fullhashraw}{c6a4c00069868daffdf6fff7b88755ac}
+      \strng{bibnamehash}{3af30f523456db33098c9ab8be7cb0b4}
+      \strng{authorbibnamehash}{3af30f523456db33098c9ab8be7cb0b4}
+      \strng{authornamehash}{3af30f523456db33098c9ab8be7cb0b4}
+      \strng{authorfullhash}{c6a4c00069868daffdf6fff7b88755ac}
+      \strng{authorfullhashraw}{c6a4c00069868daffdf6fff7b88755ac}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Hey look it's SRTC++ !!! https://iopscience.iop.org/article/10.3847/1538-3881/aac2db}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{langid}{english}
+      \field{title}{Spherical Radiative Transfer in C++ (SRTC++): A Parallel Monte Carlo Radiative Transfer Model for Titan}
+      \field{volume}{155}
+      \field{year}{2018}
+      \field{pages}{264}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/1538-3881/aac2db
+      \endverb
+    \endentry
+    \entry{Corlies2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7062f1d11266989a2367a6563b9428eb}{%
+           family={Corlies},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eecb966a7e5af95a365e1bdc56210b16}{%
+           family={McDonald},
+           familyi={M\bibinitperiod},
+           given={George\bibnamedelima D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=827fba669eec4b63815be103700f11c2}{%
+           family={Hayes},
+           familyi={H\bibinitperiod},
+           given={Alexander\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{891bc1c9f70b453703314c748cc87c6a}
+      \strng{fullhash}{0cbbb781c3dcd35d08460e706bae7826}
+      \strng{fullhashraw}{0cbbb781c3dcd35d08460e706bae7826}
+      \strng{bibnamehash}{891bc1c9f70b453703314c748cc87c6a}
+      \strng{authorbibnamehash}{891bc1c9f70b453703314c748cc87c6a}
+      \strng{authornamehash}{891bc1c9f70b453703314c748cc87c6a}
+      \strng{authorfullhash}{0cbbb781c3dcd35d08460e706bae7826}
+      \strng{authorfullhashraw}{0cbbb781c3dcd35d08460e706bae7826}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Most recent version of PyDISORT https://www.sciencedirect.com/science/article/pii/S001910352030556X?casa_token=xx_hPOpRL7MAAAAA:GHr0sL8hdJC67GPSgC6anfiYcv370CFngBG5Cf8Hk9wQb9x0VfrvJlIC8s56f2Xqy_3JF6VzVT0}
+      \field{journaltitle}{Icarus}
+      \field{langid}{english}
+      \field{title}{Modeling Transmission Windows in Titan's Lower Troposphere: Implications for Infrared Spectrometers Aboard Future Aerial and Surface Missions}
+      \field{volume}{357}
+      \field{year}{2021}
+      \field{pages}{114228}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2020.114228
+      \endverb
+    \endentry
+    \entry{Griffith2012}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=813c9f65f27edc943e385c2cee14c6e2}{%
+           family={Griffith},
+           familyi={G\bibinitperiod},
+           given={Caitlin\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b1cf18ffdab12f3992b303d768c6d12}{%
+           family={Doose},
+           familyi={D\bibinitperiod},
+           given={Lyn},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a4a9b4a1e36cf26af29b9bc3cb0fb57}{%
+           family={Tomasko},
+           familyi={T\bibinitperiod},
+           given={Martin\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b52e221e41568749e42adcdc4c88dcd}
+      \strng{fullhash}{895b28246566b81b29c3e6471733e71c}
+      \strng{fullhashraw}{895b28246566b81b29c3e6471733e71c}
+      \strng{bibnamehash}{2b52e221e41568749e42adcdc4c88dcd}
+      \strng{authorbibnamehash}{2b52e221e41568749e42adcdc4c88dcd}
+      \strng{authornamehash}{2b52e221e41568749e42adcdc4c88dcd}
+      \strng{authorfullhash}{895b28246566b81b29c3e6471733e71c}
+      \strng{authorfullhashraw}{895b28246566b81b29c3e6471733e71c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Griffith's method release paper https://www.sciencedirect.com/science/article/pii/S0019103511004611}
+      \field{journaltitle}{Icarus}
+      \field{langid}{english}
+      \field{title}{Radiative Transfer Analyses of Titan's Tropical Atmosphere}
+      \field{volume}{218}
+      \field{year}{2012}
+      \field{pages}{975\bibrangedash 988}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2011.11.034
+      \endverb
+    \endentry
     \entry{Hayes2016}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=827fba669eec4b63815be103700f11c2}{%
@@ -52,6 +354,155 @@
       \range{pages}{27}
       \verb{doi}
       \verb 10.1146/annurev-earth-060115-012247
+      \endverb
+    \endentry
+    \entry{Hirtzig2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=704e426d393fafa973349b263d003ede}{%
+           family={Hirtzig},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5456b603b2ef62da470b1d31ef536b6e}{%
+           family={Bezard},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=785fe30c3029b7902b86407268e57bdf}{%
+           family={Lellouch},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e06dcfcc66e86fceabfd62718ef1dca}
+      \strng{fullhash}{3cdb539deb5c50a6bf665954182da54f}
+      \strng{fullhashraw}{3cdb539deb5c50a6bf665954182da54f}
+      \strng{bibnamehash}{3e06dcfcc66e86fceabfd62718ef1dca}
+      \strng{authorbibnamehash}{3e06dcfcc66e86fceabfd62718ef1dca}
+      \strng{authornamehash}{3e06dcfcc66e86fceabfd62718ef1dca}
+      \strng{authorfullhash}{3cdb539deb5c50a6bf665954182da54f}
+      \strng{authorfullhashraw}{3cdb539deb5c50a6bf665954182da54f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Atmospheric corrections https://www.sciencedirect.com/science/article/pii/S0019103513002339?casa_token=lNSMQWHGflYAAAAA:DFKkK8ESqWHKGQIiwO_ADH29ySvepYYxYoTp-xf6c0b4QG-LJsedZAWWrfwZOeZ0UfyNRA4LAmI}
+      \field{journaltitle}{Icarus}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Titan's Surface and Atmosphere from Cassini/VIMS Data with Updated Methane Opacity}
+      \field{volume}{226}
+      \field{year}{2013}
+      \field{pages}{470\bibrangedash 486}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.icarus.2013.05.033
+      \endverb
+    \endentry
+    \entry{Jennings2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f7359c2ddfa150d8a2718769a12c602b}{%
+           family={Jennings},
+           familyi={J\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36a01cfed20b851ba8c0b63e563de9bf}{%
+           family={Tokano},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83be32d353c47f3f1a1421e141789b55}{%
+           family={Cottini},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{84c39e8b1b65df122ac539bd5a082620}
+      \strng{fullhash}{80b2bb90ad26d6dfa7f5eaeb3ff6592c}
+      \strng{fullhashraw}{80b2bb90ad26d6dfa7f5eaeb3ff6592c}
+      \strng{bibnamehash}{84c39e8b1b65df122ac539bd5a082620}
+      \strng{authorbibnamehash}{84c39e8b1b65df122ac539bd5a082620}
+      \strng{authornamehash}{84c39e8b1b65df122ac539bd5a082620}
+      \strng{authorfullhash}{80b2bb90ad26d6dfa7f5eaeb3ff6592c}
+      \strng{authorfullhashraw}{80b2bb90ad26d6dfa7f5eaeb3ff6592c}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{A good source for Titan surface temperatures. https://iopscience.iop.org/article/10.3847/2041-8213/ab1f91/meta}
+      \field{journaltitle}{The Astrophysical Journal Letters}
+      \field{langid}{english}
+      \field{title}{Titan Surface Temperatures During the Cassini Mission}
+      \field{volume}{887}
+      \field{year}{2019}
+      \field{pages}{L8}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/2041-8213/ab1f91
+      \endverb
+    \endentry
+    \entry{Kanjanasakul2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6411c9f688138c18003a412a636a8a97}{%
+           family={Kanjanasakul},
+           familyi={K\bibinitperiod},
+           given={Chanisa},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59a6d3e56f54bbf7087cd50613b8aa93}{%
+           family={Grisch},
+           familyi={G\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=505c98fae24015bd4713d2e20678378b}{%
+           family={Saengkaew},
+           familyi={S\bibinitperiod},
+           given={Sawitree},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b2a8ece71c2f4a535a6f4b114094045}
+      \strng{fullhash}{467b8ae26ebe8ed38d18f9b11b61a369}
+      \strng{fullhashraw}{467b8ae26ebe8ed38d18f9b11b61a369}
+      \strng{bibnamehash}{8b2a8ece71c2f4a535a6f4b114094045}
+      \strng{authorbibnamehash}{8b2a8ece71c2f4a535a6f4b114094045}
+      \strng{authornamehash}{8b2a8ece71c2f4a535a6f4b114094045}
+      \strng{authorfullhash}{467b8ae26ebe8ed38d18f9b11b61a369}
+      \strng{authorfullhashraw}{467b8ae26ebe8ed38d18f9b11b61a369}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{The liquid ethane index of refraction https://ogst.ifpenergiesnouvelles.fr/articles/ogst/full_html/2020/01/ogst190096/ogst190096.html}
+      \field{journaltitle}{Oil Gas Sci. Technol. – Rev. IFP Energies nouvelles}
+      \field{langid}{english}
+      \field{title}{Optical Characterization of Ethane Droplets in the Vicinity of Critical Pressure}
+      \field{volume}{75}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.2516/ogst/2020039
       \endverb
     \endentry
     \entry{Li2023}{article}{}{}
@@ -179,6 +630,46 @@
       \verb 10.1016/j.icarus.2023.115429
       \endverb
     \endentry
+    \entry{Martonchik1994}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=27da5711170179776f4577418da2b34c}{%
+           family={Martonchik},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=387241f30e5cc302c1b483ad1269d9d0}{%
+           family={Orton},
+           familyi={O\bibinitperiod},
+           given={Glen\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb6b25a495a3c3f894d0884923e30895}
+      \strng{fullhash}{cb6b25a495a3c3f894d0884923e30895}
+      \strng{fullhashraw}{cb6b25a495a3c3f894d0884923e30895}
+      \strng{bibnamehash}{cb6b25a495a3c3f894d0884923e30895}
+      \strng{authorbibnamehash}{cb6b25a495a3c3f894d0884923e30895}
+      \strng{authornamehash}{cb6b25a495a3c3f894d0884923e30895}
+      \strng{authorfullhash}{cb6b25a495a3c3f894d0884923e30895}
+      \strng{authorfullhashraw}{cb6b25a495a3c3f894d0884923e30895}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Methane indices of refraction variation. https://ntrs.nasa.gov/api/citations/19960016949/downloads/19960016949.pdf}
+      \field{journaltitle}{Applied Optics}
+      \field{langid}{english}
+      \field{number}{36}
+      \field{title}{Optical Constants of Liquid and Solid Methane}
+      \field{volume}{33}
+      \field{year}{1994}
+      \verb{doi}
+      \verb 10.1364/AO.33.008306
+      \endverb
+    \endentry
     \entry{Mastrogiuseppe2016}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=9a181bf6d42da60264213482b7b94415}{%
@@ -245,6 +736,154 @@
       \verb 10.1109/TGRS.2016.2563426
       \endverb
     \endentry
+    \entry{Rannou2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5bf7f13d9a3468adb004bf98373478f0}{%
+           family={Rannou},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8af3a79fcab00732aec34bc58dc51bd}{%
+           family={Coutelier},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=647e73c247c8b6c5cfa5d51761aa4970}{%
+           family={Riviere},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd4d038420d16c643ac7a2192f380ab8}
+      \strng{fullhash}{69d13cb400cc9e203dba239580631b47}
+      \strng{fullhashraw}{69d13cb400cc9e203dba239580631b47}
+      \strng{bibnamehash}{fd4d038420d16c643ac7a2192f380ab8}
+      \strng{authorbibnamehash}{fd4d038420d16c643ac7a2192f380ab8}
+      \strng{authornamehash}{fd4d038420d16c643ac7a2192f380ab8}
+      \strng{authorfullhash}{69d13cb400cc9e203dba239580631b47}
+      \strng{authorfullhashraw}{69d13cb400cc9e203dba239580631b47}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Most recent version of Rannou's model (that I know of) Rannou's model is very opaque, don't get to see the inner workings generally. https://iopscience.iop.org/article/10.3847/1538-4357/ac2904/pdf}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{langid}{english}
+      \field{number}{239}
+      \field{title}{Convection Behind the Humidification of Titan's Stratosphere}
+      \field{volume}{922}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3847/1538-4357/ac2904
+      \endverb
+    \endentry
+    \entry{Rodriguez2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8cf75514eeac7dc315843f93d60642da}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93fa573af71c75df48237777b041fcab}{%
+           family={Mouelic},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi Le},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6700c5b0c5cca730638032ba300dd35e}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ae9899ea4296797ca7e841fb2bfc435}
+      \strng{fullhash}{34f63f6a1e8c6711bfcf6da0bab6e08e}
+      \strng{fullhashraw}{34f63f6a1e8c6711bfcf6da0bab6e08e}
+      \strng{bibnamehash}{0ae9899ea4296797ca7e841fb2bfc435}
+      \strng{authorbibnamehash}{0ae9899ea4296797ca7e841fb2bfc435}
+      \strng{authornamehash}{0ae9899ea4296797ca7e841fb2bfc435}
+      \strng{authorfullhash}{34f63f6a1e8c6711bfcf6da0bab6e08e}
+      \strng{authorfullhashraw}{34f63f6a1e8c6711bfcf6da0bab6e08e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Atmospheric corrections, but in the supplemental material! https://www.nature.com/articles/s41561-018-0233-2}
+      \field{journaltitle}{Nature Geoscience}
+      \field{langid}{english}
+      \field{title}{Observational Evidence for Active Dust Storms on Titan at Equinox}
+      \field{volume}{11}
+      \field{year}{2018}
+      \field{pages}{727\bibrangedash 732}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41561-018-0233-2
+      \endverb
+    \endentry
+    \entry{EsSayeh2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=92954d27373b991cf33a781ede11513f}{%
+           family={Es-sayeh},
+           familyi={E\bibinithyphendelim s\bibinitperiod},
+           given={Mael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cf75514eeac7dc315843f93d60642da}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8af3a79fcab00732aec34bc58dc51bd}{%
+           family={Coutelier},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{984f9990cab31416e59265ba8338ad26}
+      \strng{fullhash}{e400c39418e4044b4052808a40930a58}
+      \strng{fullhashraw}{e400c39418e4044b4052808a40930a58}
+      \strng{bibnamehash}{984f9990cab31416e59265ba8338ad26}
+      \strng{authorbibnamehash}{984f9990cab31416e59265ba8338ad26}
+      \strng{authornamehash}{984f9990cab31416e59265ba8338ad26}
+      \strng{authorfullhash}{e400c39418e4044b4052808a40930a58}
+      \strng{authorfullhashraw}{e400c39418e4044b4052808a40930a58}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Mael's Titan RT model, RT-IPGP-2022 Also has a lot of supplemental information like absorption sources https://iopscience.iop.org/article/10.3847/PSJ/acbd37}
+      \field{journaltitle}{The Planetary Science Journal}
+      \field{langid}{english}
+      \field{number}{44}
+      \field{title}{Updated Radiative Transfer Model for Titan in the Near-infrared Wavelength Range: Validation AGainst Huygens Atmospheric and Surface Measurements and Application to the Cassini/VIMS Observations of the Dragonfly Landing Area.}
+      \field{volume}{4}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.3847/PSJ/acbd37
+      \endverb
+    \endentry
     \entry{Stephan2010}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=8aac4f2a86bad9f4c5c076cc4986f5cc}{%
@@ -294,6 +933,103 @@
       \verb 10.1029/2009GL042312
       \endverb
     \endentry
+    \entry{Tomasko2008}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d0ab37ea32bbf5c64aafdafd8172a78d}{%
+           family={Tomasko},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf0d3b4f1f64dac69950602678914eef}{%
+           family={Doose},
+           familyi={D\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6fea2a9a5f913fc1ef208cc7c803e3c}{%
+           family={Engel},
+           familyi={E\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4c716981fbfbdb0e99fd46287b1166d}
+      \strng{fullhash}{ac8765062e14ef11a3282956b4b89043}
+      \strng{fullhashraw}{ac8765062e14ef11a3282956b4b89043}
+      \strng{bibnamehash}{d4c716981fbfbdb0e99fd46287b1166d}
+      \strng{authorbibnamehash}{d4c716981fbfbdb0e99fd46287b1166d}
+      \strng{authornamehash}{d4c716981fbfbdb0e99fd46287b1166d}
+      \strng{authorfullhash}{ac8765062e14ef11a3282956b4b89043}
+      \strng{authorfullhashraw}{ac8765062e14ef11a3282956b4b89043}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Primary atmosphere model base https://www.sciencedirect.com/science/article/pii/S0032063307003522}
+      \field{journaltitle}{Planetary and Space Science}
+      \field{langid}{english}
+      \field{number}{5}
+      \field{title}{A Model of Titan's Aerosols Based on Measurements Made Inisde the Atmosphere}
+      \field{volume}{56}
+      \field{year}{2008}
+      \field{pages}{669\bibrangedash 707}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1016/j.pss.2007.11.019
+      \endverb
+    \endentry
+    \entry{Trainer2018}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=88e09b70329bef5fad861c45e63b57ca}{%
+           family={Trainer},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=685e060f87b7aca162b311289063e981}{%
+           family={Brinckerhoff},
+           familyi={B\bibinitperiod},
+           given={W\bibnamedelima B},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6e9723409b5e7ddcbf3525f4a78d9a8}{%
+           family={Freissinet},
+           familyi={F\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d41d8cd98f00b204e9800998ecf8427e}{%
+           family={...},
+           familyi={.\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f4df0958b3a8bd96afbee216af4e98a}
+      \strng{fullhash}{e3cc69370fa0fdd812f7a7a505ff3e4a}
+      \strng{fullhashraw}{e3cc69370fa0fdd812f7a7a505ff3e4a}
+      \strng{bibnamehash}{5f4df0958b3a8bd96afbee216af4e98a}
+      \strng{authorbibnamehash}{5f4df0958b3a8bd96afbee216af4e98a}
+      \strng{authornamehash}{5f4df0958b3a8bd96afbee216af4e98a}
+      \strng{authorfullhash}{e3cc69370fa0fdd812f7a7a505ff3e4a}
+      \strng{authorfullhashraw}{e3cc69370fa0fdd812f7a7a505ff3e4a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Dragonfly is going to find out what the ground is made of. That implies we don't know. Good. I needed a source for that. https://insu.hal.science/insu-04513182/document}
+      \field{booktitle}{49th Lunar and Planetary Science Conference}
+      \field{eid}{pp.LPI Contribution No. 2083, id.2586. insu-04513182}
+      \field{langid}{english}
+      \field{title}{Dragonfly: Investigating the Surface Composition of Titan}
+      \field{venue}{The Woodlands, United States}
+      \field{year}{2018}
+    \endentry
     \entry{Vixie2015}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=b48430fefdc7798005e692f4f453df18}{%
@@ -342,6 +1078,59 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1016/j.icarus.2015.05.009
+      \endverb
+    \endentry
+    \entry{Xu2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7b489e462941f869f448a19abc85df4b}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77b7ff62731d1f63cadcd8b7ed4d53a9}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32e5860331fc5ac5d3c1a53ab6c99668}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Anthony\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73083bc93f528f702f77a971b9d52eae}{%
+           family={IJustWantBibToBehave},
+           familyi={I\bibinitperiod},
+           given={OkayThereAreNoOtherAuthors},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{735975e10c6533cef6f7b07ef561d7d4}
+      \strng{fullhash}{f0766f4880752ffdd607f6327c52f185}
+      \strng{fullhashraw}{f0766f4880752ffdd607f6327c52f185}
+      \strng{bibnamehash}{735975e10c6533cef6f7b07ef561d7d4}
+      \strng{authorbibnamehash}{735975e10c6533cef6f7b07ef561d7d4}
+      \strng{authornamehash}{735975e10c6533cef6f7b07ef561d7d4}
+      \strng{authorfullhash}{f0766f4880752ffdd607f6327c52f185}
+      \strng{authorfullhashraw}{f0766f4880752ffdd607f6327c52f185}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{The unusual spherical radiative transfer method via Markov Chains. Hmmmmmm. https://www.sciencedirect.com/science/article/pii/S0022407312004554?casa_token=SQSTku_Z-jQAAAAA:EVXh34AjjDQo5QOhLXpvu8A4cgST3tLFxTkqB6JVxGrS-DYais2KsxCiNvs6LjbX5PcCO5f2Fms}
+      \field{journaltitle}{Journal of Quantitative Spectroscopy and Radiative Transfer}
+      \field{langid}{english}
+      \field{title}{A Hybrid Method for Modeling Polarized Radiative Transfer in a Spherical-shell Planetary Atmosphere}
+      \field{volume}{117}
+      \field{year}{2013}
+      \field{pages}{59\bibrangedash 70}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jqsrt.2012.10.013
       \endverb
     \endentry
   \enddatalist
