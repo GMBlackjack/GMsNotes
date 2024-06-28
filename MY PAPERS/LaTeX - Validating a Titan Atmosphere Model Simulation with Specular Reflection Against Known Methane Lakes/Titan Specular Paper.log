@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.14)  27 JUN 2024 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.14)  28 JUN 2024 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -825,57 +825,71 @@ ec.pdf>]
 <SRTCSpec.pdf, id=103, 289.08pt x 289.08pt>
 File: SRTCSpec.pdf Graphic file (type pdf)
 <use SRTCSpec.pdf>
-Package pdftex.def Info: SRTCSpec.pdf  used on input line 76.
+Package pdftex.def Info: SRTCSpec.pdf  used on input line 77.
 (pdftex.def)             Requested size: 158.99448pt x 158.99448pt.
-<SpecSpike.pdf, id=104, 650.43pt x 650.43pt>
-File: SpecSpike.pdf Graphic file (type pdf)
-<use SpecSpike.pdf>
-Package pdftex.def Info: SpecSpike.pdf  used on input line 82.
-(pdftex.def)             Requested size: 162.6071pt x 162.6071pt.
-<SpecNoSpike.pdf, id=105, 650.43pt x 650.43pt>
-File: SpecNoSpike.pdf Graphic file (type pdf)
-<use SpecNoSpike.pdf>
-Package pdftex.def Info: SpecNoSpike.pdf  used on input line 82.
-(pdftex.def)             Requested size: 162.6071pt x 162.6071pt.
+<SpecSpikeNoSpike.pdf, id=104, 650.43pt x 325.215pt>
+File: SpecSpikeNoSpike.pdf Graphic file (type pdf)
+<use SpecSpikeNoSpike.pdf>
+Package pdftex.def Info: SpecSpikeNoSpike.pdf  used on input line 84.
+(pdftex.def)             Requested size: 325.2142pt x 162.6071pt.
  [3 <./SRTCSpec.pdf>] [4{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm
--super-ts1.enc} <./SpecSpike.pdf> <./SpecNoSpike.pdf>] [5] [6]
-Overfull \hbox (13.56554pt too wide) in paragraph at lines 134--135
+-super-ts1.enc} <./SpecSpikeNoSpike.pdf>]
+<ReflectionVariations.pdf, id=184, 369.6325pt x 338.33276pt>
+File: ReflectionVariations.pdf Graphic file (type pdf)
+<use ReflectionVariations.pdf>
+Package pdftex.def Info: ReflectionVariations.pdf  used on input line 95.
+(pdftex.def)             Requested size: 184.8158pt x 169.16595pt.
+<SRTCLayout.pdf, id=189, 462.52798pt x 252.22733pt>
+File: SRTCLayout.pdf Graphic file (type pdf)
+<use SRTCLayout.pdf>
+Package pdftex.def Info: SRTCLayout.pdf  used on input line 108.
+(pdftex.def)             Requested size: 231.26341pt x 126.11334pt.
+ [5 <./ReflectionVariations.pdf>] [6 <./SRTCLayout.pdf>] [7]
+Overfull \hbox (13.56554pt too wide) in paragraph at lines 148--149
 \OT1/cmr/m/n/10 Known lakes... per-haps also land next to the lakes... ta-ble o
 f used fly-bys/locations...
  []
 
-[7]<<ot1tt.cmap>>
-Overfull \hbox (0.2056pt too wide) in paragraph at lines 156--156
+[8]<<ot1tt.cmap>>
+Overfull \hbox (0.2056pt too wide) in paragraph at lines 170--170
 [][]\OT1/cmr/m/n/10 Barnes, Ja-son W., Robert H. Brown, Lau-rence Soderblom, et
  al. (2007). \  Global-
  []
 
-[8]
-Overfull \hbox (8.3185pt too wide) in paragraph at lines 156--156
+[9]
+Overfull \hbox (8.3185pt too wide) in paragraph at lines 170--170
 [][]\OT1/cmr/m/n/10 Kanjanasakul, Ch-a-nisa et al. (2020). \  Op-ti-cal Char-ac
 -ter-i-za-tion of Ethane Droplets
  []
 
-[9] [10] (./Titan Specular Paper.aux)
+[10] [11] (./Titan Specular Paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `"Titan Specular Paper".out' has not changed.
 
 (rerunfilecheck)             Checksum: C2D18A387C2D0062A26F7A80E66F7BE9;604.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to '"Titan Specular Paper".run.xml'.
 \openout1 = `"Titan Specular Paper.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23020 strings out of 474050
- 449889 string characters out of 5746298
+ 23037 strings out of 474050
+ 450259 string characters out of 5746298
  1942754 words of memory out of 5000000
- 45113 multiletter control sequences out of 15000+600000
+ 45127 multiletter control sequences out of 15000+600000
  573585 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,81p,1370b,1995s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,11n,81p,1370b,1997s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dis
@@ -890,10 +904,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1000.pfb>
-Output written on "Titan Specular Paper.pdf" (10 pages, 266493 bytes).
+Output written on "Titan Specular Paper.pdf" (11 pages, 282286 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

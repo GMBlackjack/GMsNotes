@@ -58,12 +58,13 @@ Titan's surface is one of only two in the Solar System with bodies of stable liq
 \includegraphics[scale = 0.55]{LambertSpec.pdf}
 \centering
 \caption{Lambertian and specular reflection diagram highlighting the difference between the two. Lambertian is left, specular is right. The ideal cases are pictured, real surfaces will deviate or even be a combination of the two. Our code assumes ideal behavior.}
+\label{fig:1}
 \end{figure}
 
 
 Unfortunately, current radiative transfer models of Titan's atmosphere assume a rough, lambertian surface, perhaps with variable albedo (\cite{Griffith2012}, \cite{Xu2013}, \cite{Corlies2021}, \cite{Rannou2021}, \cite{EsSayeh2023}). Yet, the difference between specular and lambertian surfaces in radiative transfer is significant. In order to properly model Titan, this difference needs to be accounted for; not only to ensure that our understanding of Titan's surface-atmosphere interaction is accurate, but also to assist in identifying unknown potentially-liquid terrain on Titan that has never had a favorable viewing geometry for direct specular reflections. 
 
-In this paper, we demonstrate a specular reflection routine for SRTC++ (Spherical Radiative Transfer in C++), a radiative transfer code tailored to model Titan in the infrared wavelengths available to Cassini's VIMS instrument (\cite{Barnes2018}). The new routine enables accurate simulation of liquid surfaces on Titan---in fact, as the properties of methane are well known, the accuracy for liquid surfaces is greater than that of the poorly-constrained land of Titan (\cite{Trainer2018}). To demonstrate this routine, we begin with \textbf{Methods}, describing in brief the code and model we chose. \textbf{Results} examines the direct output of the completed simulation, and \textbf{Validation} compares those results to known lakes and seas on Titan. The implications of our simulation are considered in the \textbf{Discussion} before we end with a \textbf{Summary and Conclusion}.
+In this paper, we demonstrate a specular reflection routine for SRTC++ (Spherical Radiative Transfer in C++), a radiative transfer code tailored to model Titan in the infrared wavelengths available to Cassini's VIMS (Visual and Infrared Mapping Spectrometer) instrument (\cite{Barnes2018}). The new routine enables accurate simulation of liquid surfaces on Titan---in fact, as the properties of methane are well known, the accuracy for liquid surfaces is greater than that of the poorly-constrained land of Titan (\cite{Trainer2018}). To demonstrate this routine, we begin with \textbf{Methods}, describing in brief the code and model we chose. \textbf{Results} examines the direct output of the completed simulation, and \textbf{Validation} compares those results to known lakes and seas on Titan. The implications of our simulation are considered in the \textbf{Discussion} before we end with a \textbf{Summary and Conclusion}.
 
 \textbf{\color{red} [NOTE: Be sure to redo this last introduction paragraph when the paper is done.] \color{black}}
 
@@ -75,27 +76,40 @@ In SRTC++, the ground is normally modeled as just another scattering event, just
 \begin{figure}[htb]
 \includegraphics[scale = 0.55]{SRTCSpec.pdf}
 \centering
-\caption{SRTC++ operation with specular point. Photon packet comes in from the left on a black arrow, hitting the scatter point. The code determines both paths to the detector, shown with red arrows. One path is direct, the other reflect off the specular point on the surface. The photon packet itself will continue along the black arrow, potentially to scatter again.}
+\caption{SRTC++ operation with specular point. Photon packet comes in from the left on a black arrow, hitting the scatter point. The code determines both paths to the detector, shown with red arrows. One path is direct, the other reflects off the specular point on the surface. The photon packet itself will continue along the black arrow, potentially to scatter again.}
+\label{fig:2}
 \end{figure}
 
 \begin{figure}[htb]
-\includegraphics[scale = 0.25]{SpecSpike.pdf}\includegraphics[scale = 0.25]{SpecNoSpike.pdf}
+\includegraphics[scale = 0.5]{SpecSpikeNoSpike.pdf}
 \centering
-\caption{Cassini VIMS observation of specular reflection. CM\_1721848119\_1 on flyby T85. RGB map is to 5, 2, and \qty{1.3}{\micro\meter} without any artificial scaling of individual colors. Left: resulting image retaining the spike values. Right: resulting image without spike values. The specular reflection's spike is so dramatic it not only drowns out all other wavelengths, but it also outshines secondary reflections in the same wavelength, which contain valuable information.}
+\caption{Cassini VIMS observation of specular reflection. CM\_1721848119\_1 on flyby T85. RGB map is to 5, 2, and \qty{1.3}{\micro\meter} without any artificial scaling of individual colors. Left: resulting image retaining the spike values as 1, the maximum. Right: resulting image with trimmed spike values, set to 1. The specular reflection's spike is so dramatic it not only drowns out all other wavelengths, but it also outshines secondary reflections in the same wavelength, which contain valuable information. The hole in the center of the reflection is due to saturation of the VIMS instrument, indicating the real intensity of the direct specular reflection is beyond what we show here.}
+\label{fig:3}
 \end{figure}
 
+The angle of the second ``photon packet'' path is determined both by the curved geometry of Titan's surface and the index of refraction of liquid methane. This new path can be ignored if the surface doesn't have liquid at the required location, however we will not make use of this ability in this paper as our chosen model is a global methane ocean. This model does not accurately represent Titan, but it does not have to: when we model a global methane ocean, we see the surface from almost every possible viewing geometry. This will enable us to compare the specular results to a lambertian simulation, quantifying the differences, which can in turn be used to characterize real surface observations. 
 
-\textbf{\color{red} [FIGURES: diagram of a single scattering event showing both paths to the detector, as well as a primary specular reflection example w/ saturation -- Barnes 2013 has a good example, CM\_1721848119\_1] \color{black}}
+Titan is known to have at least some ethane in its seas (\cite{Mastrogiuseppe2016}) but the indeces of refraction of liquid methane and ethane are extremely similar (\cite{Kanjanasakul2020}). We ran a simulation with ethane's index and noticed no clear differences between it and the methane result, qualitatively justifying the use of a pure methane ocean model. This also justifies not modeling the change of index of refraction with wavelength and our using a value that, strictly speaking, is slightly too low for the environmental conditions on Titan (\cite{Martonchik1994}, \cite{Jennings2019}). For a quantitative justification, we used the Fresnel equations to find the average reflection coefficient for water, ethane, and methane. Two methane values were examined, the one used in the code, and one sampled for more realistic Titan enviornmental conditions (\cite{Martonchik1994}). The results of this are seen in Figure \ref{fig:4}. As the maximum variation between the two values of methane is ~2\%, we deem the variation neglegible. This also justifies not giving each tested wavelength of light a different index of refraction. 
 
-The angle of the second ``photon packet'' path is determined both by the curved geometry of Titan's surface and the index of refraction of liquid methane (). \textbf{\color{red} [Where did we get that index of refraction?: Optical Constants of Liquid and Solid Methane, Martonchik and Orton, 1994?] \color{black}} This new path can be ignored if the surface doesn't have liquid at the required location, however we will not make use of this ability in this paper as our chosen model is a global methane ocean. This model does not accurately represent Titan, but it does not have to: when we model a global methane ocean, we see the surface from almost every possible viewing geometry. This will enable us to compare the specular results to a lambertian simulation, quantifying the differences. 
+\begin{figure}[htb]
+\includegraphics[scale = 0.5]{ReflectionVariations.pdf}
+\centering
+\caption{Average reflection coefficient differences from water with a 1.33 index of refraction. We do not plot the direct reflection coefficients since the differences between the various materials are largely indistinguishable. Methane 1.27 was used in the code, while methane 1.30 is more realistic. Note that the differences between the two are, across most angles, less than a percent, with a maximum difference of ~2\%. The mixture of ethane in Titan's lakes and seas will likely lower this difference even further. At large angles the difference approaches zero as all reflection coefficients approach unity.}
+\label{fig:4}
+\end{figure}
 
-Titan is known to have at least some ethane in its seas (\cite{Mastrogiuseppe2016}) but the indeces of refraction of liquid methane and ethane are extremely similar (\cite{Kanjanasakul2020}). We ran a simulation with ethane's index and noticed no clear differences between it and the methane result, qualitatively justifying the use of a pure methane ocean model. This also justifies not modeling the change of index of refraction with wavelength and our using a value that, strictly speaking, is slightly too low for the environmental conditions on Titan (\cite{Martonchik1994}, \cite{Jennings2019}).
+\textbf{\color{red} [NOTE: Perhaps all this justification would be better placed in an Appendix?] \color{black}}
 
 No model of Titan is sufficient without an amosphere. SRTC++ primarily uses \cite{Tomasko2008} for Titan's atmosphere, and here we add corrections from \cite{Hirtzig2013} and \cite{Rodriguez2018}. The version of SRTC++ used does not account for atmospheric absorption, but such effects are expected to be limited at the wavelengths we are simulating (\cite{EsSayeh2023}).
 
-We use lambertian simulation data taken from (Barnes, in preparation), also created using SRTC++. We made sure that the input parameters matched between the two simulations. There are 72 detectors placed every \qty{5}{\degree} around Titan's equator at a distance of \qty{1e6}{\kilo\meter}. Each detector sees \qty{3500}{\kilo\meter} out from Titan's center, chosen to be significantly larger than Titan's \qty{2575}{\kilo\meter} radius to avoid any edge artifacts. 
+We compare our results lambertian simulation data taken from (Barnes, in preparation), also created using SRTC++. We made sure that the input parameters matched between the two simulations. There are 72 detectors placed every \qty{5}{\degree} around Titan's equator at a distance of \qty{1e6}{\kilo\meter}. Each detector sees \qty{3500}{\kilo\meter} out from Titan's center, chosen to be significantly larger than Titan's \qty{2575}{\kilo\meter} radius to avoid any edge artifacts. 
 
-\textbf{\color{red} [FIGURE: arrangement of detectors around Titan.] \color{black}}
+\begin{figure}[htb]
+\includegraphics[scale = 0.5]{SRTCLayout.pdf}
+\centering
+\caption{Layout of our SRTC++ simulations, identical for both the specular and lambertian case. Distances not to scale. Detectors all equidistant from Titan and angular separation is the same for each one. The yellow arrow represents "photon packets" being shot at Titan. Note that it does not interact with the detector it passes through.}
+\label{fig:5}
+\end{figure}
 
 Each simulation is run at eight different wavelengths that correspond to the eight atmospheric windows, areas of the electromagnetic spectrum that pierce through Titan's atmosphere and allow characterization of the surface (\cite{Barnes2007}). Simulations could be run at other wavelengths, but they would mask any surface signals and be of minimal use for our current purposes. 
 
