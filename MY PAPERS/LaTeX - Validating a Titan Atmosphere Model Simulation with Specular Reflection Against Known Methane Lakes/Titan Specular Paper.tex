@@ -2,8 +2,9 @@
 
 %This section is called the preamble
 \title{\textbf{Validating a Titan Atmosphere Model Simulation with Specular Reflection Against Known Methane Lakes}}  
-\author{Gabriel M Steward\textsuperscript{1}, Jason W. Barnes\textsuperscript{1}, William Miller\textsuperscript{1} \\Others... \textbf{\color{red}(Shannon?)\color{black}}\\
-		{\scriptsize \textsuperscript{1}Department of Physics, University of Idaho, Moscow, Idaho 83844}
+\author{Gabriel M Steward\textsuperscript{1}, Jason W. Barnes\textsuperscript{1}, William Miller\textsuperscript{1}, \\ Shannon MacKenzie\textsuperscript{2} \\Others... \\
+		{\scriptsize \textsuperscript{1}University of Idaho, Moscow, Idaho 83844}\\
+		{\scriptsize \textsuperscript{1}Johns Hopkins University Applied Physics Laboratory, Laurel, Maryland 20723}
 }
    
 
@@ -53,7 +54,7 @@
 \section{Introduction}
 Titan's surface is one of only two in the Solar System with bodies of stable liquid, the other being Earth's (\cite{Hayes2016}). Unlike the seas we are familiar with, the ones on Titan are made primarily of liquid methane (\cite{Mastrogiuseppe2016}). These seas pose a challenge to radiative transfer models of Titan's atmosphere, for they exhibit behavior markedly different from conventional terrain. The vast majority of terrain, even extremely high albedo terrain, such as that on Enceladus (\cite{Li2023}), reflects light in a diffuse or nearly ``lambertian'' manner. Liquids, meanwhile, arrange themselves with such a smooth surface that they can act as mirrors, producing bright ``specular'' reflections in a prefered direction. Direct specular reflections from the sun are a telltale sign that part of Titan's surface is liquid, as no lambertian surface could ever produce them (\cite{Stephan2010}). There are, however, indirect specular reflections as well, produced when sunlight scatters off somewhere in the atmosphere and proceeds to strike a specular surface at the appropriate angle (\cite{Vixie2015}). Thus, specular reflections can alter the observed character of a surface dramatically from all angles when an atmosphere is present, which is the case on Titan.
 
-\begin{figure}[htb]
+\begin{figure}[htbp]
 \centering
 \includegraphics[scale = 0.55]{LambertSpec.pdf}
 \centering
@@ -73,14 +74,14 @@ The primary code for our simulation, SRTC++, is described in detail elsewhere (\
 
 In SRTC++, the ground is normally modeled as just another scattering event, just one with different probabilities than an atmospheric scatter (\cite{Barnes2018}). This works well for rough, lambertian surfaces, where the distribution is quite random at macro scales. However, specular surfaces do not fit this mold, as light reflecting off of them follows a deterministic path.  The new routine takes advantage of this, calculating two different paths to the detector from every scattering event; one that goes directly to the scatter, and one that bounces off a specular surface first. This does leave a hole in the simulation: ``photon packets'' that pass through the atmosphere and strike the surface without scattering are missed. Fortunately, these missed packets would be at or near the point where the specular reflection is brightest and nowhere else, so minimal information about viewing geometry is lost. Furthermore, if recorded, those points would far outshine anything else in the resulting images, making them difficult to parse; just like real images of direct specular reflections on Titan, which are quite saturated (\cite{Barnes2013}).
 
-\begin{figure}[htb]
+\begin{figure}[htbp]
 \includegraphics[scale = 0.55]{SRTCSpec.pdf}
 \centering
 \caption{SRTC++ operation with specular point. Photon packet comes in from the left on a black arrow, hitting the scatter point. The code determines both paths to the detector, shown with red arrows. One path is direct, the other reflects off the specular point on the surface. The photon packet itself will continue along the black arrow, potentially to scatter again.}
 \label{fig:2}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}[htbp]
 \includegraphics[scale = 0.5]{SpecSpikeNoSpike.pdf}
 \centering
 \caption{Cassini VIMS observation of specular reflection. CM\_1721848119\_1 on flyby T85. RGB map is to 5, 2, and \qty{1.3}{\micro\meter} without any artificial scaling of individual colors. Left: resulting image retaining the spike values as 1, the maximum. Right: resulting image with trimmed spike values, set to 1. The specular reflection's spike is so dramatic it not only drowns out all other wavelengths, but it also outshines secondary reflections in the same wavelength, which contain valuable information. The hole in the center of the reflection is due to saturation of the VIMS instrument, indicating the real intensity of the direct specular reflection is beyond what we show here.}
@@ -91,7 +92,7 @@ The angle of the second ``photon packet'' path is determined both by the curved 
 
 Titan is known to have at least some ethane in its seas (\cite{Mastrogiuseppe2016}) but the indeces of refraction of liquid methane and ethane are extremely similar (\cite{Kanjanasakul2020}). We ran a simulation with ethane's index and noticed no clear differences between it and the methane result, qualitatively justifying the use of a pure methane ocean model. This also justifies not modeling the change of index of refraction with wavelength and our using a value that, strictly speaking, is slightly too low for the environmental conditions on Titan (\cite{Martonchik1994}, \cite{Jennings2019}). For a quantitative justification, we used the Fresnel equations to find the average reflection coefficient for water, ethane, and methane. Two methane values were examined, the one used in the code, and one sampled for more realistic Titan enviornmental conditions (\cite{Martonchik1994}). The results of this are seen in Figure \ref{fig:4}. As the maximum variation between the two values of methane is ~2\%, we deem the variation neglegible. This also justifies not giving each tested wavelength of light a different index of refraction. 
 
-\begin{figure}[htb]
+\begin{figure}[htbp]
 \includegraphics[scale = 0.5]{ReflectionVariations.pdf}
 \centering
 \caption{Average reflection coefficient differences from water with a 1.33 index of refraction. We do not plot the direct reflection coefficients since the differences between the various materials are largely indistinguishable. Methane 1.27 was used in the code, while methane 1.30 is more realistic. Note that the differences between the two are, across most angles, less than a percent, with a maximum difference of ~2\%. The mixture of ethane in Titan's lakes and seas will likely lower this difference even further. At large angles the difference approaches zero as all reflection coefficients approach unity.}
@@ -102,9 +103,9 @@ Titan is known to have at least some ethane in its seas (\cite{Mastrogiuseppe201
 
 No model of Titan is sufficient without an amosphere. SRTC++ primarily uses \cite{Tomasko2008} for Titan's atmosphere, and here we add corrections from \cite{Hirtzig2013} and \cite{Rodriguez2018}. The version of SRTC++ used does not account for atmospheric absorption, but such effects are expected to be limited at the wavelengths we are simulating (\cite{EsSayeh2023}).
 
-We compare our results lambertian simulation data taken from (Barnes, in preparation), also created using SRTC++. We made sure that the input parameters matched between the two simulations. There are 72 detectors placed every \qty{5}{\degree} around Titan's equator at a distance of \qty{1e6}{\kilo\meter}. Each detector sees \qty{3500}{\kilo\meter} out from Titan's center, chosen to be significantly larger than Titan's \qty{2575}{\kilo\meter} radius to avoid any edge artifacts. 
+We compare our results to lambertian simulation data taken from (Barnes, in preparation), also created using SRTC++. We made sure that the input parameters matched between the two simulations. There are 72 detectors placed every \qty{5}{\degree} around Titan's equator at a distance of \qty{1e6}{\kilo\meter}. Each detector sees \qty{3500}{\kilo\meter} out from Titan's center, chosen to be significantly larger than Titan's \qty{2575}{\kilo\meter} radius to avoid any edge artifacts. 
 
-\begin{figure}[htb]
+\begin{figure}[htbp]
 \includegraphics[scale = 0.5]{SRTCLayout.pdf}
 \centering
 \caption{Layout of our SRTC++ simulations, identical for both the specular and lambertian case. Distances not to scale. Detectors all equidistant from Titan and angular separation is the same for each one. The yellow arrow represents "photon packets" being shot at Titan. Note that it does not interact with the detector it passes through.}
@@ -115,67 +116,78 @@ Each simulation is run at eight different wavelengths that correspond to the eig
 
 \section{Results}
 
-\begin{figure}[htb]
+\begin{figure}[htbp]
 \includegraphics[scale = 0.5]{SpecularSim.pdf}
 \centering
 \caption{Simulation results for a methane ocean Titan, colored with 5, 2 and \qty{1.3}{\micro\meter} mapped to red, green, and blue respectively. Left image is viewed at \qty{0}{\degree} from the incidence angle. Right four images are at  \qty{35}{\degree},  \qty{90}{\degree},  \qty{120}{\degree}, and  \qty{180}{\degree} in left to right then top to bottom order. \textbf{\color{red} [An animating version of the figure will exist in places that support it. The large left panel will hold the animating image, the right panels will remain static for comparisons] \color{black}}}
 \label{fig:6}
 \end{figure}
 
-In the above figure we have collected the results at 5, 2, and \qty{1.3}{\micro\meter} mapped to red, green, and blue respectively in the same manner as \cite{Barnes2018}'s "surface spectral diversity" color scheme. The most obvious distinction between real images of Titan and this simulation is the sharp, blue color. This is to be expected: pure methane's index of refraction does not vary significantly through the tested wavelengths (\cite{Martonchik1994}), and so the atmosphere alone determines the color dependence. Since smaller wavelengths scatter more on Titan (\cite{EsSayeh2023}) the image appears bluer. This happens even in the lambertian simulation (Barnes, in preparation). \textbf{\color{red} [WHY?? Not becuase we assume the surface is white, we apply different albedos to each one. Blue has a larger albedo than green, so blue will dominate, but why are those the values we're using?] \color{black}} However, while we expect the solid surface of Titan to be different from simulation, we do not expect that to be the case with pure liquid methane, so ``relative blueness'' is a possible identifier of surface liquid. 
+In \ref{fig:6} we have collected the results at 5, 2, and \qty{1.3}{\micro\meter} mapped to red, green, and blue respectively in the same manner as \cite{Barnes2018}'s "surface spectral diversity" color scheme. The most obvious distinction between real images of Titan and this simulation is the color; most real Titan images done in this color scheme come out green or green-blue with some yellowish features. This is to be expected, as Titan is not a global methane ocean. The sharp blue component arises because pure methane's index of refraction does not vary significantly through the tested wavelengths (\cite{Martonchik1994}), and so the atmosphere alone determines the color dependence. Since smaller wavelengths scatter more on Titan (\cite{EsSayeh2023}) the image appears bluer. The magenta coloration on the limb arises because the red channel, \qty{5}{\micro\meter}, is enhanced in this color scheme and focuses most of its intensity on Titan's limb. We expect that it Titan really were a global methane ocean, it would look similar to the simulation, but we shall hold discussion of this until the Validation seciton.
 
-The other primary features of the simulation are expected. The bright central area is near the specular point, caused by ``photon packets'' that nearly passed through the atmosphere unhindered, and so did not get scattered far from the ideal path. The circular shape of this feature flattens as it approaches the limb of Titan, which is what should occur on a slanted reflective surface. The limb brightening effect is due to refleciton coefficients rising as we approach \qty{120}{\degree} as seen in \ref{fig:4}. Toward the terminator, Titan appears greener because shorter wavelengths scatter away more readily, leaving only green and red behind. The terminator sees no redness increase because the \qty{5}{\micro\meter} window is so much dimmer than the others it doesn't matter. \textbf{\color{red}[Make sure to check this isn't due to titancolor2 not scaling it properly]\color{black}} 
+The other primary features of the simulation are expected. The bright central area is near the specular point, caused by ``photon packets'' that nearly passed through the atmosphere unhindered, and so did not get scattered far from the ideal path. The circular shape of this feature flattens as it approaches the limb of Titan, which is what should occur on a slanted reflective surface. The limb brightening effect is due to refleciton coefficients rising as we approach \qty{120}{\degree} as seen in \ref{fig:4}. Toward the terminator, Titan appears redder because shorter wavelengths scatter away more readily, leaving only long wavelengths behind.
 
-The simulation also produces ``eclipse views'' of Titan backlit by the sun, but those show the atmosphere and not the surface, and so are beyond the scope of this paper. There is certainly worthwhile information to be gleaned here at a later date, though. 
+The simulation also produces ``eclipse views'' of Titan backlit by the sun, but those show the atmosphere and not the surface (for the most part), and so are beyond the scope of this paper. There is certainly worthwhile information to be gleaned here at a later date, though. 
 
-\begin{figure}[htb]
-\includegraphics[scale = 0.2]{AllWindowsUnscaled.png}
+\begin{figure}[htbp]
+\includegraphics[scale = 0.7]{8WindowsNorm.pdf}
 \centering
-\caption{\textbf{\color{red}PLACEHOLDER: currently don't have access to the program to reprocess this\color{black}} }
+\caption{Individual wavelength simulated views of Titan for all eight atmospheric windows. Each image is individually normalized; in reality the short wavelengths are significantly brighter than the long ones. As wavelength increases, the sharpness of the near-specular area increases, up until the unusual case of \qty{5}{\micro\meter} which is discussed in the text.}
 \label{fig:7}
 \end{figure}
-\begin{figure}[htb]
-\includegraphics[scale = 0.2]{AllWindowsScaledWithSmallestWavelength.png}
+\begin{figure}[htbp]
+\includegraphics[scale = 0.7]{8WindowsNoNorm.pdf}
 \centering
-\caption{\textbf{\color{red}PLACEHOLDER: currently don't have access to the program to reprocess this\color{black}} }
+\caption{Same as \ref{fig:7} except that the images are scaled relative to each other. The longer wavelengths are so dim as to be essentially invisible. The \qty{5}{\micro\meter} window is once again unusual, as it is actually brighter than the shorter wavelengths preceding it. See text for discussion.}
 \label{fig:8}
 \end{figure}
 
-In truth, all eight of Titan's near-infrared atmospheric windows were simulated, not just the three used to create the color figures. \ref{fig:7} and \ref{fig:8} show a selection of monochromatic images for all the simulated wavelengths. 
+In truth, all eight of Titan's near-infrared atmospheric windows were simulated, not just the three used to create the color figures. \ref{fig:7} and \ref{fig:8} show a selection of images for all the simulated wavelengths.
 
-In general, shorter wavelengths are more intense than longer ones, giving the overall "blueness" noted in the color images. Shorter wavelengths are also noisier. Both of these facts have the same explanation: short wavelengths scatter more readily, making photons more likely to contribute to detectors while also scrambling information due to mutliple scattering events on a single "photon packet." This is also why the near-specular area is sharp in longer wavelengths, but blurred out in shorter.
+In general, shorter wavelengths are more intense than longer ones. Shorter wavelengths are also noisier. Both of these facts have the same explanation: short wavelengths scatter more readily, making photons more likely to contribute to detectors while also scrambling information due to mutliple scattering events on a single "photon packet." This is also why the near-specular area is sharp in most longer wavelengths, but blurred out in shorter.
 
-The brightness pattern is not followed perfectly: \qty{5}{\micro\meter} is slightly brighter than \qty{2.8}{\micro\meter} while also having a fuzzier near-specular area. This is an atmospheric effect, as all wavelengths are treated the same in this model. At \qty{5}{\micro\meter} the atmosphere is known to have a very low optical depth; significantly lower than the other windows (\cite{EsSayeh2023}), but this should make it dimmer rather than brighter. The true difference lies in the difference in the phase function between \qty{5}{\micro\meter} and the other windows: both are forward scattering phase functions, but \qty{5}{\micro\meter} is less so (\cite{Tomasko2008}). This will force the light to take more distributed and indirect paths. Most visible paths in our images are from such viewing geometries, so with a significant difference in phase function, the overall appearance of the disc will increase in brightness. A side effect of this is that the viewing geometries that are close to direct forward scattering are going to be more diffuse than expected, which explains why the near-specular area at \qty{5}{\micro\meter} isn't as bright or sharp as \qty{2.8}{\micro\meter}. 
+The brightness pattern is not followed perfectly: \qty{5}{\micro\meter} is slightly brighter than \qty{2.8}{\micro\meter} while also having a fuzzier near-specular area. This is an atmospheric effect, as all wavelengths are treated the same in this model. At \qty{5}{\micro\meter} the atmosphere is known to have a very low optical depth; significantly lower than the other windows (\cite{EsSayeh2023}), but this should make it dimmer rather than brighter. The true difference lies in the difference in the phase function between \qty{5}{\micro\meter} and the other windows: both are forward scattering phase functions, but \qty{5}{\micro\meter} is less so (\cite{Tomasko2008}). This will force the light to take more distributed and indirect paths. Most visible paths in our images are from such viewing geometries, so with a significant difference in phase function, the overall appearance of Titan will increase in brightness. A side effect of this is that the viewing geometries that are close to direct forward scattering are going to be more diffuse than expected, which explains why the near-specular area at \qty{5}{\micro\meter} isn't as bright or sharp as \qty{2.8}{\micro\meter}. Similar reasons explain the enhanced limb brightness for \qty{5}{\micro\meter}.
 
-\begin{figure}[htb]
+\begin{figure}[htbp]
 \includegraphics[scale = 0.5]{LambertianSim.pdf}
 \centering
 \caption{Simulation results for a lambertian Titan, colored with 5, 2 and \qty{1.3}{\micro\meter} mapped to red, green, and blue respectively. Left image is viewed at \qty{0}{\degree} from the incidence angle. Right four images are at  \qty{35}{\degree},  \qty{90}{\degree},  \qty{120}{\degree}, and  \qty{180}{\degree} in left to right then top to bottom order. \textbf{\color{red} [An animating version of the figure will exist in places that support it. The large left panel will hold the animating image, the right panels will remain static for comparisons] \color{black}}}
 \label{fig:9}
 \end{figure}
 
-Direct comparisons between the specular and lambertian simulations reveal a few key differences. First, the lambertian simulation is brighter than the specular everywhere except near the specular point \textbf{\color{red} [Check with actual intesnity values to be sure] \color{black}}. This was expected, each simulation's Titan is receiving the same amount of energy, but the specular Titan will preferentially focus its light in a single direction, while the lambertian will not, leading the specular point and areas near it to be bright in the specular simulation while everywhere else is relatively dim. 
+Direct comparisons between the specular and lambertian simulations (Barnes, in preparation) reveal a few key differences. First, the lambertian simulation is brighter than the specular everywhere except near the specular point \textbf{\color{red} [Check with actual intesnity values to be sure] \color{black}}. This was expected, each simulation's Titan is receiving the same amount of energy, but the specular Titan will preferentially focus its light in a single direction, while the lambertian will not, leading the specular point and areas near it to be bright in the specular simulation while everywhere else is relatively dim. 
 
-Both simulations exhibit a ``blue'' color, though it is noticably more intense for the specular case than the lambertian. \textbf{\color{red}[ Hang on, WHY is it more intense? Might it have something to do with the abledos? Of course, we have to actually explain why the lambertian is blue first...]\color{black}}
+The overall coloration of both simulations is similar, with blue and magenta taking prominent roles. However, the distribution of these colors is markedly different, with the lambertian simluation's disc being mostly magenta rather than blue. When light encounters a lambertian surface it scatters in a random direction, which means any time a "photon packet" hits the ground, it could easily be sent right to a detector. This is not so in the specular simulation, so the specular detector has to rely on atmospheric scattering to send light its way and the atmosphere scatters bluer light more readily. Ultimately, this is also the reason the lambertian simulation doesn't have a noticable near-specular glare.
 
-The lambertian simulation also lacks the stark limb brightening effect at low phase as it has no index of refraction. Some brightening can still be seen at other angles, but this is due to the atmosphere, and the specular simulation also showcases this increasing limb brightening with higher phase.
+The lambertian simulation has a lesser limb brightening effect at low phase as it has no index of refraction. Strong limb brightening can still be seen at higher phase, but this is due to the atmosphere, as the specular simulation also showcases this increasing limb brightening with higher phase.
+
+The eclipse views in both simulations are virtually identical. As they should be, since the atmosphere model for both is the same.
+
+Details on the interpretation of the lambertain simulation on its own can be found in (Barnes, in preparation). 
 
 So far, we have only considered qualitative differences between the specular and lambertian geometries. For quantitative analysis, we chose to deconstruct the simulation data by viewing geometry. We took every single simulation pixel that showed the surface (as opposed to the atmosphere) and determined the incidence, emission, and azimuth angles. Any viewing gometries that were hit more than once were added together and then averaged. The result was a database in incidence, emission, azimuth, and wavelength that showed the intensity \textbf{\color{red}[I have GOT to nail down what the exact words and units are that we're simulating]\color{black}} at every possible geometry. We then subtracted the lambertian value from the specular one.
 
-\begin{figure}[htb]
+\begin{figure}[htbp]
 \includegraphics[scale = 0.44]{SpecLambNormDiff.pdf}
 \centering
-\caption{Comparison of specular and lambertian simulations based on viewing geometry. Each of the eight exterior plots are at one wavelength, with the horizontal and vertical axes plotting incidence and emission angle respectively. \textbf{\color{red}[COMPLETE DESCRIPTION]\color{black}}}
+\caption{Comparison of specular and lambertian simulations based on viewing geometry. Each of the eight exterior plots are at one wavelength, with the horizontal and vertical axes plotting incidence and emission angle respectively. Negative (blue) values are where the lambertian simulation is brighter, while positive (red) values are where specular dominates. The behavior can be broadly categorized into three types: short wavelength, long wavelength, and \qty{5}{\micro\meter}. \textbf{\color{red} [An animating version of the figure will exist in places that support it. The eight wavelength panels will cycle through all of the azimuth angles in time.] \color{black}}}
 \label{fig:10}
 \end{figure}
 
-The broad behavior of the above figure is expected: we see that lambertian dominates in the negative (blue) areas, which take up most of the viewing geometries, matching what we saw visually. Specular dominantes in the positive (red) areas, which cluster around high emission and incidence angles and places where emission and incidence match. \textbf{\color{red}[Wait, hold on, investigate: the high angles of emission/incidence are due to the index of refraction. The actual spectular point isn't generally there! Look closer.]\color{black}}. Notably, the behavior of the 5 micron is distinctly different than the other windows, with a distinctly different shape and gradient across the azimuth. This is, in general, expected, as 5 microns is a much wider window separated from the other windows by a significant portion of the electromangetic spectrum (). In fact this difference may be supremely helpful, as the behavior of the 5 micron window with respect to the others at different viewing angles could potentially be used as a test to identify liquid bodies. 
+The broad behavior of \ref{fig:10} is expected: we see that lambertian dominates in the negative (blue) areas, which take up most of the viewing geometries, matching what we saw visually. Specular dominantes in the positive (red) areas, which cluster around places where emission and incidence match (near the specular point) and places with high emission and incidence (limb effects). These two are easily explained with specular reflection and total reflection from the index of refraction, respectively.
 
-\color{Green}In order to identify bodies... challenges from inaccuracy of lambertian versus accuracy of specular... need multiple reference points at different viewing angles... find the most dramatic viewing angle changes... maybe go based on viewing angles of location... genrealize? Lots of unknowns. \color{black}
+A cursory inspection of \ref{fig:10} reveals three distinct types of behavior: the three shortest wavelengths, the four longer wavelengths, and \qty{5}{\micro\meter} in its own class. The three shortest wavelengths tend not to dominate near the specular point due to noise clearly visible in \ref{fig:7}. Do note that in a real image of Titan, the direct specular reflection would change this, but only for viewing geometries very close to the specular point. The longer wavelength class simply has a clear near-specular area that isn't blocked by noise. Both classes dominate at the limb. 
+
+Notably, the behavior of the \qty{5}{\micro\meter} is distinctly different than the other windows, with a distinctly different shape and gradient across the azimuth. This is, in general, expected, as \qty{5}{\micro\meter} is a much wider window separated from the other windows by a significant portion of the electromangetic spectrum \cite{EsSayeh2023}. In fact this difference may be supremely helpful, as the behavior of the \qty{5}{\micro\meter} window with respect to the others at different viewing angles could potentially be used as a test to identify liquid bodies. 
 
 Of course, actually making use of the differences in specular and lambertian behavior depends on validation. We expect the specular model to be accurate for large bodies of liquid methane, and we have plenty of viewing geometries from the Cassini mission to test.
 
 \section{Validation}
+
+As has been mentioned multiple times in this paper, we expect the methane ocean simulated to be a reasonable approximation of reality. We are in such a situation that we can demonstrate this by comparing the simulation to real Cassini VIMS data of the seas of Titan. (For validation of the lambertian simulation, see (Barnes, in preparation) \textbf{\color{red} Though is it right to call it validation if we don't expect it to match reality? \color{black}}). 
+
+We restrict our initial validation to the inner portions of Titan's seas, to avoid any contamination from the solid shore and give us the largest data set. We also consider Ontario Laucus despite its small size and limited data set, as it is the only body of water on the southern pole. 
+
 \color{Green}Known lakes... perhaps also land next to the lakes... table of used flybys/locations... visual comparison first, then qualitative... really hope the validation confirms what we have... demonstrate ``identification'' of a lake using the data in the previous section... \color{black}
 
 \textbf{\color{red}[Validation procedure: compare with known lakes. Explain selection process for which images/flybys we used for this (not that I know what this procedure is yet, as we haven't even started this part). Show a visual comparison first, then a quantitative comparison. (Structure: once per flyby used? Once per feature? Or do all visual comparisons and then all quantitative ones?) Compare the quantitative differences and assign some kind of confidence value as to how close our model is to reality. We HOPE that this validation is confirmed. If it is not we presumably need to go back to the drawing board and figure out what went wrong rather than publishing this paper. (if it goes wrong it's possibly a lack of absorption or some other feature.)]]\color{black}}
@@ -183,8 +195,12 @@ Of course, actually making use of the differences in specular and lambertian beh
 \section{Discussion}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-\textbf{\color{red}[So we don't know what to put here really since we haven't done the full experiment. Most of the observations I currently know of are best put in Results as they are observations about the results directly rather than any real new knowledge. If validation flies, we do have one piece of knowledge: to find lakes look for fully illuminated disks and find the BLUE in Jason Color. Other possible dicsussion points: deviations from reality, noise at five microns, error quantifications if we can get them, other potential signs of lakes.]
+\textbf{\color{red}[So we don't know what to put here really since we haven't done the full experiment. Most of the observations I currently know of are best put in Results as they are observations about the results directly rather than any real new knowledge. If validation flies, we do have one piece of knowledge: to find lakes look for fully illuminated disks and find the BLUE in Jason Color. Other possible dicsussion points: deviations from reality, noise at five microns, error quantifications if we can get them, other potential signs of lakes. FUTURE WORK: methods for identifying specular stuff.]
 \color{black}}
+
+Perhaps the most obvious way to differentiate specular from lambertian surfaces on Titan is to look at pictures where both types are present at different viewing angles, and see how they change. This is helpful for validating the model against known lakes, but is unhelpful for identifying new ones. The primary issue is that while the methane ocean is expected to be an accurate representation of reality, the idealized lambertian surface is not. After all, real VIMS images of titan are greenish, not pinkish. 
+
+\color{Green} LEFTOVERS FROM RESULTS: In order to identify bodies... challenges from inaccuracy of lambertian versus accuracy of specular... need multiple reference points at different viewing angles... find the most dramatic viewing angle changes... maybe go based on viewing angles of location... genrealize? Lots of unknowns. \color{black}
 
 \section{Summary and Conclusion}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 

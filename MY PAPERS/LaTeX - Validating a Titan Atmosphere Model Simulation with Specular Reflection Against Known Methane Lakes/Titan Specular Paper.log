@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.14)  12 JUL 2024 14:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.14)  17 JUL 2024 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -720,34 +720,34 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip92
 )
 Package csquotes Info: Allocating character ".
-Package hyperref Info: Option `colorlinks' set `true' on input line 35.
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 39.
+h' as default language. on input line 40.
 
 (./Titan Specular Paper.aux)
 \openout1 = `"Titan Specular Paper.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-Package csquotes Info: Making character " active on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+Package csquotes Info: Making character " active on input line 40.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -763,8 +763,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Titan Specular Paper".bbl' found.
 
 (./Titan Specular Paper.bbl)
-Package biblatex Info: Reference section=0 on input line 39.
-Package biblatex Info: Reference segment=0 on input line 39.
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -794,20 +794,20 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 39.
-Package hyperref Info: Link coloring ON on input line 39.
+or `english'. on input line 40.
+Package hyperref Info: Link coloring ON on input line 40.
  (./Titan Specular Paper.out) (./Titan Specular Paper.out)
 \@outlinefile=\write4
 \openout4 = `"Titan Specular Paper.out"'.
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -816,7 +816,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <LambertSpec.pdf, id=37, 578.16pt x 289.08pt>
 File: LambertSpec.pdf Graphic file (type pdf)
 <use LambertSpec.pdf>
-Package pdftex.def Info: LambertSpec.pdf  used on input line 58.
+Package pdftex.def Info: LambertSpec.pdf  used on input line 59.
 (pdftex.def)             Requested size: 317.98898pt x 158.99448pt.
  [1
 
@@ -825,85 +825,73 @@ ec.pdf>]
 <SRTCSpec.pdf, id=103, 289.08pt x 289.08pt>
 File: SRTCSpec.pdf Graphic file (type pdf)
 <use SRTCSpec.pdf>
-Package pdftex.def Info: SRTCSpec.pdf  used on input line 77.
+Package pdftex.def Info: SRTCSpec.pdf  used on input line 78.
 (pdftex.def)             Requested size: 158.99448pt x 158.99448pt.
 <SpecSpikeNoSpike.pdf, id=104, 650.43pt x 325.215pt>
 File: SpecSpikeNoSpike.pdf Graphic file (type pdf)
 <use SpecSpikeNoSpike.pdf>
-Package pdftex.def Info: SpecSpikeNoSpike.pdf  used on input line 84.
+Package pdftex.def Info: SpecSpikeNoSpike.pdf  used on input line 85.
 (pdftex.def)             Requested size: 325.2142pt x 162.6071pt.
- [3 <./SRTCSpec.pdf>] [4{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm
--super-ts1.enc} <./SpecSpikeNoSpike.pdf>]
-<ReflectionVariations.pdf, id=184, 369.6325pt x 338.33276pt>
+ [3] [4{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <
+./SRTCSpec.pdf> <./SpecSpikeNoSpike.pdf>]
+<ReflectionVariations.pdf, id=183, 369.6325pt x 338.33276pt>
 File: ReflectionVariations.pdf Graphic file (type pdf)
 <use ReflectionVariations.pdf>
-Package pdftex.def Info: ReflectionVariations.pdf  used on input line 95.
+Package pdftex.def Info: ReflectionVariations.pdf  used on input line 96.
 (pdftex.def)             Requested size: 184.8158pt x 169.16595pt.
-<SRTCLayout.pdf, id=189, 462.52798pt x 252.22733pt>
+<SRTCLayout.pdf, id=188, 462.52798pt x 252.22733pt>
 File: SRTCLayout.pdf Graphic file (type pdf)
 <use SRTCLayout.pdf>
-Package pdftex.def Info: SRTCLayout.pdf  used on input line 108.
+Package pdftex.def Info: SRTCLayout.pdf  used on input line 109.
 (pdftex.def)             Requested size: 231.26341pt x 126.11334pt.
  [5 <./ReflectionVariations.pdf>]
-<SpecularSim.pdf, id=255, 575.49042pt x 297.511pt>
+<SpecularSim.pdf, id=254, 575.49042pt x 297.511pt>
 File: SpecularSim.pdf Graphic file (type pdf)
 <use SpecularSim.pdf>
-Package pdftex.def Info: SpecularSim.pdf  used on input line 119.
+Package pdftex.def Info: SpecularSim.pdf  used on input line 120.
 (pdftex.def)             Requested size: 287.74449pt x 148.75513pt.
  [6 <./SRTCLayout.pdf>]
-<AllWindowsUnscaled.png, id=308, 1908.37968pt x 692.5875pt>
-File: AllWindowsUnscaled.png Graphic file (type png)
-<use AllWindowsUnscaled.png>
-Package pdftex.def Info: AllWindowsUnscaled.png  used on input line 132.
-(pdftex.def)             Requested size: 381.66917pt x 138.51505pt.
-
-Overfull \hbox (36.66917pt too wide) in paragraph at lines 132--134
- [][] 
- []
-
-<AllWindowsScaledWithSmallestWavelength.png, id=310, 1906.12125pt x 694.84593pt
->
-File: AllWindowsScaledWithSmallestWavelength.png Graphic file (type png)
-<use AllWindowsScaledWithSmallestWavelength.png>
-Package pdftex.def Info: AllWindowsScaledWithSmallestWavelength.png  used on in
-put line 138.
-(pdftex.def)             Requested size: 381.2175pt x 138.96672pt.
-
-Overfull \hbox (36.2175pt too wide) in paragraph at lines 138--140
- [][] 
- []
-
-[7 <./SpecularSim.pdf>]
-<LambertianSim.pdf, id=360, 575.49042pt x 297.511pt>
+<8WindowsNorm.pdf, id=310, 462.52798pt x 264.06828pt>
+File: 8WindowsNorm.pdf Graphic file (type pdf)
+<use 8WindowsNorm.pdf>
+Package pdftex.def Info: 8WindowsNorm.pdf  used on input line 133.
+(pdftex.def)             Requested size: 323.76736pt x 184.84653pt.
+<8WindowsNoNorm.pdf, id=311, 462.52798pt x 264.06828pt>
+File: 8WindowsNoNorm.pdf Graphic file (type pdf)
+<use 8WindowsNoNorm.pdf>
+Package pdftex.def Info: 8WindowsNoNorm.pdf  used on input line 139.
+(pdftex.def)             Requested size: 323.76736pt x 184.84653pt.
+ [7 <./SpecularSim.pdf>] [8 <./8WindowsNorm.pdf> <./8WindowsNoNorm.pdf>]
+<LambertianSim.pdf, id=491, 575.49042pt x 297.511pt>
 File: LambertianSim.pdf Graphic file (type pdf)
 <use LambertianSim.pdf>
-Package pdftex.def Info: LambertianSim.pdf  used on input line 151.
+Package pdftex.def Info: LambertianSim.pdf  used on input line 152.
 (pdftex.def)             Requested size: 287.74449pt x 148.75513pt.
- [8 <./AllWindowsUnscaled.png> <./AllWindowsScaledWithSmallestWavelength.png>]
-<SpecLambNormDiff.pdf, id=367, 702.5102pt x 705.2536pt>
-File: SpecLambNormDiff.pdf Graphic file (type pdf)
-<use SpecLambNormDiff.pdf>
-Package pdftex.def Info: SpecLambNormDiff.pdf  used on input line 166.
-(pdftex.def)             Requested size: 309.10544pt x 310.31255pt.
- [9 <./LambertianSim.pdf>] [10 <./SpecLambNormDiff.pdf>]
-Overfull \hbox (13.56554pt too wide) in paragraph at lines 179--180
-\OT1/cmr/m/n/10 Known lakes... per-haps also land next to the lakes... ta-ble o
-f used fly-bys/locations...
+
+Overfull \hbox (2.69502pt too wide) in paragraph at lines 158--159
+[]\OT1/cmr/m/n/10 Direct com-par-isons be-tween the spec-u-lar and lam-ber-tian
+ sim-u-la-tions (Barnes,
  []
 
-[11]<<ot1tt.cmap>>
-Overfull \hbox (0.2056pt too wide) in paragraph at lines 201--201
+[9 <./LambertianSim.pdf>]
+<SpecLambNormDiff.pdf, id=530, 702.5102pt x 705.2536pt>
+File: SpecLambNormDiff.pdf Graphic file (type pdf)
+<use SpecLambNormDiff.pdf>
+Package pdftex.def Info: SpecLambNormDiff.pdf  used on input line 171.
+(pdftex.def)             Requested size: 309.10544pt x 310.31255pt.
+ [10] [11 <./SpecLambNormDiff.pdf>] [12]<<ot1tt.cmap>>
+Overfull \hbox (0.2056pt too wide) in paragraph at lines 217--217
 [][]\OT1/cmr/m/n/10 Barnes, Ja-son W., Robert H. Brown, Lau-rence Soderblom, et
  al. (2007). \  Global-
  []
 
-[12]
-Overfull \hbox (8.3185pt too wide) in paragraph at lines 201--201
+[13]
+Overfull \hbox (8.3185pt too wide) in paragraph at lines 217--217
 [][]\OT1/cmr/m/n/10 Kanjanasakul, Ch-a-nisa et al. (2020). \  Op-ti-cal Char-ac
 -ter-i-za-tion of Ethane Droplets
  []
 
-[13] (./Titan Specular Paper.aux)
+[14] [15] (./Titan Specular Paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -920,10 +908,10 @@ Package logreq Info: Writing requests to '"Titan Specular Paper".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23086 strings out of 474050
- 451496 string characters out of 5746298
- 1943754 words of memory out of 5000000
- 45169 multiletter control sequences out of 15000+600000
+ 23090 strings out of 474050
+ 451364 string characters out of 5746298
+ 1942754 words of memory out of 5000000
+ 45170 multiletter control sequences out of 15000+600000
  573585 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,12n,81p,1370b,1997s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -941,10 +929,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm1000.pfb>
-Output written on "Titan Specular Paper.pdf" (13 pages, 2128915 bytes).
+Output written on "Titan Specular Paper.pdf" (15 pages, 870376 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 713 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 55 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
