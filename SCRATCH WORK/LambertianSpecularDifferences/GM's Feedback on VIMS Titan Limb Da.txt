@@ -1,0 +1,23 @@
+Additional Feedback
+
+SECTION 1:
+1.2: Impact's first paragraph mentions bathtub rings and evaporite. I'm not sure this is at all relevant to a study of limb effects, or at the very least you need to add a sentence describing how the study of limb effects can constrain the global circulation model, which in turn can be used as evidence for the existence of bathtub rings or something. As it is, the proposal does not tell me how the research can have an impact either for or using the bathtub rings. 
+In addition, the next paragraph seems to be arguing from a point of "lakes and seas", connecting them to the dragonfly mission, despite this proposal being about limb effects and is essentially blind to the surface. I believe the impacts here are still real, but it just needs to be reworded for this particular context to make the connection between the proposed research's results and the Dragonfly mission. (You mention "lake margins" in the third paragraph as well)
+In short, it's pretty evident that this Impact section was taken from another proposal which cared a lot about lakes and bathtub rings, which are things that probably have no need to be brought up here, or at the very least are not obviously correlated to the proposed research. 
+
+General figures note: a lot of the figures here have very small axis labels and legends, at least compared to the body text. That's probably not a quick adjustment though. 
+
+1.4: For Year 1, the Collaborator is labeled as Collaborator. For Years 2 and 3, the label is "Collab." Probably should remain consistent.
+
+A.4: Current Support. For some reason FY27 is in parentheses in the first table, but not in the second, and doesn't match the other FY areas. 
+Also the second table here appears to be missing some lines. 
+
+
+
+
+
+
+
+SECTION 3:
+Publications: You know that section in the last proposal that had mislabeled numbers? Same here, you have THREE papers but FOUR tasks. The second instance of FOUR has been cleaned up though. You may want to check the previous one to make sure you got both instances.
+
