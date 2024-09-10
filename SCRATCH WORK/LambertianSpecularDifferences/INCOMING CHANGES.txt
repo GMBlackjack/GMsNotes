@@ -1,0 +1,39 @@
+INCOMING CHANGES:
+BESTIARY BALANCE
+
+DECOYS ON PCs? 
+FOOD SYSTEM OVERHAUL: downed characters, new ways to do food. Think on it.
+
+QOL SKILL DESCRIPTIONS AND SHORTHAND
+WEALTH SYSTEM
+ARTIFACT NERFS, particularly ARMOR.
+WEAPON NERFS
+WEAPON CLASS BUFFS: claymore go SPIN.
+Freeze does not work on Cryo Shields.
+Minimum Reaction Damage 1
+Taunt is a status effect.
+Nerf Swirl Chains
+No Complex NPCs
+
+0: Penniless (Cannot purchase anything)
+1: Poverty-Stricken (Can maybe purchase a meal)
+2: Needy (Has difficulty securing food for more than one person)
+3: Poor (Can support a family, but just barely. Could afford cheap lodging.)
+4: Below-Average (Has a small amount of extra spending money. Can get cheap novelty items occasionally, and can afford lodging without being taxed)
+5: Average (The average person in Teyvat has enough money to support a family comfortably and buy extra things for a hobby of some sort, even a more expensive hobby such as alchemy, with potions).
+6: Above-Average (Can easily support a family, purchase novelty items, and even particular adventuring gear. Advanced gadgets.) 
+7: Well-Off (Can afford to dine at fine establishments and secure great lodging regularly; the lowest members of so-called “high society”).
+8: Rich (Any item that’s not unique in some way is available to you, but your worth is not enough to move the economy).
+9: Prosperous (There is essentially no single object you cannot buy, and your worth can put pressure on governments)
+10: Obscenely Wealthy (Could probably buy a small city if you spent all of this at once.)
+
+QOL improvement on moves:
+CLASSIFICATION, Action, Damage, Range, Targets, Duration, 
+examples:
+NORMAL ATTACK (BOW), Combat Action (Full Action), ATK (Pyro), Medium (Long) Range, Single (Weak Point), Instant.
+(Amber's attack, further description here)
+BURST, Full Action, EMx2 Pyro, Short Range, Short AoE, Instant.
+(Amber's Burst, further description here)
+SKILL (SUMMON), Combat Action, None (ATKx2 Pyro on explosion), Short Range, No Targets (immediate AoE on explosion), 3 Rounds.
+(Amber's BARON BUNNY!)
+Constellations can alter these. Some constellations may simply post a new version of the move.
