@@ -9,4 +9,20 @@ https://www.sciencedirect.com/science/article/pii/S0019103508004582
 
 102904 Right Set of Cubes
 
-https://jupyterlab.readthedocs.io/en/stable/
+T15
+T43
+T47
+T90
+T93
+T94
+T97
+T100
+
+T122
+T124-T126
+
+/home/GMSeskii/Desktop/CubeCSVDatabase
+CM_1871493455_1.cub  
+
+NONE:
+Tc, T60, T73
