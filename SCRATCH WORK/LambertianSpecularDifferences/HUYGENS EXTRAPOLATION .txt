@@ -26,3 +26,6 @@ CM_1871493455_1.cub
 
 NONE:
 Tc, T60, T73
+
+
+half a degree - 20 km. 
