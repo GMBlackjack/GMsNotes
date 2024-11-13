@@ -1,0 +1,296 @@
+XO-3 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+Deleull et al. (2010) A&A October
+87220	2.4557e28	1.
+CoRoT-3 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+Deleull et al. (2010) A&A October
+74351	4.1558e28	1.
+CoRoT-15 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+Deleull et al. (2010) A&A October
+80071	1.1900e29	1.
+WASP-18 b
+Deleull et al. (2010) A&A October
+Deleull et al. (2010) A&A October
+78641	1.9176e28	1.
+2MASS J05352184-0546085 A
+Stassun et al. 2006 Nature April
+Stassun et al. 2007 APJ 664:1154 – 1166
+469597	1.1376e29	1.
+2MASS J05352184-0546085 B
+Stassun et al. 2006 Nature April
+Stassun et al. 2007 APJ 664:1154 – 1166
+338110	7.1601e28	1.
+CoRoT-20 b
+Deleuli et al. 2011. A&A Sep 14.
+Deleuli et al. 2011. A&A Sep 14.
+60053	8.0501e27	1.
+KOI-205 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+Diaz et al. 2013. A&A 551 L9
+57908	7.5560e28	1.
+EPIC 201702477 b
+Bayliss et al. 2017. AJ 153 15
+Bayliss et al. 2017. AJ 153 15
+54119	1.2702e29	1.
+CoRoT-33 b (!)
+Bayliss et al. 2017. AJ 153 15
+Bayliss et al. 2017. AJ 153 15
+78641	1.12e29		1.
+KOI-189 b
+Bayliss et al. 2017. AJ 153 15
+Bayliss et al. 2017. AJ 153 15
+71349	1.481e29	1.
+KOI-415 b
+Bayliss et al. 2017. AJ 153 15
+Bayliss et al. 2017. AJ 153 15
+56478	1.1797e29	1.
+KELT-1 b
+Bayliss et al. 2017. AJ 153 15
+Bayliss et al. 2017. AJ 153 15
+79785	5.1983e28	1.
+Kepler-39 b
+Bayliss et al. 2017. AJ 153 15
+Bayliss et al. 2017. AJ 153 15
+79356	3.6263e28	1.
+LHS 6343 C
+Bayliss et al. 2017. AJ 153 15
+Bayliss et al. 2017. AJ 153 15
+55978	1.179e29	1.
+WASP-30 b
+Bayliss et al. 2017. AJ 153 15
+Bayliss et al. 2017. AJ 153 15
+63556	1.1573e29	1.
+NLTT 41135 b
+Bayliss et al. 2017. AJ 153 15
+Bayliss et al. 2017. AJ 153 15
+80785	6.3983e28	1.
+TOI-569 b
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+53619	1.217e29	1.
+TOI-1406 b
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+61483	8.734e28	1.
+HATS-70 b
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+98658	2.4492e28	1.
+LP 261-75 b
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+64342	1.2929e29	1.
+WASP-128 b
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+67202	7.0628e28	1.
+EPIC 212036875 b
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+62198	9.9297e28	1.
+AD 3116 b
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+72921	1.029e29	1.
+CWW 89 Ab
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+67202	7.4425e28	1.
+RIK 72 b
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+221625	1.124e29	1.
+TOI-503 b
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+95799	1.0195e29	1.
+NGTS-7 Ab
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+Carmichael et al. 2020. https://arxiv.org/pdf/2002.01943.pdf
+98658	1.4334e29	1.
+2MASS J0825+2115
+Sorahana et al. 2012. ApJ Oct 14. https://arxiv.org/pdf/1304.1259.pdf
+Goldman et al. 2008. A&A August.
+54333	2.8175e28	1.
+SDSS J1254–0122 
+Sorahana et al. 2012. ApJ Oct 14. https://arxiv.org/pdf/1304.1259.pdf
+Burgasser et al. 2002. ApJ May 6. https://iopscience.iop.org/article/10.1086/341343/pdf
+60053	2.753e28	1.
+SIMP J0136+0933 
+Sorahana et al. 2012. ApJ Oct 14. https://arxiv.org/pdf/1304.1259.pdf
+Gagne et al. 2017. ApJL 841 L1. 
+57193	2.4112e28	1.
+2MASS J0559–1404 
+Sorahana et al. 2012. ApJ Oct 14. https://arxiv.org/pdf/1304.1259.pdf
+Burgasser et al. 2002. ApJ May 6. https://iopscience.iop.org/article/10.1086/341343/pdf
+80785	2.6105e28	1.
+2MASS J0415–0935 
+Sorahana et al. 2012. ApJ Oct 14. https://arxiv.org/pdf/1304.1259.pdf
+Hood et al. 2024. Feb 8. https://arxiv.org/pdf/2402.05345.pdf
+57193	6.835e28	1.
+Gliese 570 D
+Burgasser 2006. ApJ March 10 https://iopscience.iop.org/article/10.1086/499344/pdf
+Burgasser 2006. ApJ March 10 https://iopscience.iop.org/article/10.1086/499344/pdf
+61221	8.3534e28	1.
+SDSS 1624+0029
+Burgasser 2006. ApJ March 10 https://iopscience.iop.org/article/10.1086/499344/pdf
+Burgasser 2006. ApJ March 10 https://iopscience.iop.org/article/10.1086/499344/pdf
+57047	1.1336e29	1.
+HD 130948 B
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+75066	1.1354e29	1.
+HD 130948 C
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+75066	1.0556e29	1.
+2MASS J1728+3948 A
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+64342	1.386e29	1.
+2MASS J1728+3948 B
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+63627	1.272e29	1.
+LHS 2397a A
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+76496	1.766e29	1.
+LHS 2397a B
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+62913	1.253e29	1.
+2MASS J1534-2952 A
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+59338	9.683e28	1.
+2MASS J1534-2952 B
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+Brock et al. 2021. AAS June 20. https://iopscience.iop.org/article/10.3847/1538-4357/abfc46/pdf
+60768	9.113e28	1.
+TOI-1278 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+77926	3.5124e28	1.
+GPX-1 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+105093	3.7402e28	1.
+TOI-852 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+59338	1.0195e29	1.
+TOI-811 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+90079	1.1373e29	1.
+TOI-263 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+65057	1.1695e29	1.
+TOI-148 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+57908	1.4638e29	1.
+TOI-587 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+94369	1.5398e29	1.
+TOI-746 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+67917	1.5606e29	1.
+EBLM J0555-57 Ab
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+58623	1.6689e29	1.
+TOI-681 b 
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+108667	1.6841e29	1.
+OGLE-TR-123 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+92224	1.69e29		1.
+TOI-694 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+79356	1.69e29		1.
+KOI-607b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+77926	1.8056e29	1.
+J1219-39 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+81500	1.8113e29	1.
+OGLE-TR-122 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+83645	1.8284e29	1.
+TOI-1213 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+118676	1.8511e29	1.
+K2-76 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+63627	1.8739e29	1.
+CoRoT 101186644
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+72206	1.9080e29	1.
+J2343+29 Ab
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+88650	1.937e29	1.
+EBLM J0954-23 Ab
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+70062	1.937e29	1.
+KOI-686 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+87220	1.9631e29	1.
+TIC 220568520 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+89365	2.0353e29	1.
+HATS 551-016 B
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+104378	2.1776e29	1.
+OGLE-TR-106 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+125825	2.3068e29	1.
+EBLM J1431-11 Ab
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+103663	2.40932e29	1.
+HAT-TR-205-013 B
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+115817	2.46628e29	1.
+TIC 231005575 b
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+107238	2.54602e29	1.
+HATS 551-021 B
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+109382	2.62387e29	1.
+EBLM J2017+02 Ab
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+106523	2.6998e29 	1.
+KIC 1571511 B
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+124396	2.81183e29	1.
+WTS 19g-4-02069B
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+Grieves et al. 2021. A&A July 9 https://arxiv.org/pdf/2107.03480.pdf
+120821	2.8441e29	1.

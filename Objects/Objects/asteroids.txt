@@ -1,0 +1,304 @@
+Ceres
+Park Nature 537:515 (2016)
+Park Nature 537:515 (2016)
+470	9.384e20	2.7661
+Pallas
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+257.2	2.04e20		2.774
+Juno
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+120.9	2.73e19		2.6680
+Vesta
+Russel et al. (2012) Science 236:684
+Russel et al. (2012) Science 236:684
+262.7	2.591e20	2.3620
+Astraea
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+56.7	2.64e18		2.5736
+Hebe
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+95.5	1.39e19		2.4246
+Hygiea
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+210.8	8.63e19		2.7908
+Parthenope
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+75.53	5.91e18		2.4524
+Eunomia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+128.3	3.14e19		2.6442
+Fortuna
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+103.5	8.60e18		2.4421
+Lutetia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+49	1.70e18		2.4356
+Kalliope
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+85.0	7.96e18		2.9093
+Thalia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+53.4	1.96e18		2.6258
+Daphne
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+90.5	6.31e18		2.7617
+Echo
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+30.0	3.15e17		2.3925
+Diana
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+61.82	1.27e18		2.6187
+Sylvia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+139.1	1.48e19		3.4815
+Antiope
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+61.08	8.30e17		3.1480
+Undina
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+62.22	4.43e18		3.1858
+Minerva
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+74.90	3.50e18		2.7562
+Klotho
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+42.40	1.33e18		2.6687
+Camilla
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+105.34	1.12e19		3.4897
+Lomia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+73.39	6.08e18		2.9953
+Hermione
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+97.68	4.97e18		3.4624
+Elektra
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+94.81	6.60e18		3.1262
+Hertha
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+38.06	1.21e18		2.4288
+Prokne
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+85.2	2.68e18		2.6153
+Athamantis
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+55.08	1.89e18		2.3818
+Ida
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+15.64	3.78e16		2.8616
+Mathilde
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+26.5	1.03e17		2.6492
+Aletheia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+95.0	7.79e18		3.1337
+Bamberga
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+117.3	1.03e19		2.6802
+Gudrun
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+61.3	3.16e18		2.7780
+Palma
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+95.5	5.15e18		3.1542
+Eros
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+8.1	6.69e15		1.4352
+Eichsfeldia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+32.79	1.95e17		2.3457
+Peraga
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+48.23	6.59e17		2.3755
+Patroclus
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+71.57	1.36e18		4.4874
+Zelinda
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+63.92	1.35e18		2.2985
+Interamnia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+158.6	3.28e19		3.0561
+Faina
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+53.66	3.27e18		2.5508
+Mancunia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+43.54	9.31e17		3.1875
+Pulcova
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+69.20	1.40e18		3.1523
+Lundia
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+5.13	9.27e14		2.2832
+Ostro
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+2.57	1.87e14		1.8919
+Itokawa
+Carry (2012) P&SS 73:98-118
+Carry (2012) P&SS 73:98-118
+0.16	3.50e10		1.3242
+Davida
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+149	26.6e18		1.
+Eleonora
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+82.5	7.5e18		1.
+Kleopatra
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+59	3.0e18		1.
+Lamberta
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+70.5	1.9e18		1.
+Ino
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+72.5	2.2e18		1.
+Adeona
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+72	2.4e18		1.
+Nemesis
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+81.5	3.4e18		1.
+Julia
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+70	4.3e18		1.
+Thisbe
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+109	11.6e18		1.
+Ausonia
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+46.5	1.2e18		1.
+Europa (The Asteroid)
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+159.5	23.9e18		1.
+Nemausa
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+75	3.9e18		1.
+Doris
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+107.5	6.9e18		1.
+Eugenia
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+94	5.8e18		1.
+Euphrosyne
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+134	16.5e18		1.
+Urania
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+44	1.3e18		1.
+Amphitrite
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+102	12.7e18		1.
+Themis
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+104	6.2e18		1.
+Melopmene
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+70.5	4.5e18		1.
+Metis
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+86.5	8e18		1.
+Psyche
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+111.5	22.6e18		1.
+Egeria
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+101	9.2e18
+Victoria
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+58	2.7e18		1.
+Flora
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+73	4e18		1.
+Iris
+Vernazza et al. (2021) A&A V654 A56
+Vernazza et al. (2021) A&A V654 A56
+99.5	13.5e18		1.
+Braille
+Richter et al. (2001) GRL V28 I10
+Richter et al. (2001) GRL V28 I10
+0.78	7.8e12		1.
+Ryugu
+Watanabe et al. (2019) Science V364 I6437
+Watanabe et al. (2019) Science V364 I6437
+0.502	4.5e11		1.
+Bennu
+https://science.nasa.gov/solar-system/asteroids/101955-bennu/facts/
+https://science.nasa.gov/solar-system/asteroids/101955-bennu/facts/
+0.246	7.76e10		1.
+Didymos
+Nakano et al. (2022) PSJ 3 148
+Nakano et al. (2022) PSJ 3 148
+0.39	5.228e11	1.
+Dimorphos
+Nakano et al. (2022) PSJ 3 148
+Nakano et al. (2022) PSJ 3 148
+0.082	4.841e9		1.

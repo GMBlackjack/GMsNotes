@@ -1,0 +1,20 @@
+Io
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+1821.6	8.9354e22	421800.
+Europa
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+1560.8	4.8017e22	671100.
+Ganymede
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+2631.2	1.4824e23	1070400.
+Callisto
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+2410.3	1.0764e23	1882700.
+Amalthea
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+https://ssd.jpl.nasa.gov/?sat_phys_par#ref5
+83.45	2.0690e18	181400.

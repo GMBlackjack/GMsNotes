@@ -1,0 +1,16 @@
+EPIC 203868608 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+198032	4.3447e28	1.
+EPIC 203868608 C
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+178730	4.9114e28	1.
+EPIC 203868608 B2
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+196396	4.4074e28	1.
+EPIC 203868608 C2
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+177473	4.8967e28	1.

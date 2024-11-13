@@ -1,0 +1,8 @@
+Churyumov-Gerasimenko
+Patzold et al. (2016). Nature 530 63-65
+https://www.esa.int/ESA_Multimedia/Images/2015/01/Comet_vital_statistics
+1.722	9.982e12	0.
+Halley (not well constrained)
+https://science.nasa.gov/solar-system/comets/1p-halley/
+Cevolani et al. (1987) Il Nuovo Cimento C 10 587-591. (Paywall, had to trust the reported value from wikipedia was correct.)
+5.75	2.2e14		0.

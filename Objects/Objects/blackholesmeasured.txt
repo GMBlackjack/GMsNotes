@@ -1,0 +1,11 @@
+M87*
+The Event Horizon Telescope Collaboration 2019 ApJL 875 L6
+The Event Horizon Telescope Collaboration 2019 ApJL 875 L6
+1.8987e10	1.2927e40	0.
+Sagittarius A*
+The Event Horizon Telescope Collaboration 2019 ApJL 875 L6
+The GRAVITY Collaboration 2023 A&A (???)
+1.1708e7	8.5463e36	0.
+
+
+

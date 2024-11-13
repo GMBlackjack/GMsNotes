@@ -1,0 +1,316 @@
+EBLM J0555-57Ab (The Smallest One!)
+Boetticher et al (2017) A&A 604 L6
+Boetticher et al (2017) A&A 604 L6
+60053	1.614e29	0.
+HD 114762B
+Bowler et al. (2009) ApJ Oct 7
+Bowler et al. (2009) ApJ Oct 7
+78614	1.75025e29	0.
+GJ 51
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+153054	4.177e29	0.
+GJ 1156
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+111312	2.784e29	0.
+GJ 1245 B
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+97398	2.387e29	0.
+WX UMa
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+83484	1.989e29	0.
+DX Cnc
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+76527	1.989e29	0.
+GJ 3622
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+76527	1.79e29		0.
+GJ 1154 A
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+139140	3.58e29		0.
+GJ 1224
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+118269	2.983e29	0.
+CN Leo
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+Morin et al. (2018) https://arxiv.org/pdf/1005.5552.pdf
+83484	1.989e29	0.
+OGLE-TR-122b
+Pont et al. (2005) A&A 
+Pont et al. (2005) A&A 
+83484	1.829e29	0.
+Proxima Centauri
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+102267	2.4464e29	0.
+GJ 1061
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+105746	2.4862e29	0.
+GJ 1214
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+141922	3.5999e29	0.
+GJ 628
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+221928	6.0463e29	0.
+GJ 581
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+215667	6.106e29	0.
+GJ 667C
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+234450	6.5038e29	0.
+GJ 725A
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+246277	6.6828e29	0.
+GJ 876
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+258800	6.8817e29	0.
+GJ 436
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+300542	8.4529e29	0.
+GJ 832
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+307499	8.7711e29	0.
+GJ 887
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+329761	9.5269e29	0.
+GJ 176
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+329761	9.6463e29	0.
+TRAPPIST-1
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+83484	1.790e29	0.
+LP 756-18
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+118269	2.8839e29	0.
+LHS 2686
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+126617	3.1226e29	0.
+GJ 699
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+130095	3.2022e29	0.
+GJ 729
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+139140	3.5204e29	0.
+GJ 1132
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+149575	3.8585e29	0.
+L 980-5
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+173925	4.6143e29	0.
+GJ 674
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+251147	7.0209e29	0.
+GJ 15A
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+267844	7.8165e29	0.
+GJ 163
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+284541	8.0551e29	0.
+GJ 849
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+322804	9.2485e29	0.
+GJ 649
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+369416	1.0422e30	0.
+GJ 676A
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+429246	1.255e30	0.
+G 249-11
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+177403	4.7137e29	0.
+GJ 4334
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+213579	5.8474e29	0.
+LP 55-41
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+289411	8.2142e29	0.
+LP 247-13
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+342284	9.8452e29	0.
+GJ 49
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+371503	1.076e30	0.
+GJ 410
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+381939	1.1078e30	0.
+GJ 173
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+326283	9.348e29	0.
+GJ 75-55
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+384026	1.114e30	0.
+GJ 213
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+165576	4.3358e29	0.
+GJ 821
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+252539	7.0607e29	0.
+LHS2065
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+78614	1.6309e29	0.
+VB 10
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+82301	1.75224e29	0.
+VB 8
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+84457	1.81787e29	0.
+LHS 3003
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+85571	1.847707e29	0.
+GJ 406
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+100180	2.188e29	0.
+LHS 1140
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+142618	3.6397e29	0.
+GJ 447
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+137748	3.5005e29	0.
+GJ 1207
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+176012	4.674e29	0.
+GJ 1243
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+179490	4.773e29	0.
+GJ 545
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+187143	5.032e29	0.
+GJ 3378
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+193404	5.2309e29	0.
+GJ 403
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+194796	5.2706e29	0.
+GJ 402
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+197578	5.3303e29	0.
+GJ 3391
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+198970	5.39793e29	0.
+GJ 3325
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+201057	5.4496e29	0.
+GJ 273
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+221928	5.93096e29	0.
+GJ 4367
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+219841	6.0463e29	0.
+YZ CMi
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+228189	6.28499e29	0.
+EV Lac
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+230276	6.365e29	0.
+GJ 411
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+272714	7.7369e29	0.
+GJ 687
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+291289	8.1745e29	0.
+AD Leo
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+297759	8.4728e29	0.
+GJ 588	
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+320022	9.1689e29	0.
+GJ 526
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+338805	9.7059e29	0.
+GJ 3470
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+347154	9.9844e29	0.
+Kepler-138
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+373590	1.084e30	0.
+GJ 809
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+379852	1.0879e30	0.
+K2-3
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+377765	1.0959e30	0.
+GJ 880
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+381939	1.0999e30	0.
+GJ 205
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+402114	1.173e30	0.
+GJ 338A
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+408375	1.1914e30	0.
+TOI-1235
+Pineda et al. (2021) ApJ
+Pineda et al. (2021) ApJ
+420202	1.2272e30	0.

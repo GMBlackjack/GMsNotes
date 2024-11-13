@@ -1,0 +1,32 @@
+Miranda
+Thomas Icarus 73:427-441 (1988)
+Jacobson AJ 148:5 (2014)
+235.8	6.45e19		129858.
+Ariel
+Thomas Icarus 73:427-441 (1988)
+Jacobson AJ 148:5 (2014)
+578.9	1.2519e21	190930.
+Umbriel
+Thomas Icarus 73:427-441 (1988)
+Jacobson AJ 148:5 (2014)
+584.7	1.2759e21	265982.
+Titania
+Thomas Icarus 73:427-441 (1988)
+Jacobson AJ 148:5 (2014)
+788.9	3.4018e21	436282.
+Oberon
+Thomas Icarus 73:427-441 (1988)
+Jacobson AJ 148:5 (2014)
+761.4	3.07796e21	583449.
+Cressida
+Karkoscka Icarus 162:400-407 (2003)
+French et al. Icarus 411:115957 (2024)
+41	18e16		61767.
+Ophelia
+Karkoscka Icarus 162:400-407 (2003)
+French et al. Icarus 411:115957 (2024)
+23	3.6e16		53764.
+Cordelia
+Karkoscka Icarus 162:400-407 (2003)
+French et al. Icarus 411:115957 (2024)
+21	6.1e16		49752.

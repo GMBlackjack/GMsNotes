@@ -1,0 +1,12 @@
+Moon
+https://ssd.jpl.nasa.gov/?sat_phys_par
+https://ssd.jpl.nasa.gov/?sat_phys_par
+1737.5	7.3505e22	384400.
+Phobos
+Thomas, P.C. 1989b. Icarus 77, 248-274.
+Jacobson, R. A. 2010. ``The Orbits and Masses of the Martian Satellites and the Libration of Phobos'', AJ 139, 668-679.
+11.1	1.0663e16	9376.
+Deimos
+Thomas, P.C. 1989b. ``Shapes of Small Satellites'', Icarus 77, 248-274.
+Jacobson, R. A. 2010. ``The Orbits and Masses of the Martian Satellites and the Libration of Phobos'', AJ 139, 668-679.
+6.2	1.47676e15	23458.

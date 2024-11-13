@@ -1,0 +1,76 @@
+SUPERDENSE
+Kepler-57 b
+117.1108877721943
+2.372603986815257
+896
+27130.0
+Kepler-245 c
+223.71055276381907
+2.3826149741013967
+764
+19859.0
+Using the edge of error bounds makes these two not as much of an outlier as usual, joining our friends in the "this is really big and rocky and kind of unusual." 
+
+Kepler-128 b
+30.442881072026797
+1.1312415633338564
+714
+10105.0
+Kepler-128 c
+33.021105527638184
+1.1312415633338564
+715
+10122.0
+Now THESE guys don't let their errors adjust themselves very much. And they're both in the same system to boot, interesting. They are the only plnaets in the system (it seems). 
+https://arxiv.org/pdf/2207.07456
+looks like it may have been shot down later?
+
+
+UNDERDENSE
+
+
+COLLAPSING?
+DH Tau b
+Pretty large error bars are nonetheless within tolerance. Lookups suggest this should be called a brown dwarf? Hey, if I set it to the lower bound of its mass, it no longer looks like an outlier.
+
+THOR 42
+68676.71691792294
+46.29992151938471
+Noted as a pre-main sequence binary in https://academic.oup.com/mnras/article/491/4/4902/5626362 discovery paper. 
+
+TOI-450
+59195.979899497484
+37.782483126667714
+Hey look, title of paper says pre-main sequence. 
+https://arxiv.org/abs/2210.10789
+
+EPIC 203710387
+19055.27638190955
+73.70852299482029
+More pre-main sequence discussion 
+https://arxiv.org/abs/1510.08087
+
+LSPM J1112+7626
+113668.3417085427
+95.36255061999685
+GASP! An actual oddball! Bizarre magnetic readings are happening here.
+Notable for youngness being ruled out as an explanation. 
+https://arxiv.org/pdf/1703.04488
+
+UScoCTIO 5
+109313.23283082077
+91.46418458640717
+https://arxiv.org/pdf/1505.02446
+Slight oddball, but largely broadely consistent with pre-main sequence ages. It's just that none of the models fit it quite right.
+
+BD: 0 1 6 7 27
+EPIC 203868608 B2
+EPIC 203868608 C2
+ALERT: turned out to be a quadruple system instead of a double system. Oops. https://arxiv.org/pdf/1809.01689. Removed these from the pool.
+
+2MASS J05352184-0546085 A
+2MASS J05352184-0546085 B
+The ones that started this whole endeavor. In the process of gravitational collapse. They're FRESH!
+
+RIK 72 b
+Notably low orbital period according to quick examinations, less than 100 days. Thus its size is likely due to being inflated from heat. This is still considered "lomg period," notably. Did find note that it is also young https://iopscience.iop.org/article/10.3847/1538-4357/aafe09/meta , the "youngest example of a brown dwarf transiting a stella rhost". The paper even mentions our other friends. So yes, really young brown dwarfs tend to be fluffy.

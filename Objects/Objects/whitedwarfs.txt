@@ -1,0 +1,136 @@
+Sirius B
+Shuntov (2018) (Sniped from a graph) 
+https://www.researchgate.net/publication/324845118_High-Energy_Astrophysics_White_Dwarfs_and_Neutron_Stars_-_M1S2_Project_Report
+5218	2.0386e30	0.
+G226-29
+Shuntov (2018) (Sniped from a graph) 
+https://www.researchgate.net/publication/324845118_High-Energy_Astrophysics_White_Dwarfs_and_Neutron_Stars_-_M1S2_Project_Report
+7305	1.492e30	0.
+Procyon B
+Shuntov (2018) (Sniped from a graph) 
+https://www.researchgate.net/publication/324845118_High-Energy_Astrophysics_White_Dwarfs_and_Neutron_Stars_-_M1S2_Project_Report
+8696	1.193e30	0.
+Wolf 485 A
+Shuntov (2018) (Sniped from a graph) 
+https://www.researchgate.net/publication/324845118_High-Energy_Astrophysics_White_Dwarfs_and_Neutron_Stars_-_M1S2_Project_Report
+10436	1.193e30	0.
+L711-10
+Shuntov (2018) (Sniped from a graph) 
+https://www.researchgate.net/publication/324845118_High-Energy_Astrophysics_White_Dwarfs_and_Neutron_Stars_-_M1S2_Project_Report
+9044	1.094e30	0.
+Stein 2051B
+Shuntov (2018) (Sniped from a graph) 
+https://www.researchgate.net/publication/324845118_High-Energy_Astrophysics_White_Dwarfs_and_Neutron_Stars_-_M1S2_Project_Report
+7653	9.447e29	0.
+40 Eri B
+Shuntov (2018) (Sniped from a graph) 
+https://www.researchgate.net/publication/324845118_High-Energy_Astrophysics_White_Dwarfs_and_Neutron_Stars_-_M1S2_Project_Report
+8696	8.453e29	0.
+Feige 22
+Shuntov (2018) (Sniped from a graph) 
+https://www.researchgate.net/publication/324845118_High-Energy_Astrophysics_White_Dwarfs_and_Neutron_Stars_-_M1S2_Project_Report
+9740	7.956e29	0.
+CSS 080502 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+12167	9.459e29	0.
+CSS 09704 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+17538	8.281e29	0.
+CSS 21357 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+8494	1.308e30	0.
+CSS 40190 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+10978	9.580e29	0.
+CSS 41177A 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+15472	7.518e29	0.
+CSS 41177B 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+14373	6.284e29	0.
+GK Vir 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+11826	1.117e30	0.
+NN Ser 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+14470	1.064e30	0.
+QS Vir 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+7430	1.554e30	0.
+RR Cae 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+10908	8.900e29	0.
+SDSS J0024+1745
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+9725	1.062e30	0.
+SDSS J0106−0014 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+12153	8.763e29	0.
+SDSS J0110+1326 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+12800	9.260e29	0.
+SDSS J0138−0016
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+9113	1.062e30	0.
+SDSS J0314+0206
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+11089	1.186e30	0.
+SDSS J0857+0342
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+17183	1.022e30	0.
+SDSS J1021+1744
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+9746	1.061e30	0.
+SDSS J1028+0931
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+12299	8.246e29	0.
+SDSS J1123−1155
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+8891	1.203e30	0.
+SDSS J1210+3347
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+11061	8.254e29	0.
+SDSS J1212−0123
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+11687	8.737e29	0.
+SDSS J1307+2156
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+8397	1.212e30	0.
+SDSS J1329+1230
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+12522	7.788e29	0.
+SDSS J2235+1428
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+13740	7.909e29	0.
+V471 Tau
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+7444	1.670e30	0.
+WD 1333+005 
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+Parsons et al. (2017) https://arxiv.org/pdf/1706.05016.pdf
+10922	8.663e29	0.

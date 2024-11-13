@@ -1,0 +1,68 @@
+Mimas
+Thomas et al. Icarus 208 (2010) 395-401
+Jacobson et al. AJ 132:2520-2526 (2006)
+198.2	3.7493e19	185539.
+Enceladus
+Thomas et al. Icarus 208 (2010) 395-401
+Jacobson et al. AJ 132:2520-2526 (2006)
+252.1	10.8022e19	238042.
+Tethys
+Thomas et al. Icarus 208 (2010) 395-401
+Jacobson et al. AJ 132:2520-2526 (2006)
+531.0	61.7449e19	294672.
+Dione
+Thomas et al. Icarus 208 (2010) 395-401
+Jacobson et al. AJ 132:2520-2526 (2006)
+561.4	109.5452e19	377415.
+Rhea
+Thomas et al. Icarus 208 (2010) 395-401
+Jacobson et al. AJ 132:2520-2526 (2006)
+763.5	230.6518e19	527068.
+Titan
+Zebker et al. Science 324 (2009) 921-923
+Jacobson et al. AJ 132:2520-2526 (2006)
+2574.7	13452.0e19	1221865.
+Hyperion
+Thomas et al. Icarus 208 (2010) 395-401
+Jacobson et al. AJ 132:2520-2526 (2006)
+135.4	0.5584e19	1500933.
+Iapetus
+Thomas et al. Icarus 208 (2010) 395-401
+Jacobson et al. AJ 132:2520-2526 (2006)
+734.5	180.5635e19	3560854.
+Phoebe
+Thomas et al. Icarus 208 (2010) 395-401
+Jacobson et al. AJ 132:2520-2526 (2006)
+106.5	0.8292e19	12947918.
+Pan
+Thomas and Helfenstein Icarus 334 (2020) 113355
+Weiss et al. AJ 138:272-286 (2009) 
+13.7	4.5e15		133584.
+Daphnis
+Thomas and Helfenstein Icarus 334 (2020) 113355
+Weiss et al. AJ 138:272-286 (2009) 
+3.9	6.8e13		136504.
+Atlas
+Thomas and Helfenstein Icarus 334 (2020) 113355
+Cooper et al. AJ 149:27 (2015)
+14.9	5.757e15	137774.
+Prometheus
+Thomas and Helfenstein Icarus 334 (2020) 113355
+Cooper et al. AJ 149:27 (2015)
+42.8	1.601e17	139429.
+Pandora
+Thomas and Helfenstein Icarus 334 (2020) 113355
+Cooper et al. AJ 149:27 (2015)
+40.0	1.369e17	141810.
+Epimetheus
+Thomas and Helfenstein Icarus 334 (2020) 113355
+Cooper et al. AJ 149:27 (2015)
+58.6	5.264e17	151450.
+Janus
+Thomas and Helfenstein Icarus 334 (2020) 113355
+Cooper et al. AJ 149:27 (2015)
+89.0	1.897e18	151450.
+Methone
+Thomas and Helfenstein Icarus 334 (2020) 113355
+Thomas et al. Icarus 226:999-1019 (2013)
+1.45	0.392e13	194402.

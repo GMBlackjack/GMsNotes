@@ -1,0 +1,84 @@
+Eris
+Sicardy et al. (2011) Nature 478:493
+Holler et al. Icarus 355:114130 (2021)
+1163.	1.597e22	95.7
+Pluto
+Nimmo et al. Icarus 287:12-29 (2017)
+Brozovic et al. Icarus 246:317-329 (2015)
+1188.3	1.304e22	39.482
+Charon
+Nimmo et al. Icarus 287:12-29 (2017)
+Brozovic et al. Icarus 246:317-329 (2015)
+606.0	1.587e21	39.482
+Haumea
+Ragozzine and Brown (2009) AJ 137:6
+Ortiz et al. Nature 550:219 (2017)
+797.5	4.01e21		43.1
+Makemake
+Ortiz et al. Nature (2012) 491:566
+Parker et al. 2018 DPS
+733.	3.1e21		45.43
+Gonggong
+Kiss et al. Icarus 334:3-10 (2019)
+Kiss et al. Icarus 334:3-10 (2019)
+615	1.75e21		67.485
+Quaoar
+Braga-Ribas et al. 773:26 (2013)
+Fraser et al. 222:357-363 (2013)
+555.	1.4e21		43.694
+Orcus
+Brown and Bultler AJ 154:19 (2017)
+Brown et al. AJ 139:6 (2010)
+442.5	5.89e20		39.174
+Salacia
+Brown and Bultler AJ 154:19 (2017)
+Stannsberry et al. Icarus 2012:676-688 (2012)
+433.	4.49e20		42.184
+Varda
+Souami et al. A&A 643:A125 (2020)
+Grundy et al. Icarus 257:130-138 (2015)
+370.	2.45e20		46.110
+2002UX25
+Brown and Bulter AJ 154:19 (2017)
+Brown AJ 778:L34 (2013)
+329.5	1.19e20		42.448
+G;kun\\,homdima
+Ortiz et al.arXiv:1905.04335
+Grundy et al. (2019) Icarus 334:30-38
+321.	1.35e20		72.801
+1998SM165
+Spencer et al. 2006 DPS
+Margot et al. 2004 DPS
+143.5	6.53e18		47.417
+Lempo
+Mommert et al. A&A 541, A93 (2012)
+Benecchi et al. Ucarus 207:978-991 (2010)
+136.	7.14e18		39.470
+Sila
+Grundy et al (2012) Icarus 220:74-83
+Grundy et al (2012) Icarus 220:74-83
+125.	5.89e18		44.1157
+2001QC298
+Vilenius et al. A&A 564, A35 (2014)
+Grundy et al. Icarus 213:678-692 (2011)
+117.5	7.69e18		43.61
+Teharonhiawako
+Vilenius et al. A&A 564, A35 (2014)
+Grundy et al. Icarus 213:678-692 (2011)
+89.	1.77e18		43.845
+2001XR254
+Vilenius et al. A&A 564, A35 (2014)
+Grundy et al. Icarus 213:678-692 (2011)
+85.5	2.62e18		42.776
+2001QY297
+Vilenius et al. A&A 564, A35 (2014)
+Grundy et al. Icarus 213:678-692 (2011)
+84.5	2.31e18		43.697
+Typhon
+Duffard et al. A&A 564,A92 (2014)
+Grundy et al. Icarus 197:260-268 (2008)
+69	9.08e17		38.263
+Arrokoth
+Keane et al. (2022) JGR Planets 127 (6) 
+Keane et al. (2022) JGR Planets 127 (6) 
+9.13	7.485e14	1.

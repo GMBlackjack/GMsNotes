@@ -1,0 +1,820 @@
+KELT-1 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+78641.2	5.1273e28	1.
+GJ 1001 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+41465.4	6.8364e28	1.
+LP 349-25 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+90794.8	1.2913e29	1.
+LP 349-25 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+86505.3	1.1204e29	1.
+ULAS J003402.77-005206.7
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+74351.7	3.2283e28	1.
+2MASS J00345157+0523050
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+59338.4	9.3051e28	1.
+2MASS J00501994-3322402
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+67917.4	6.4566e28	1.
+CFBDS J005910.90-011401.3
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	3.798e28	1.
+2MASS J01225093-2439505 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	3.6081e28	1.
+WD 0137-349 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+55048.8 1.0634e29	1.
+WISEP J014656.66+423410.0
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+69347.2 2.6586e28	1.
+DENIS-P J0147327?495448 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.5952e29	1.
+WISEPC J014807.25-720258.7
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+74351.7	2.4687e28	1.
+GJ 1048 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+84360.6	1.2344e29	1.
+2MASS J02431371-2453298
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+69347.2	6.4566e28	1.
+DENIS-P J025503.5-470050
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+64342.8	1.22785e29	1.
+WISEPA J031325.96+780744.2
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+62912.9	4.9114e28	1.
+WISEP J033515.01+431045.1
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+64342.8	4.1558e28	1.
+LP 944-20
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+60768.2	1.1334e29	1.
+WISEPA J041022.71+150248.5
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65772.6	3.4002e28	1.
+2MASS J04151954-0935066
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65057.7	6.6115e28	1.
+LP 415-20 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.5679e29	1.
+FU Tau B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+256656	3.0224e28	1.
+L Ori140
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+275244	1.11451e29	1.
+L Ori154
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+200892	6.2337e28	1.
+L Ori156
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+145843	6.0448e28	1.
+L Ori146
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+247362	8.3116e28	1.
+L Ori143
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+230204	1.34119e29	1.
+C69-Sub-003
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+553348	3.9669e28	1.
+L Ori150
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+174440	9.445e28	1.
+LOri-SOC 11
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+553348	4.1558e28	1.
+LOri-SOC 13
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+749236	7.7449e28	1.
+L Ori134
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+326003	1.1900e29	1.
+L Ori161
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+118676	4.7225e28	1.
+L Ori131
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+337442	1.39786e29	1.
+C69-Sub-001
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+203037	2.4557e28	1.
+L Ori155 
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+186594	7.3671e28	1.
+S Ori 70
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+114387	5.667e27	1.
+2MASS J05591914-1404488
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+125111	5.6670e28	1.
+HD 42581 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+85075	8.1227e28	1.
+2MASS J06523073+4710348 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+42180	1.4923e29	1.
+2MASS J07003664+3157266 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+60053	1.39786e29	1.
+WISEP J071322.55-291751.9
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65772	3.7780e28	1.
+UGPS J072227.51-054031.2
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+86505	1.3223e28	1.
+2MASS J07271824+1710012
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+68632.3	5.6670e28	1.
+2MASS J07464256+2000321 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+70777.0	1.39786e29	1.
+2MASS J07464256+2000321 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+69347.2	1.1900e29	1.
+DENIS-P J0828343-130919 
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+66487.5	1.4545e29	1.
+WISEPC J083641.12-185947.2
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+64342.8	4.9114e28	1.
+2MASS J08503593+1057156 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	7.9338e28	1.
+2MASS J08503593+1057156 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	5.8559e28	1.
+2MASS J09201223+3517429 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.34119e29	1.
+2MASS J09201223+3517429 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.34119e29	1.
+2MASS J09373487+2931409
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+56478.6	1.09562e29	1.
+G 196-3 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+90079.9	4.7225e28	1.
+OGLE-TR-109 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+64342.8	2.6446e28	1.
+CT Cha b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+157282	3.2113e28	1.
+Cha J110913-773444
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+128685	1.5112e28	1.
+SDSSp J111010.01+011613.1
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65772.6	7.7449e28	1.
+GJ 417 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.00117e+29	1.
+GJ 417 C
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	9.0672e28	1.
+CFBDS J111807-064016
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+57193.6	1.28452e29	1.
+LHS 2397aB
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.34119e29	1.
+CD-33 7795 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+144413	5.1003e+28	1.
+TWA 27A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+171580	4.7225e28	1.
+TWA 27B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+107238	9.4450e27	1.
+2MASSI J1217110-0311131 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+67917.4	5.8559e28	1.
+2MASSI J1217110-0311131 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+66487.5	3.9669e28	1.
+WISEPC J121756.91+162640.2 Ax
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+63627.8	5.6670e28	1.
+WISEPC J121756.91+162640.2
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+67202.4	4.1558e28	1.
+SDSS J123147.38+084730.7
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+59338.3	1.0767e29	1.
+Ross 458 C
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+88650.0	1.1334e28	1.
+Kelu-1 Aa
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+85790.4	1.1900e29	1.
+WISEPC J131106.24+012252.4
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+62912.9	5.1003e28	1.
+2MASS J13153094-2649513 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+60053.2	1.3223e29	1.
+2MASS J13153094-2649513 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65057.7	5.2892e28	1.
+ULAS J133553.45+113005.2
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+87935.1	2.4557e28	1.
+SDSSp J134646.45-003150.4
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+62198.0	8.6894e28	1.
+WISEPC J140518.40+553421.4
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+61483.1	5.6670e28	1.
+SDSS J141624.08+134826.7 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+44325.0	5.6670e28	1.
+HD 126053 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+6434.28	6.6115e+28	1.
+GD 165 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+61483.1	1.4167e29	1.
+2MASS J14263161+1557012 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+97944.0	1.6434e29	1.
+2MASS J14263161+1557012 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+80071.0	1.4923e29	1.
+HD 130948 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+77926.2	1.09562e29	1.
+HD 130948 C
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+72921.8	1.05784e29	1.
+GJ 569 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+70062.1	1.47342e29	1.
+GJ 569 C
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+67917.4	1.3034e29	1.
+GJ 570 D
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+61483.1	8.3116e28	1.
+CFBDSIR J145829+101343 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+67917.4	4.1558e28	1.
+CFBDSIR J145829+101343 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	2.0779e28	1.
+2MASS J15074769-1627386
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+61483.1	1.2845e29	1.
+2MASS J15344984-2952274 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+57193.6	5.2892e28	1.
+2MASS J15344984-2952274 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+57193.6	5.6670e28	1.
+WISEPA J154151.66-225025.2
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+72206.9	2.2668e28	1.
+WISEP J154214.00+223005.2 
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65057.7	3.5891e28	1.
+GQ Lup B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+128685	4.1558e28	1.
+SCH J16091837-20073523 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+214476	1.03895e29	1.
+DENIS-P J160930.3-210459 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+119391	1.5112e28	1.
+SDSSp J162414.37+002915.6
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+57193.6	1.1334e29	1.
+PSR J1719-1438 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+28596.8	1.889e27	1.
+2MASS J17281150+3948593 A
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.3600e29	1.
+2MASS J17281150+3948593 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.3034e29	1.
+WISEPA J173835.53+273258.9
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+66487.5	3.5891e28	1.
+2MASSW J1750129+442404 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+115817	3.9669e28	1.
+LHS 3343 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+72206.9	4.9114e28	1.
+DENIS-P J180026.4+013457
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+64342.8	1.00117e29	1.
+WISEPA J180435.40+311706.1 
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+63627.8	5.2892e28	1.
+WISEPA J182831.08+265037.8
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	2.2668e28	1.
+SCR 1845-6357 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+62912.9	8.5005e28	1.
+LHS 6343 b 
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+61483.1	1.3223e29	1.
+Eta Tel B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+159427	6.6115e28	1.
+HD 182488 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65772.6	3.7780e28	1.
+CoRoT-3 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+74351.6	4.1558e28	1.
+KOI-415 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+56478.6	1.1711e29	1.
+KOI-423 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+87220.2	3.4002e28	1.
+HD 190406 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.3034e29	1.
+Wolf 1130 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65057.7	6.9893e28	1.
+V2008-1753 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+60053.2	1.3600e29	1.
+PSR J2051-0827 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+42895.2	1.0956e29	1.
+WISEPC J205628.90+145953.3
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+66487.5	3.2113e28	1.
+PSO J318.5338-22.8603
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+109382	1.3223e28	1.
+2MASS J21402931+1625183 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65772.6	9.445e+28	1.
+HN Peg B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+78641.2	3.0224e28	1.
+Wolf 940 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+62912.9	6.6115e28	1.
+Epsilon Indi Ba
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+63627.8	8.8783e28	1.
+Epsilon Indi Bb
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+67202.4	5.2892e28	1.
+WISEP J220905.73+271143.9
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	2.2668e28	1.
+WISEP J222055.31-362817.4
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+67917.4	2.6446e28	1.
+2MASS J22282889-4310262
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+73636.7	5.1003e28	1.
+HD 218396 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+78641.2	1.3223e28	1.
+HD 218396 c
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+85790.4	1.8890e28	1.
+HD 218396 d
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+85790.4	1.8890e28	1.
+HD 218396 e 
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+85790.4	1.70010e28	1.
+WASP-30 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+67917.4	1.1900e29	1.
+2MASS J00182834-6703130
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+112957	2.6446e28	1.
+2MASS J00191296-6226005
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+113672	2.6446e28	1.
+2MASS J00344300-4102266
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+105808	2.4557e28	1.
+2MASS J00381489-6403529 
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+121536	2.8335e28	1.
+GU Psc b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+85075.4	2.2668e28	1.
+2MASS J01205114-5200349
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+110097	2.4557e28	1.
+2MASS J01265327-5505506
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+171580	1.41675e29	1.
+WISE J014656.66+423410.0 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+65772.6	3.0224e28	1.
+2MASS J02103857-3015313
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+115817	2.6446e28	1.
+2MASS J02192210-3925225 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+102948	2.6446e28	1.
+2MASS J02265658-5327032
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+113672	2.6446e+28	1.
+2MASS J02404759-4253377
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+158712	1.1900e29
+2MASS J02410564-5511466
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+112242	2.6446e28	1.
+LP 771-21
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+77211.3	1.4734e29	1.
+2MASS J02501167-0151295
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+136549	4.3447e28	1.
+2MASS J02535980+3206373
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+135834	1.22785e29	1.
+2MASS J02583123-1520536
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+107238	2.4557e28	1.
+2MASS J03205965+1854233
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+82215.7	1.66232e29	1.
+2MASS J03420931-2904317
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+105808	2.4557e28	1.
+2MASS J04185879-4507413
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+106523	2.4557e28	1.
+2MASS J04362788-4114465
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+140839	7.3671e28	1.   
+51 Eridani b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.1334e28	1.
+2MASS J04493288+1607226
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+132260	3.4002e28	1.
+2MASS J05264316-1824315
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+180159	1.5678e29	1.
+2MASS J05402325-0906326
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+124396	3.5891e28	1.
+2MASS J06272161-5308428
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+96514.2	1.7001e28	1.               
+2MASS J07075327-4900503
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+73636.7	1.36001e29	1.
+2MASS J07202582-5617224
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+127970	3.0224e28	1.
+2MASS J07522390+1612157
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+143698	1.28452e29	1.
+LHS 2021
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+82215.7	1.66232e29	1.
+2MASS J08561384-1342242
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+132975	2.6446e28	1.
+2MASS J09451445-7753150
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+131545	7.1782e28	1.
+2MASS J10212570-2830427
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+107952	1.3223e28	1.
+2MASS J10455263-2819303
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+188023	5.2892e28	1.
+2MASS J11064461-3715115
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+140124	3.0224e28	1.
+2MASS J11271382-3735076
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+111527	1.7001e28	1.
+2MASS J11480096-2836488
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+110812	1.7001e28	1.
+2MASS J12074836-3900043
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+120821	2.2668e28	1.
+TWA 29
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+88650.0	3.4002e28	1.
+2MASS J12474428-3816464
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+153707	3.2113e28	1.
+2MASS J12563961-2718455
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+109382	1.5112e28  	1.
+2MASS J12574941-4111373
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+222340	9.8228e28	1.
+TVLM 868-110639
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+77211	1.4923e29	1.                      
+2MASS J15104786-2818174
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+118676	6.9893e28	1.
+1RXS J160929.1-210524 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+121536	2.6446e28	1.
+2MASS J16262034+3925190
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+66487.5	1.34119e29	1.
+KOI-189 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+71492.0	1.47342e29	1.
+Kepler-53 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+18587.9	3.4002e28	1.
+Kepler-53 C
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+20017.7	3.0224e28	1.
+Kepler-27 c
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+31456.4	2.6446e28	1.
+Kepler-57 b
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+14298.4	3.5891e28	1.
+2MASS J19350976-6200473
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+110097	2.6446e28	1.
+2MASS J20004841-7523070
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+134404	4.7225e28	1.
+2MASS J20113196-5048112
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+106523	2.4557e28	1.
+2MASS J20135152-2806020
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+78641	3.0224e28	1.
+2MASS J20282203-5637024
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+130830	6.8004e28	1.                
+2MASS J20334473-5635338
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+111527	2.6446e28	1.
+2MASS J20391314-1126531
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+109382	1.39786e29	1.
+SIMP J21543454-1055308
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+94369.4	1.8890e28	1.
+2MASS J21544859-7459134
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+128685	3.7780e28	1.
+2MASS J22025794-5605087
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+127970	3.7780e28	1.
+2MASS J22062280-2047058 B
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+92939.6	5.6670e28	1.
+2MASS J22191486-6828018
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+125825	6.0448e28	1.
+2MASS J22351658-3844154
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+115817	2.6446e28	1.
+2MASS J22353560-5906306
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+125825	3.4002e28	1.
+2MASS J22373255+3922398
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+74351.6	1.3789e29	1.
+2MASS J23231347-0244360
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+132260	3.2113e28	1.
+2MASS J23255604-0259508
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+87220.2	5.8559e28	1.
+2MASS J23355015-3401477
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+169436	1.11451e29	1.
+2MASS J23515044-2537367
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+https://www.johnstonsarchive.net/astro/browndwarflist.html
+82930.7	1.66232e29	1.
