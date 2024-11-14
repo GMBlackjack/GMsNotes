@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.14)  5 NOV 2024 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.14)  13 NOV 2024 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,20 +880,29 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 31
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-<MassDensityPlot.pdf, id=36, 722.7pt x 722.7pt>
+<MassDensityPlot.pdf, id=36, 1445.4pt x 1445.4pt>
 File: MassDensityPlot.pdf Graphic file (type pdf)
 <use MassDensityPlot.pdf>
 Package pdftex.def Info: MassDensityPlot.pdf  used on input line 51.
-(pdftex.def)             Requested size: 505.88655pt x 505.88655pt.
+(pdftex.def)             Requested size: 505.89758pt x 505.89758pt.
  [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/20
 24/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2 <./MassDensityPlot.pdf>]
-<ZoomViews.pdf, id=126, 1084.05pt x 1084.05pt>
+<ZoomViews.pdf, id=123, 1084.05pt x 1084.05pt>
 File: ZoomViews.pdf Graphic file (type pdf)
 <use ZoomViews.pdf>
 Package pdftex.def Info: ZoomViews.pdf  used on input line 65.
 (pdftex.def)             Requested size: 379.42319pt x 379.42319pt.
- (./ObjectDistribution.bbl)
-[3] [4 <./ZoomViews.pdf>] (./ObjectDistribution.aux)
+<AltVariableViews.pdf, id=128, 433.62pt x 650.43pt>
+File: AltVariableViews.pdf Graphic file (type pdf)
+<use AltVariableViews.pdf>
+Package pdftex.def Info: AltVariableViews.pdf  used on input line 75.
+(pdftex.def)             Requested size: 433.61894pt x 650.4284pt.
+
+
+LaTeX Warning: Float too large for page by 26.05794pt on input line 79.
+
+(./ObjectDistribution.bbl) [3] [4 <./ZoomViews.pdf>] [5 <./AltVariableViews.pdf
+>] (./ObjectDistribution.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
@@ -906,22 +915,22 @@ Package rerunfilecheck Info: File `ObjectDistribution.out' has not changed.
 (rerunfilecheck)             Checksum: 7DE4E8501A34E9BBF6D4D01F53FC5335;534.
  ) 
 Here is how much of TeX's memory you used:
- 14859 strings out of 474050
- 218963 string characters out of 5746298
+ 14890 strings out of 474050
+ 219527 string characters out of 5746298
  1965754 words of memory out of 5000000
- 37027 multiletter control sequences out of 15000+600000
+ 37051 multiletter control sequences out of 15000+600000
  634084 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,8n,93p,1096b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,8n,93p,1084b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texl
 ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/t
 exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ObjectDistribution.pdf (4 pages, 1544897 bytes).
+Output written on ObjectDistribution.pdf (5 pages, 3117331 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,15 +5,43 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
+\bibitem[{Brown \& Butler(2017)}]{Brown2017}
+Brown, M.~E., \& Butler, B.~J. 2017, The Astrophysical Journal, 154, 19,
+  \dodoi{10.3847/1538-3881/aa6346}
+
 \bibitem[{Carry(2012)}]{Carry2012}
-Carry, B. 2012, 73, 98, \dodoi{10.1016/j.pss.2012.03.009}
+Carry, B. 2012, Planetary and Space Science, 73, 98,
+  \dodoi{10.1016/j.pss.2012.03.009}
 
 \bibitem[{Chen \& Kipping(2016)}]{Chen2016}
-Chen, J., \& Kipping, D. 2016, 834, \dodoi{10.3847/1538-4357/834/1/17}
+Chen, J., \& Kipping, D. 2016, The Astrophysical Journal, 834, 17,
+  \dodoi{10.3847/1538-4357/834/1/17}
+
+\bibitem[{Morin {et~al.}(2010)Morin, Donati, Petit, Delfosse, Forveille, \&
+  Jardine}]{Morin2010}
+Morin, J., Donati, J.-F., Petit, P., {et~al.} 2010, Monthly Notices of the
+  Royal Astronomical Society,, 407, 2269,
+  \dodoi{10.1111/j.1365-2966.2010.17101.x}
 
 \bibitem[{Müller {et~al.}(2024)Müller, Baron, Helled, Bouchy, \&
   Parc}]{Muller2024}
-Müller, S., Baron, J., Helled, R., Bouchy, F., \& Parc, L. 2024, 868,
-  \dodoi{10.1051/0004-6361/202348690}
+Müller, S., Baron, J., Helled, R., Bouchy, F., \& Parc, L. 2024, Astronomy and
+  Astrophysics, 868, A296, \dodoi{10.1051/0004-6361/202348690}
+
+\bibitem[{Romani {et~al.}(2022)Romani, Kandel, Filippenko, Brink, \&
+  Zheng}]{Romani2022}
+Romani, R.~W., Kandel, D., Filippenko, A.~V., Brink, T.~G., \& Zheng, W. 2022,
+  The Astrophysical Journal Letters, 934, L17, \dodoi{10.3847/2041-8213/ac8007}
+
+\bibitem[{Suwa {et~al.}(2018)Suwa, Yoshida, Shibata, Umeda, \&
+  Takahashi}]{Suwa2018}
+Suwa, Y., Yoshida, T., Shibata, M., Umeda, H., \& Takahashi, K. 2018, Monthly
+  Notices of the Royal Astronomical Society, 481, 3305,
+  \dodoi{10.1093/mnras/sty2460}
+
+\bibitem[{Özel {et~al.}(2016)Özel, Psaltis, Güver, Baym, Heinke, \&
+  Guillot}]{Ozel2016}
+Özel, F., Psaltis, D., Güver, T., {et~al.} 2016, The Astrophysical Journal,
+  820, 28, \dodoi{10.3847/0004-637X/820/1/28}
 
 \end{thebibliography}
