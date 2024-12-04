@@ -3,4 +3,6 @@ An attempt to publicly consolidate all notes I use in my research, for my own re
 
 The Welcome! notebook contains a more invovled introduction to what can be found here. 
 
+Moved to new computer test line.
+
 -GM, master of beeps.
