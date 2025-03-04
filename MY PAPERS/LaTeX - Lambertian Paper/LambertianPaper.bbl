@@ -1,0 +1,96 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{Barnes {et~al.}(2007)Barnes, Brown, Soderblom, \& ...}]{Barnes2007}
+Barnes, J.~W., Brown, R.~H., Soderblom, L., \& ... 2007, 186, 242,
+  \dodoi{10.1016/j.icarus.2006.08.021}
+
+\bibitem[{Barnes {et~al.}(2013)Barnes, Clark, Sotin, \& ...}]{Barnes2013}
+Barnes, J.~W., Clark, R.~N., Sotin, C., \& ... 2013, 777, 161,
+  \dodoi{10.1088/0004-637X/777/2/161}
+
+\bibitem[{Barnes {et~al.}(2018)Barnes, MacKenzie, Young, \& ...}]{Barnes2018}
+Barnes, J.~W., MacKenzie, S.~M., Young, E.~F., \& ... 2018, 155, 264,
+  \dodoi{10.3847/1538-3881/aac2db}
+
+\bibitem[{Corlies {et~al.}(2021)Corlies, McDonald, Hayes, \& ...}]{Corlies2021}
+Corlies, P., McDonald, G.~D., Hayes, A.~G., \& ... 2021, 357, 114228,
+  \dodoi{10.1016/j.icarus.2020.114228}
+
+\bibitem[{Es-sayeh {et~al.}(2023)Es-sayeh, Rodriguez, Coutelier, \&
+  ...}]{EsSayeh2023}
+Es-sayeh, M., Rodriguez, S., Coutelier, M., \& ... 2023, 4,
+  \dodoi{10.3847/PSJ/acbd37}
+
+\bibitem[{Griffith {et~al.}(2012)Griffith, Doose, Tomasko, \&
+  ...}]{Griffith2012}
+Griffith, C.~A., Doose, L., Tomasko, M.~G., \& ... 2012, 218, 975,
+  \dodoi{10.1016/j.icarus.2011.11.034}
+
+\bibitem[{Hayes(2016)}]{Hayes2016}
+Hayes, A.~G. 2016, 44, 57, \dodoi{10.1146/annurev-earth-060115-012247}
+
+\bibitem[{Hirtzig {et~al.}(2013)Hirtzig, Bezard, Lellouch, \&
+  ...}]{Hirtzig2013}
+Hirtzig, M., Bezard, B., Lellouch, E., \& ... 2013, 226, 470,
+  \dodoi{10.1016/j.icarus.2013.05.033}
+
+\bibitem[{Jennings {et~al.}(2019)Jennings, Tokano, Cottini, \&
+  ...}]{Jennings2019}
+Jennings, D.~E., Tokano, T., Cottini, V., \& ... 2019, 887, L8,
+  \dodoi{10.3847/2041-8213/ab1f91}
+
+\bibitem[{Kanjanasakul {et~al.}(2020)Kanjanasakul, Grisch, Saengkaew, \&
+  ...}]{Kanjanasakul2020}
+Kanjanasakul, C., Grisch, F., Saengkaew, S., \& ... 2020, 75,
+  \dodoi{10.2516/ogst/2020039}
+
+\bibitem[{Li {et~al.}(2023)Li, Guan, Li, Luu, Heng, Fry, Creecy, Wang,
+  Albright, {Karandana G.}, Jiang, West, Nixon, Kenyon, Hendrix, \&
+  Dyudina}]{Li2023}
+Li, L., Guan, L., Li, S., {et~al.} 2023, 394, 115429,
+  \dodoi{10.1016/j.icarus.2023.115429}
+
+\bibitem[{Martonchik \& Orton(1994)}]{Martonchik1994}
+Martonchik, J.~V., \& Orton, G.~S. 1994, 33, \dodoi{10.1364/AO.33.008306}
+
+\bibitem[{Mastrogiuseppe {et~al.}(2016)Mastrogiuseppe, Hayes, Poggiali, Seu,
+  Lunine, \& Hofgartner}]{Mastrogiuseppe2016}
+Mastrogiuseppe, M., Hayes, A., Poggiali, V., {et~al.} 2016, 54, 5646,
+  \dodoi{10.1109/TGRS.2016.2563426}
+
+\bibitem[{Rannou {et~al.}(2021)Rannou, Coutelier, Riviere, \& ...}]{Rannou2021}
+Rannou, P., Coutelier, M., Riviere, E., \& ... 2021, 922,
+  \dodoi{10.3847/1538-4357/ac2904}
+
+\bibitem[{Rodriguez {et~al.}(2018)Rodriguez, Mouelic, Barnes, \&
+  ...}]{Rodriguez2018}
+Rodriguez, S., Mouelic, S.~L., Barnes, J.~W., \& ... 2018, 11, 727,
+  \dodoi{10.1038/s41561-018-0233-2}
+
+\bibitem[{Stephan {et~al.}(2010)Stephan, Jaumann, Brown, \& ...}]{Stephan2010}
+Stephan, K., Jaumann, R., Brown, R.~H., \& ... 2010, 37,
+  \dodoi{10.1029/2009GL042312}
+
+\bibitem[{Tomasko {et~al.}(2008)Tomasko, Doose, Engel, \& ...}]{Tomasko2008}
+Tomasko, M.~G., Doose, L., Engel, S., \& ... 2008, 56, 669,
+  \dodoi{10.1016/j.pss.2007.11.019}
+
+\bibitem[{Trainer {et~al.}(2018)Trainer, Brinckerhoff, Freissinet, \&
+  ...}]{Trainer2018}
+Trainer, M.~G., Brinckerhoff, W.~B., Freissinet, C., \& ... 2018, in 49th Lunar
+  and Planetary Science Conference
+
+\bibitem[{Vixie {et~al.}(2015)Vixie, Barnes, Jackson, \& ...}]{Vixie2015}
+Vixie, G., Barnes, J.~W., Jackson, B., \& ... 2015, 257, 313,
+  \dodoi{10.1016/j.icarus.2015.05.009}
+
+\bibitem[{Xu {et~al.}(2013)Xu, West, Davis, \& IJustWantBibToBehave}]{Xu2013}
+Xu, F., West, R.~A., Davis, A.~B., \& IJustWantBibToBehave, O. 2013, 117, 59,
+  \dodoi{10.1016/j.jqsrt.2012.10.013}
+
+\end{thebibliography}
