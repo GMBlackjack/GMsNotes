@@ -4,64 +4,44 @@ The top-level auxiliary file: LambertianPaper.aux
 The style file: aasjournal.bst
 Database file #1: Bibliography.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty journal in Barnes2007
-Warning--empty journal in Barnes2013
-Warning--empty journal in Barnes2018
-Warning--empty journal in Corlies2021
-Warning--empty journal in EsSayeh2023
-Warning--empty journal in Griffith2012
-Warning--empty journal in Hayes2016
-Warning--empty journal in Hirtzig2013
-Warning--empty journal in Jennings2019
-Warning--empty journal in Kanjanasakul2020
-Warning--empty journal in Li2023
-Warning--empty journal in Martonchik1994
-Warning--empty journal in Mastrogiuseppe2016
-Warning--empty journal in Rannou2021
-Warning--empty journal in Rodriguez2018
-Warning--empty journal in Stephan2010
-Warning--empty journal in Tomasko2008
-Warning--empty journal in Vixie2015
-Warning--empty journal in Xu2013
-You've used 20 entries,
+You've used 24 entries,
             3168 wiz_defined-function locations,
-            800 strings with 8813 characters,
-and the built_in function-call counts, 9425 in all, are:
-= -- 777
-> -- 755
+            845 strings with 13009 characters,
+and the built_in function-call counts, 13014 in all, are:
+= -- 945
+> -- 1234
 < -- 2
-+ -- 257
-- -- 292
-* -- 901
-:= -- 1721
-add.period$ -- 20
-call.type$ -- 20
-change.case$ -- 134
-chr.to.int$ -- 20
-cite$ -- 39
-duplicate$ -- 335
-empty$ -- 519
-format.name$ -- 298
-if$ -- 1836
++ -- 408
+- -- 450
+* -- 1323
+:= -- 2481
+add.period$ -- 24
+call.type$ -- 24
+change.case$ -- 132
+chr.to.int$ -- 24
+cite$ -- 24
+duplicate$ -- 405
+empty$ -- 666
+format.name$ -- 470
+if$ -- 2544
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 68
-num.names$ -- 80
-pop$ -- 165
+missing$ -- 24
+newline$ -- 80
+num.names$ -- 96
+pop$ -- 142
 preamble$ -- 1
-purify$ -- 134
+purify$ -- 132
 quote$ -- 0
-skip$ -- 261
+skip$ -- 347
 stack$ -- 0
-substring$ -- 292
+substring$ -- 467
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 180
-warning$ -- 19
-while$ -- 73
+type$ -- 216
+warning$ -- 0
+while$ -- 81
 width$ -- 0
-write$ -- 206
-(There were 19 warnings)
+write$ -- 271

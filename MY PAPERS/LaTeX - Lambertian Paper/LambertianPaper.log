@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  3 MAR 2025 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  7 MAR 2025 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,6 +769,9 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Label `fig:5' multiply defined.
 
 
+LaTeX Warning: Label `fig:9' multiply defined.
+
+
 LaTeX Warning: Label `sec:conclusion' multiply defined.
 
 )
@@ -881,52 +884,67 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 43
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2
-024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
-<SRTCLayout.pdf, id=76, 462.52798pt x 252.22733pt>
+024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+Underfull \hbox (badness 2418) in paragraph at lines 57--58
+[][]\T1/ptm/b/n/10 METHODS: Ja-son's Sec-tion. Brief sum-mary of
+ []
+
+<SRTCLayout.pdf, id=100, 462.52798pt x 252.22733pt>
 File: SRTCLayout.pdf Graphic file (type pdf)
 <use SRTCLayout.pdf>
-Package pdftex.def Info: SRTCLayout.pdf  used on input line 108.
+Package pdftex.def Info: SRTCLayout.pdf  used on input line 70.
 (pdftex.def)             Requested size: 231.26341pt x 126.11334pt.
- [3 <./SRTCLayout.pdf>]
-
-LaTeX Warning: Reference `fig:4' on page 4 undefined on input line 132.
-
-[4]
-File: SRTCLayout.pdf Graphic file (type pdf)
-<use SRTCLayout.pdf>
-Package pdftex.def Info: SRTCLayout.pdf  used on input line 141.
-(pdftex.def)             Requested size: 231.26341pt x 126.11334pt.
-
-
-LaTeX Warning: Reference `fig:6' on page 5 undefined on input line 151.
-
-
-LaTeX Warning: Reference `fig:4' on page 5 undefined on input line 153.
-
-
-LaTeX Warning: Reference `fig:7' on page 5 undefined on input line 157.
-
-
-LaTeX Warning: Reference `fig:8' on page 5 undefined on input line 157.
-
-[5]
-<LambertianSim.pdf, id=223, 575.49042pt x 297.511pt>
+<LambertianSim.pdf, id=101, 575.49042pt x 297.511pt>
 File: LambertianSim.pdf Graphic file (type pdf)
 <use LambertianSim.pdf>
-Package pdftex.def Info: LambertianSim.pdf  used on input line 164.
+Package pdftex.def Info: LambertianSim.pdf  used on input line 79.
 (pdftex.def)             Requested size: 230.19208pt x 119.00227pt.
+[2 <./SRTCLayout.pdf> <./LambertianSim.pdf>] [3] [4]
+
+LaTeX Warning: Reference `fig:4' on page 5 undefined on input line 161.
+
+[5]
+File: SRTCLayout.pdf Graphic file (type pdf)
+<use SRTCLayout.pdf>
+Package pdftex.def Info: SRTCLayout.pdf  used on input line 170.
+(pdftex.def)             Requested size: 231.26341pt x 126.11334pt.
 
 
-LaTeX Warning: Reference `fig:10' on page 6 undefined on input line 182.
+LaTeX Warning: Reference `fig:6' on page 6 undefined on input line 180.
 
 
-LaTeX Warning: Reference `fig:10' on page 6 undefined on input line 184.
+LaTeX Warning: Reference `fig:4' on page 6 undefined on input line 182.
 
 
-LaTeX Warning: Reference `fig:7' on page 6 undefined on input line 184.
+LaTeX Warning: Reference `fig:7' on page 6 undefined on input line 186.
 
-[6 <./LambertianSim.pdf>] [7] (./LambertianPaper.bbl) [8]
-(./LambertianPaper.aux)
+
+LaTeX Warning: Reference `fig:8' on page 6 undefined on input line 186.
+
+File: LambertianSim.pdf Graphic file (type pdf)
+<use LambertianSim.pdf>
+Package pdftex.def Info: LambertianSim.pdf  used on input line 193.
+(pdftex.def)             Requested size: 230.19208pt x 119.00227pt.
+[6]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 200.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 200.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+
+LaTeX Warning: Reference `fig:10' on page 7 undefined on input line 211.
+
+
+LaTeX Warning: Reference `fig:10' on page 7 undefined on input line 213.
+
+
+LaTeX Warning: Reference `fig:7' on page 7 undefined on input line 213.
+
+[7] (./LambertianPaper.bbl [8]) [9] (./LambertianPaper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -942,13 +960,13 @@ Package rerunfilecheck Info: File `LambertianPaper.out' has not changed.
 (rerunfilecheck)             Checksum: CA101095C9E55970BD4921CFFAB36FD5;1339.
  ) 
 Here is how much of TeX's memory you used:
- 15108 strings out of 473207
- 222944 string characters out of 5720461
- 699816 words of memory out of 5000000
- 38066 multiletter control sequences out of 15000+600000
+ 15126 strings out of 473207
+ 223294 string characters out of 5720461
+ 704503 words of memory out of 5000000
+ 38078 multiletter control sequences out of 15000+600000
  635930 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,8n,93p,1466b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,8n,93p,1466b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist
@@ -956,10 +974,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist
 e1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texli
 ve/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LambertianPaper.pdf (8 pages, 330636 bytes).
+Output written on LambertianPaper.pdf (9 pages, 337172 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 288 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
  107 words of extra memory for PDF output out of 10000 (max. 10000000)
 

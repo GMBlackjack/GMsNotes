@@ -42,9 +42,9 @@
 
 \section{Introduction} \label{sec:intro}
 
-Titan has one of the least understood surfaces in the entire Solar System, due largely to its thick haze-filled atmosphere that is opaque to most light. While there do exist a handful of atmospheric ``windows'' through which specific wavelengths of light can pass through relatively unimpeded \citep{Barnes2007}, this only allows for tiny slivers of information to be gleaned from the surface. Even within the windows, the thick atmosphere contaminates the relatively small amount of surface information we do receive (). 
+Titan has one of the least understood surfaces in the entire Solar System, due largely to its thick haze-filled atmosphere that is opaque to most light. While there do exist a handful of atmospheric ``windows'' through which specific wavelengths of light can pass through relatively unimpeded \citep{Barnes2007}, this only allows for tiny slivers of information to be gleaned from the surface. Even within the windows, the thick atmosphere contaminates the relatively small amount of surface information we do receive; transmission is never zero \citep{EsSayeh2023}. 
 
-To combat this, we turn to radiative transfer models of Titan's atmosphere that predict the influence the atmosphere has on the received signal, allowing for true surface effects to be identified. These radiative transfer models depend on accurate knowledge of Titan's atmosphere, which is most well characterized at the moon's equatorial regions since that is where the Huygens lander measured the atmosphere (). Many surface characterizaiton studies of this sort have been performed in the past () however the majority of them make a notable assumption: that the surface behaves as lambertian; that is, a perfect scatterer with no directly reflected components. This assumption is somewhat reasonable for the equatorial regions, as the highly reflective lakes and seas of Titan are restricted to the poles (). However, observations of other bodies in the Solar System make it clear that surfaces are rarely perfectly lambertian () and the deviations from lambertian behavior can be used to determine properties of the surface (). In this paper we seek to do exactly that: compare a lambertian simulation of Titan with real observaitons of the Equatorial regions; identifying notable differences between the major terrain types and how their deviations from lambertian behavior.
+To combat this, we turn to radiative transfer models of Titan's atmosphere that predict the influence the atmosphere has on the received signal, allowing for true surface effects to be identified. These radiative transfer models depend on accurate knowledge of Titan's atmosphere, which is most well characterized at the moon's equatorial regions since that is where the Huygens lander measured the atmosphere \citep{Tomasko2008}. Many surface characterizaiton studies attempting to filter out the influence of the atmosphere have been performed in the past \citep{Soderblom2009, Kazeminejad2011, Brossier2018, EsSayeh2023, Solomonidou2024}. However, the majority of them make a notable assumption: that the surface behaves as lambertian; a perfect scatterer with no directly reflected components. \cite{Buratti2006} is a notable exception. The lambertian assumption is somewhat reasonable for the equatorial regions, as the highly reflective lakes and seas of Titan are restricted to the poles \citep{Hayes2016}. However, observations of other bodies in the Solar System make it clear that surfaces are rarely perfectly lambertian (). In this paper we seek to demonstrate the degree to which Titan's equatorial surface terrains exhibit non-lambertian behavior. We compare a lambertian simulation of Titan with real observations; identifying notable differences between the major terrain types in the meantime.
 
 Save for a handful of observaitons taken by Earth space telescopes (), all observations of Titan's surface have been done by spacecraft visiting Saturn, with the majority of high-quality data coming from the Cassini mission. As such, many images of Titan's surface are taken at unusual viewing geometries. This is quite useful, as various terrain types behave more or less lambertian depending on the viewing angle (), giving a significant boon to characterizating deviation. Unfortunatley, the more extreme a viewing angle is, the more the atmosphere interferes with observations (). Furthermore, most current radiative transfer models applicable to Titan assume a plane parallel atmosphere in their calculations (), meaning they lose accuracy the further the viewing geometry is from ideal (with the ``camera'' directly over the observed location). This is unfortunate as the non-ideal situations often contain the very information we need to characterize the surface. To gain the useful information contained within observations at non-ideal viewing gometries, the spherical nature of Titan's atmosphere must be considered. Thus, to create our lambertian models, we use SRTC++ (Spherical Radiative Transfer in C++), a radiative transfer code tailored to model Titan in full spherical geometry at the infrared wavelengths available to Cassini's VIMS (Visual and Infrared Mapping Spectrometer) instrument \citep{Barnes2018}.  
 
@@ -54,15 +54,45 @@ Equipped with a spherical radiative transfer model and atmospheric characterizat
 
 \section{Model Methods} \label{sec:model}
 
-\textbf{\color{blue}METHODS: Brief summary of SRTC++, citing the previous paper for more details. Describe new SRTC++ modules used, notably Abosrption and the switch to Doose atmosphere. There should be a comparison figure to note the differences between the two. Perhaps mention the new integraiton method?\color{black}}
+\textbf{\color{blue}METHODS: Jason's Section. Brief summary of SRTC++, citing the previous paper for more details. Describe new SRTC++ modules used, notably Abosrption and the switch to Doose atmosphere. There should be a comparison figure to note the differences between the two. Perhaps mention the new integraiton method?\color{black}}
 
 \textbf{\color{blue}Figs: comparison between SRTC++ versions.\color{black}}
 
+\textbf{\color{blue}Will be done by Jason \color{black}}
+
 \section{Model Results} \label{sec:mresults}
 
-\textbf{\color{blue}RESULTS: Demonstrate how the model is used, primarily with synthetic lambertian titan images in titancolor2. (Online version could have the animating 360 degree view). Briefly discuss difference between model and reality (model is obviously giong to be blue while Titan is green, will need to be explained). If we end up using different albedos here, address the differences between them. \color{black}}
+\textbf{\color{blue}Can't fully write out this section as it depends heavily on the previous section, and I currently can't access k2so to make the figures it'll be talking about. So, instead, have a more detailed outline: \color{black}}
 
-\textbf{\color{blue}Figs: titancolor2 views of Titan, maybe 360 animation, maybe simulation geometry figure.\color{black}}
+\textbf{\color{blue}1) Description of setup; what parameters did we put into SRTC++ to get the simulation results we use and why. I have a figure showcasing the arrangement. This paragraph MAY go in the above section (Model Methods), depending on the flow of this paper. \color{black}}
+
+\begin{figure}[htbp]
+\includegraphics[scale = 0.5]{SRTCLayout.pdf}
+\centering
+\caption{\textbf{\color{blue}OLD FIGURE, MAY NEED UPDATES. Layout of our SRTC++ simulations. Distances not to scale. Detectors all equidistant from Titan and angular separation is the same for each one. The yellow arrow represents "photon packets" being shot at Titan. Note that it does not interact with the detector it passes through.\color{black}}}
+\label{fig:5}
+\end{figure}
+
+\textbf{\color{blue}2) The primary figure should be a titancolor2 view of Titan at multiple angles. I already have code for making this exact figure, just need the 1.3 2 and 5 um results to actually make it. Discuss the lambertian features showing up as they are expected to, and explain the coloration; particuarly ``why is it blue and not green?''\color{black}}
+
+\begin{figure}[htbp]
+\includegraphics[scale = 0.4]{LambertianSim.pdf}
+\centering
+\caption{\textbf{\color{blue}OLD FIGURE, WRONG COLOR LEVELS, JUST HERE FOR ILLUSTRATION PURPOSES. Simulation results for a lambertian Titan, colored with 5, 2 and 1.3 $\mu$m mapped to red, green, and blue respectively. Left image is viewed at 0$^{\circ}$  from the incidence angle. Right four images are at  35$^{\circ}$ ,  90$^{\circ}$ ,  120$^{\circ}$ , and  180$^{\circ}$  in left to right then top to bottom order.\color{black}} \textbf{\color{red}[An animating version of the figure will exist in places that support it. The large left panel will hold the animating image, the right panels will remain static for comparisons] \color{black}}}
+\label{fig:9}
+\end{figure}
+
+\textbf{\color{blue}3) If we include the other VIMS windows, discuss them here, and show how they follow various patterns with windows getting darker at longer wavelength (with the exception of 5um). \color{black}}
+
+ \textbf{\color{blue}4) If we use different albedos, discuss them here. Draw attention to their predictable behavior relative to each other; higher albedos are brighter overall except at certain extreme angles. (Assuming that behavior holds, which it currently looks like it does). \color{black}}
+
+\textbf{\color{blue}5) MAYBE: discuss the viewing angle models. This may not be necessary as the exact setup for these models is described in the Observations and Data section. However, we may wish to use a graph from those models in this section to compare between different albedo models, should we have them, which would belong here and necessitate discussion of the models. If so, this would be a good palce for a figure that shows, visually, the viewing angles.\color{black}}
+
+\textbf{\color{blue}Potential Fig: Viewing Angles, what they physically mean\color{black}}
+
+\textbf{\color{blue}Potential Fig: Comparison of Albedo Models\color{black}}
+
+\textbf{\color{blue}6) Additional things to possibly address: limb effects, terminator effects, the S/N of the results, more details about why 5um is so weird, the eclipse views in the simulations (beyond the scope of this paper to theorize on, but probably important to note that they exist), \color{black}}
 
 \section{Observations and Data} \label{sec:observe}
 
@@ -94,22 +124,21 @@ In addition to the equatorial terrain models, we also made a model for perhaps t
 
 \section{Model vs Data Comparison} \label{sec:compare}
 
-\textbf{\color{blue}COMPARISON: The primary ``result'' of everything, showing the differences between the simulated models and the real data models. Explicitly point out similarities that ``validate'' the model qualitatively. Point out notable differences and offer physical explanations. Why do the dunes have a tiny forward scattering component? Why are the plains distinctly different? Xanadu is definitely not lambertian!  Lean on this, the non-lambertian nature is part of how we're justifying the paper. If worthwhile, possibly consider the albedo of the dunes and plains, though if the model can't do this, leave it behind.\color{black}}
+\textbf{\color{blue}Requres actual results to do this section. We need to decide what we want to show, and how, and I need to figure out what the best parameters are for sifting through the database. But we can construct a general outline. There will be two major sections: examination of the Huygens Landing Site and examinations of Equatorial Terrain. \color{black}}
 
-\textbf{\color{blue}Figs: This section will have a lot of plots, showcasing primary results. We need some direct comparisons between our iephi models and the iephi data. We need examinations of the HLS at multiple wavelengths, and the Dunes nad Plains at 2um. Several of these plots may be able to be combined.\color{black}}
+\textbf{\color{blue}1) The Huygens Landing Site section. Show differences between simulated models and real data across various wavelengths. All the while explain how the results ``validate'' the simulation, while also pointing out situations where it may not match. (The HLS does not have data at extreme angles so I currently expect everything to behave within reasonable parameters). Several different plots here: different viewing gometries (the most helpful ones). If graphs too busy, also split off different wavelengths. \color{black}}
+
+\textbf{\color{blue}2) The Equatorial Terrains section (though the HLS will still be plotted with them). Here, we only look at 2um so we don't get lost in the vast amount of other wavelength nonsense. Likely show Dunes, Plains, and Xanadu--Xanadu to have a clear example of a landscape behaving decidedly nonlambertian. As in the previous section point out similarities that ``validate'' the simluation while also pointing out situations where it doesn't match. (I expect a lot of places it doesn't as the larger terrains have access to more extreme angles). Lean on Xanadu, one of the major justificaitons for this paper is obviously non-lambertian behavior. Also point out the usually lambertian nature of the Dunes, the less reliable Plains, the Plains being brighter than the Dunes... Several different plots here: different viewing gometries (the most helpful ones). Make sure to include a few that have HLS shown even if they aren't otherwise helpful. \color{black}}
+
+\textbf{\color{blue}3) Consider Albedo? I think we acutally shouldn't, consideirng how unhelpful the initial results about that were. But if we include different albedo simulations, we should at least mention what the albedo appears to be even if we don't do any detailed examination. \color{black}}
+
+\textbf{\color{blue}Fig notes: Make figures color coded by terrain type (brown=dunes kind of thing), also possibly add a ``viewing geometry symbol'' to showcase where we're looking from in any given plot.\color{black}}
 
 \section{Conclusion} \label{sec:conclusion}
 
-\textbf{\color{blue}CONCLUSION: do based on what the final results are, which we don't fully know yet, or which ones we want to talk about. Make sure to summarize findings. \color{black}}
+\textbf{\color{blue}Requres rest of paper to be done to do this section.\color{black}}
 
-\textbf{\color{red}Figure from old Specular Paper that might be helpful:\color{black}}
-
-\begin{figure}[htbp]
-\includegraphics[scale = 0.5]{SRTCLayout.pdf}
-\centering
-\caption{Layout of our SRTC++ simulations. Distances not to scale. Detectors all equidistant from Titan and angular separation is the same for each one. The yellow arrow represents "photon packets" being shot at Titan. Note that it does not interact with the detector it passes through.}
-\label{fig:5}
-\end{figure}
+\textbf{\color{blue}CONCLUSION: do based on what the final results are, which we don't fully know yet, or which ones we want to talk about. Make sure to summarize major findings. \color{black}}
 
 \textbf{\color{red}OLD PAPER STUFF BELOW FOR REFERENCE ONLY!\color{black}}
 
@@ -117,7 +146,7 @@ Titan's surface is one of only two in the Solar System with bodies of stable liq
 
 Unfortunately, current radiative transfer models of Titan's atmosphere assume a rough, lambertian surface, perhaps with variable albedo \citep{Griffith2012, Xu2013, Corlies2021, Rannou2021, EsSayeh2023}. Yet, the difference between specular and lambertian surfaces in radiative transfer is significant. In order to properly model Titan, this difference needs to be accounted for; not only to ensure that our understanding of Titan's surface-atmosphere interaction is accurate, but also to assist in identifying unknown potentially-liquid terrain on Titan that has never had a favorable viewing geometry for direct specular reflections. 
 
-In this paper, we demonstrate a specular reflection routine for SRTC++ (Spherical Radiative Transfer in C++), a radiative transfer code tailored to model Titan in the infrared wavelengths available to Cassini's VIMS (Visual and Infrared Mapping Spectrometer) instrument \citep{Barnes2018}. The new routine enables accurate simulation of liquid surfaces on Titan---in fact, as the properties of methane are well known, the accuracy for liquid surfaces is greater than that of the poorly-constrained land of Titan \citep{Trainer2018}. To demonstrate this routine, we begin with \textbf{Methods}, describing in brief the code and model we chose. \textbf{Results} examines the direct output of the completed simulation, and \textbf{Validation} compares those results to known lakes and seas on Titan. The implications of our simulation are considered in the \textbf{Discussion} before we end with a \textbf{Summary and Conclusion}.
+In this paper, we demonstrate a specular reflection routine for SRTC++ (Spherical Radiative Transfer in C++), a radiative transfer code tailored to model Titan in the infrared wavelengths available to Cassini's VIMS (Visual and Infrared Mapping Spectrometer) instrument \citep{Barnes2018}. The new routine enables accurate simulation of liquid surfaces on Titan---in fact, as the properties of methane are well known, the accuracy for liquid surfaces is greater than that of the poorly-constrained land of Titan (). To demonstrate this routine, we begin with \textbf{Methods}, describing in brief the code and model we chose. \textbf{Results} examines the direct output of the completed simulation, and \textbf{Validation} compares those results to known lakes and seas on Titan. The implications of our simulation are considered in the \textbf{Discussion} before we end with a \textbf{Summary and Conclusion}.
 
 \textbf{\color{red} [NOTE: Be sure to redo this last introduction paragraph when the paper is done.] \color{black}}
 
