@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  18 MAR 2025 15:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  25 MAR 2025 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,17 +764,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count375
 \l__pdf_internal_box=\box92
 )
-(./LambertianPaper.aux
-
-LaTeX Warning: Label `fig:5' multiply defined.
-
-
-LaTeX Warning: Label `fig:9' multiply defined.
-
-
-LaTeX Warning: Label `sec:conclusion' multiply defined.
-
-)
+(./LambertianPaper.aux)
 \openout1 = `LambertianPaper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -795,7 +785,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
- (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count376
 \scratchdimen=\dimen272
@@ -889,95 +880,78 @@ Underfull \hbox (badness 2418) in paragraph at lines 57--58
 [][]\T1/ptm/b/n/10 METHODS: Ja-son's Sec-tion. Brief sum-mary of
  []
 
-<SRTCLayout.pdf, id=137, 462.52798pt x 252.22733pt>
+<SRTCLayout.pdf, id=117, 462.52798pt x 252.22733pt>
 File: SRTCLayout.pdf Graphic file (type pdf)
 <use SRTCLayout.pdf>
 Package pdftex.def Info: SRTCLayout.pdf  used on input line 70.
 (pdftex.def)             Requested size: 231.26341pt x 126.11334pt.
-<LambertianSim.pdf, id=138, 575.49042pt x 297.511pt>
+<LambertianSimA0.pdf, id=118, 575.49042pt x 297.511pt>
+File: LambertianSimA0.pdf Graphic file (type pdf)
+<use LambertianSimA0.pdf>
+Package pdftex.def Info: LambertianSimA0.pdf  used on input line 79.
+(pdftex.def)             Requested size: 230.19208pt x 119.00227pt.
+<LambertianSim.pdf, id=119, 575.49042pt x 297.511pt>
 File: LambertianSim.pdf Graphic file (type pdf)
 <use LambertianSim.pdf>
-Package pdftex.def Info: LambertianSim.pdf  used on input line 79.
+Package pdftex.def Info: LambertianSim.pdf  used on input line 86.
 (pdftex.def)             Requested size: 230.19208pt x 119.00227pt.
-[2 <./SRTCLayout.pdf> <./LambertianSim.pdf>] [3] [4]
-
-LaTeX Warning: Reference `fig:4' on page 5 undefined on input line 161.
-
-[5]
-File: SRTCLayout.pdf Graphic file (type pdf)
-<use SRTCLayout.pdf>
-Package pdftex.def Info: SRTCLayout.pdf  used on input line 170.
-(pdftex.def)             Requested size: 231.26341pt x 126.11334pt.
-
-
-LaTeX Warning: Reference `fig:6' on page 6 undefined on input line 180.
-
-
-LaTeX Warning: Reference `fig:4' on page 6 undefined on input line 182.
-
-
-LaTeX Warning: Reference `fig:7' on page 6 undefined on input line 186.
-
-
-LaTeX Warning: Reference `fig:8' on page 6 undefined on input line 186.
-
-File: LambertianSim.pdf Graphic file (type pdf)
-<use LambertianSim.pdf>
-Package pdftex.def Info: LambertianSim.pdf  used on input line 193.
+<LambertianSimA2.pdf, id=120, 575.49042pt x 297.511pt>
+File: LambertianSimA2.pdf Graphic file (type pdf)
+<use LambertianSimA2.pdf>
+Package pdftex.def Info: LambertianSimA2.pdf  used on input line 93.
 (pdftex.def)             Requested size: 230.19208pt x 119.00227pt.
-[6]
+[2 <./SRTCLayout.pdf> <./LambertianSimA0.pdf> <./LambertianSim.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 200.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 102.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 200.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 102.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
+<VGDisplayLabel.pdf, id=251, 462.52798pt x 307.87523pt>
+File: VGDisplayLabel.pdf Graphic file (type pdf)
+<use VGDisplayLabel.pdf>
+Package pdftex.def Info: VGDisplayLabel.pdf  used on input line 106.
+(pdftex.def)             Requested size: 254.39116pt x 169.3319pt.
 
-LaTeX Warning: Reference `fig:10' on page 7 undefined on input line 211.
+Overfull \hbox (12.12463pt too wide) in paragraph at lines 106--108
+ [][] 
+ []
 
-
-LaTeX Warning: Reference `fig:10' on page 7 undefined on input line 213.
-
-
-LaTeX Warning: Reference `fig:7' on page 7 undefined on input line 213.
-
-[7] (./LambertianPaper.bbl [8]) [9] (./LambertianPaper.aux)
+<TitanSurfaceMask.pdf, id=254, 875.67104pt x 464.2538pt>
+File: TitanSurfaceMask.pdf Graphic file (type pdf)
+<use TitanSurfaceMask.pdf>
+Package pdftex.def Info: TitanSurfaceMask.pdf  used on input line 119.
+(pdftex.def)             Requested size: 218.91722pt x 116.06316pt.
+[3 <./LambertianSimA2.pdf> <./VGDisplayLabel.pdf> <./TitanSurfaceMask.pdf>]
+[4] (./LambertianPaper.bbl [5]) [6] (./LambertianPaper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `LambertianPaper.out' has not changed.
-(rerunfilecheck)             Checksum: CA101095C9E55970BD4921CFFAB36FD5;1339.
+(rerunfilecheck)             Checksum: D875CDD19532B2374EDAF287226B1509;833.
  ) 
 Here is how much of TeX's memory you used:
- 15129 strings out of 473207
- 223345 string characters out of 5720461
- 710579 words of memory out of 5000000
- 38080 multiletter control sequences out of 15000+600000
- 635930 words of font info for 137 fonts, out of 8000000 for 9000
+ 15121 strings out of 473207
+ 223568 string characters out of 5720461
+ 702761 words of memory out of 5000000
+ 38084 multiletter control sequences out of 15000+600000
+ 634852 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,8n,93p,1666b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
-live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/ut
-mb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texli
-ve/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LambertianPaper.pdf (9 pages, 338888 bytes).
+ 90i,8n,93p,1668b,677s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/
+fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+<c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on LambertianPaper.pdf (6 pages, 916776 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 322 compressed objects within 4 object streams
- 52 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
