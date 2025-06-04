@@ -1,0 +1,32 @@
+Mercury
+https://ssd.jpl.nasa.gov/?planet_phys_par
+https://ssd.jpl.nasa.gov/txt/p_elem_t1.txt
+2439.4	.330114e24	0.3871	
+Venus
+https://ssd.jpl.nasa.gov/?planet_phys_par
+https://ssd.jpl.nasa.gov/txt/p_elem_t1.txt
+6051.8	4.86747e24	0.7233
+Earth
+https://ssd.jpl.nasa.gov/?planet_phys_par
+https://ssd.jpl.nasa.gov/txt/p_elem_t1.txt
+6371.0	5.97237e24	1.0000
+Mars
+https://ssd.jpl.nasa.gov/?planet_phys_par
+https://ssd.jpl.nasa.gov/txt/p_elem_t1.txt
+3389.5	0.641712e24	1.5237
+Jupiter
+https://ssd.jpl.nasa.gov/?planet_phys_par
+https://ssd.jpl.nasa.gov/txt/p_elem_t1.txt
+69911.	1898.187e24	5.2029
+Saturn
+https://ssd.jpl.nasa.gov/?planet_phys_par
+https://ssd.jpl.nasa.gov/txt/p_elem_t1.txt
+58232.	568.3174e24	9.5367
+Uranus
+https://ssd.jpl.nasa.gov/?planet_phys_par
+https://ssd.jpl.nasa.gov/txt/p_elem_t1.txt
+25362.	86.6127e24	19.1892
+Neptune
+https://ssd.jpl.nasa.gov/?planet_phys_par
+https://ssd.jpl.nasa.gov/txt/p_elem_t1.txt
+24622.	102.4126e24	30.070

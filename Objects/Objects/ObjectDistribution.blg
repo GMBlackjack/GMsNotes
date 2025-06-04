@@ -4,44 +4,50 @@ The top-level auxiliary file: ObjectDistribution.aux
 The style file: aasjournal.bst
 Database file #1: Bibliography.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 8 entries,
+Warning--to sort, need editor or key in Lineweaver2010
+Warning--to sort, need editor or key in Goossens2016
+Warning--to sort, need editor or key in Southworth2015
+Warning--empty journal in Adams2008
+Warning--empty journal in Boss2007
+You've used 91 entries,
             3168 wiz_defined-function locations,
-            720 strings with 6258 characters,
-and the built_in function-call counts, 3828 in all, are:
-= -- 328
-> -- 290
-< -- 3
-+ -- 100
-- -- 112
-* -- 343
-:= -- 705
-add.period$ -- 8
-call.type$ -- 8
-change.case$ -- 56
-chr.to.int$ -- 8
-cite$ -- 8
-duplicate$ -- 134
-empty$ -- 216
-format.name$ -- 118
-if$ -- 760
+            1316 strings with 44166 characters,
+and the built_in function-call counts, 54603 in all, are:
+= -- 3445
+> -- 6031
+< -- 28
++ -- 2003
+- -- 2109
+* -- 5821
+:= -- 10576
+add.period$ -- 91
+call.type$ -- 91
+change.case$ -- 480
+chr.to.int$ -- 91
+cite$ -- 102
+duplicate$ -- 1533
+empty$ -- 2576
+format.name$ -- 2204
+if$ -- 10459
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 32
-num.names$ -- 32
-pop$ -- 57
+missing$ -- 85
+newline$ -- 281
+num.names$ -- 352
+pop$ -- 505
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 480
 quote$ -- 0
-skip$ -- 112
+skip$ -- 1364
 stack$ -- 0
-substring$ -- 133
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 1725
+swap$ -- 24
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
-warning$ -- 0
-while$ -- 32
+type$ -- 816
+warning$ -- 5
+while$ -- 320
 width$ -- 0
-write$ -- 95
+write$ -- 1001
+(There were 5 warnings)
