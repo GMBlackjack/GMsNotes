@@ -1,0 +1,356 @@
+\documentclass[twocolumn,linenumbers]{aastex631}
+%%\documentclass[linenumbers]{aastex631}
+%%\documentclass[modern]{aastex631}
+%%\documentclass[twocolumn]{aastex631}
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+\usepackage{mathtools, graphicx, booktabs, apjfonts, soul}
+%\addbibresource{Bibliography.bib} %For bibliography
+
+\begin{document}
+
+\title{Comparison of Titan's Equatorial Dunes to Lambertian Titan Surface Simulations
+\footnote{Sep, 22, 2025}}
+
+\author[0000-0002-8482-4669]{Gabriel M Steward}
+\affiliation{University of Idaho, Moscow, Idaho 83844}
+
+\author{Jason W. Barnes}
+\affiliation{University of Idaho, Moscow, Idaho 83844}
+
+\author{William Miller}
+\affiliation{University of Idaho, Moscow, Idaho 83844}
+
+\author{Shannon MacKenzie}
+\affiliation{Johns Hopkins University Applied Physics Laboratory, Laurel, Maryland 20723}
+
+\begin{abstract}
+
+\textbf{\color{red}NOTE: Red notes are important! Do not submit the document with any of them remaining!\color{black}}
+
+\textbf{\color{blue}NOTE: Blue notes are placeholders! Do not submit the document with any of them remaining!\color{black}}
+
+The nature of Titan's surface is poorly understood, largely due to the atmosphere's extensive interference. To handle this interference, we simulate lambertian Titan models using the radiative transfer program SRTC++ at different surface albedos. We then compare these models to real data from Cassini VIMS (Visual and Infrared Mapping Spectrometer) of the HLS (Huygens Landing Site) and equatorial dunes. We confirm that SRTC++ produces reasonable phase functions for lambertian surfaces shrouded by Titan's atmosphere in many, but not all, situations. Furthermore, we find that Titan's dunes act as lambertian surfaces, with all identified deviations correlating to suspected SRTC++ or atmospheric model deficiencies. We also perform a targeted search for an opposition effect on Titan's dunes through VIMS observations and find none, though the effect could conceivably be too narrow to observe.
+
+\end{abstract}
+
+\keywords{KEYWORDS (111) --- KEYWORDS (112)}
+
+\section{Introduction} \label{sec:intro}
+
+Titan has one of the least understood surfaces in the entire Solar System, due largely to its thick haze-filled atmosphere that is opaque to most light. While there do exist a handful of atmospheric ``windows'' through which specific wavelengths of light can pass through relatively unimpeded \citep{Barnes2007}, only limited spectral information on the surface can be gleaned through them. Even within the windows, the thick atmosphere contaminates the relatively small amount of surface information we do receive; transmission is never perfect \citep{EsSayeh2023}. 
+
+To combat this, we turn to radiative transfer models of Titan's atmosphere that predict the influence the atmosphere has on the received signal, allowing for true surface effects to be identified. Many such models have been created over the years, each with their own strengths and weaknesses (\cite{Vinatier2007, Griffith2012, Xu2013, Barnes2018, Rodriguez2018, Corlies2021, Rannou2021}; and \cite{EsSayeh2023}, to name a few).  These radiative transfer models depend on accurate knowledge of Titan's atmosphere, which is most well characterized at the moon's equatorial regions since that is where the Huygens lander measured the atmosphere \citep{Tomasko2008}. Many surface characterization studies attempting to filter out the influence of the atmosphere have been performed in the past \citep{Buratti2006, Soderblom2009, Kazeminejad2011, Brossier2018, EsSayeh2023, Solomonidou2024}. However, the majority of them make a notable assumption: that the surface behaves as lambertian; a perfect scatterer with no directly reflected components. \cite{Buratti2006} is a notable exception. 
+
+We know that few, if any, surfaces in the Solar System are truly lambertian due to the prevalent opposition effect \citep{Deau2009, Schroder2009}. We would expect Titan's surface to exhibit similar non-lambertian behaviors, but first-order analysis of the moon as a whole in the IR (infrared) shows a lambertian surface. \citep{LeMoulic2019, LeMoulic2012}. On the other hand, the one observation we have from the ground on Titan, the Huygens lander, did report an opposition effect \citep{Schroder2009, Karkoschka2012}; however Huygens landed in a "dark blue" region \citep{Rodriguez2006}, which is an uncommon terrain on Titan's surface \citep{Keller2008}. For Titan as a whole, we have Radar observations that show an opposition effect \citep{Neish2010, Wye2011}, but given the drastically different length scales probed between radar and IR, we have no reason to believe they would be similar. 
+
+In this paper, we seek to demonstrate the degree to which Titan's equatorial dunes exhibit non-lambertian behavior in IR. To that end, we compare lambertian simulations of Titan with real observations of the dunes, identifying notable differences and deviations. 
+
+The vast majority of observations of Titan's surface have been done by spacecraft visiting Saturn, with the most high-quality data coming from the Cassini mission. As such, many images of Titan's surface are taken at unusual viewing geometries. This is quite useful, as it allows characterization of Titan's surface from a wide variety of orientations, making it far easier to determine exactly how non-lambertian a terrain is. Unfortunately, most current radiative transfer models applicable to Titan either assume a plane parallel atmosphere in their calculations \citep{Griffith2012, EsSayeh2023}, don't consider angle at all \citep{Rannou2021}, or use a spherical approximation \citep{Corlies2021}. Thus, all these lose accuracy the further the viewing geometry is from direct illumination, and would miss potential non-lambertian effects. To gain the useful information contained within observations at non-ideal viewing geometries, the spherical nature of Titan's atmosphere must be considered. Thus, to create our lambertian models, we used SRTC++ (Spherical Radiative Transfer in C++), a radiative transfer code tailored to model Titan in full spherical geometry at the infrared wavelengths available to Cassini's VIMS (Visual and Infrared Mapping Spectrometer) instrument \citep{Barnes2018}. Other spherical models do exist \citep{Xu2013}, but SRTC++ was chosen due to familiarity with the code.
+
+Equipped with a spherical radiative transfer model and atmospheric characterization from Huygens, it became possible to compare models with reality on a scale covering the entire Cassini mission. As the equatorial regions are the best characterized atmospherically, we chose to examine the terrain there. While we examined multiple terrain types, it was determined that only the equatorial dunes had a sufficient number of reliable observations to draw meaningful conclusions from. We also hand-picked observations from the Huygens Landing Site (HLS) for the sake of comparison, even though that location was only viewed at a limited number of viewing angles. For both the dunes and HLS we compiled VIMS observations from across the entire Cassini mission over all available viewing geometries, limiting observations to only those judged to be of sufficient quality.
+
+This analysis serves dual purposes--to qualitatively validate the SRTC++ simulation against real data, and to identify deviations from lambertian behavior on Titan's surface. To accomplish this, first we outline improvements made to SRTC++ in Section \ref{sec:model} and report on those the results of those changes in Section \ref{sec:mresults}. We describe the procedure by which we gathered our Titan data in Section \ref{sec:observe}, compare reality to simulation in Section \ref{sec:compare} for both the HLS and dunes, and perform a specific search for the opposition effect in Section \ref{sec:oppositionC}. Lastly, we conclude in Section \ref{sec:conclusion}.
+
+\section{Model Methods} \label{sec:model}
+
+\textbf{\color{blue}METHODS: Jason's Section. Brief summary of SRTC++, citing the previous paper for more details. Describe new SRTC++ modules used, notably Absorption and the switch to Doose atmosphere. There should be a comparison figure to note the differences between the two. Mention the new integration method.\color{black}}
+
+\textbf{\color{blue}Figs: comparison between SRTC++ versions.\color{black}}
+
+\textbf{\color{blue}Will be done by Jason \color{black}}
+
+\section{Model Results} \label{sec:mresults}
+
+For our work, we used SRTC++ to create three different models of a uniformly lambertian Titan, each run with a different surface albedo: 0.0, 0.1, and 0.2. Besides the albedo, the simulations were set up with identical parameters, as shown in Figure \ref{fig:1}. The virtual detectors were set 10,000 km away from the lambertian Titan, separated by 5 degrees and completely encircling the moon. Output was generated at all eight VIMS IR wavelength windows for Titan's atmosphere: 0.93, 1.08, 1.27, 1.59, 2.01, 2.69, 2.79, and 5.00 $\mu$m.
+
+\begin{figure}[htbp]
+\includegraphics[scale = 0.5]{SRTCLayout.pdf}
+\centering
+\caption{Layout of our SRTC++ simulations. Distances not to scale. Detectors are all equidistant from Titan and angular separation is the same for each one. The yellow arrow represents "photon packets" being shot at Titan. Note that it does not interact with the detector it passes through.}
+\label{fig:1}
+\end{figure}
+
+Figures \ref{fig:2}-\ref{fig:4} show the results of the simulations at 0.0, 0.1, and 0.2 albedo, respectively, colored with 5.00 $\mu$m as red, 2.01 $\mu$m as green, and 1.27 $\mu$m as blue, as done in \cite{Barnes2005}. The results of 0.1 albedo are closest to the ``greenish'' pictures of Titan in \cite{Barnes2005}, though naturally without any terrain variation. 
+
+\begin{figure}[htbp]
+\includegraphics[scale = 0.4]{LambertianSimA0.pdf}
+\centering
+\caption{Simulation results for a lambertian Titan with 0.0 albedo, colored with 5, 2, and 1.3 $\mu$m mapped to red, green, and blue, respectively. Left image is viewed at 0$^{\circ}$  from the incidence angle. Right four images are, clockwise from the top left, at  35$^{\circ}$, 90$^{\circ}$, 180$^{\circ}$, and 120$^{\circ}$, respectively. \textbf{\color{red}Animating Version: A0.0LambertSimMOVIE.gif\color{black}}}
+\label{fig:2}
+\end{figure}
+
+\begin{figure}[htbp]
+\includegraphics[scale = 0.4]{LambertianSim.pdf}
+\centering
+\caption{Same as Figure \ref{fig:2} but for 0.1 Albedo. \textbf{\color{red}Animating Version: A0.1LambertSimMOVIE.gif\color{black}}}
+\label{fig:3}
+\end{figure}
+
+\begin{figure}[htbp]
+\includegraphics[scale = 0.4]{LambertianSimA2.pdf}
+\centering
+\caption{Same as Figure \ref{fig:2} but for 0.2 Albedo. \textbf{\color{red}Animating Version: A0.2LambertSimMOVIE.gif\color{black}}}
+\label{fig:4}
+\end{figure}
+
+The simulations are largely as expected for a lambertian sphere obscured by a thick atmosphere. We can see what a lambertian sphere should be without an atmosphere from Figure 9 in \cite{Pont2007}, and the 0.0 albedo simulation shows us the effect of the atmosphere without any signal coming from the surface. Both effects should be active in the 0.1 and 0.2 albedo simulations, and that is what we see in the directly illuminated view: a greenish center where there's minimal atmospheric influence that slowly fades off as the observation angle becomes steeper, at which point the atmosphere takes over with its bluish hue. Note that the coloration is entirely due to atmospheric effects; bluer light is scattered in the atmosphere more readily than redder light. In the raw data, the blue channel is the largest even in the center at 0.1 albedo. It is merely the choice of color balancing that gives Titan its greenish hue; a sensible choice as it allows us to readily identify places with more surface signal than atmospheric. The center of the disc, when viewed from head-on, is rather uniform with little variation, as it should be. 
+
+Views other than direct illumination also behave as expected; the edges are always atmospherically dominated, becoming bluer. Light is more likely to be forward scattered than backscattered in Titan's atmosphere \citep{GarcaMuoz2017, Cooper2025}, so the closer the Sun gets to behind Titan, the brighter the edges become. A lambertian surface without an atmosphere would have no light coming from anywhere that was not directly illuminated, but we see a small amount of light released from beyond the terminator due to atmospheric scattering. We can also see the shadow Titan casts on its own atmosphere in the profile views as the signal gets abruptly diminished near the top and bottom of the moon, but the atmosphere above this shadow remains illuminated. This effect is known to happen on Earth as well and is what causes the colors of twilight \citep{Lynch2004}. 
+
+Notably, the ``eclipse'' view at 180 degrees is functionally identical in all simulations, which it should be as the surface has little to no influence on the signal at this viewing geometry. There is most certainly interesting science to be done with the simulation at this angle to probe the atmosphere, but that is beyond the scope of this paper.
+
+The simulation results notably appear slightly grainy. This is due to the Monte-Carlo nature of SRTC++. If we were to run the simulation for longer, the S/N (signal to noise) would increase, and the overall image result would become smoother. However, given that we end up averaging numerous pixels together for this work, such effort would be wasted.
+ 
+We ultimately seek to compare these simulations with real data. And while we can qualitatively see that real Titan images do have similar coloration and limb effects \citep{Barnes2005}, the fact that real Titan has numerous different terrain types interferes with any more robust conclusions. As such, we turned these visual models into viewing goemetry models. These new models can, given a specific viewing geometry, predict how a lambertian Titan would appear at that geometry, which can then be compared to real data. This effectively makes them bidirectional reflectance distribution functions (BRDFs). 
+
+To construct the viewing geometry models, every model pixel was sorted into bins based on viewing geometry, and then their values were averaged. The bins were separated by 5$^{\circ}$ increments in incidence, emission, and azimuth angle, defined as shown in Figure \ref{fig:5}, with 0$^{\circ}$  azimuth being the forward scattering direction, and 180$^{\circ}$  being the backscattering. Notably, our models have only three angles, while more traditional BRDFs have four. We do not care about topographic changes in a surface, as such information is very context dependent, so we can treat the sun as always coming in from the same direction in these models, and thus that angle does not need to be set. As such, we will call these models restricted BRDFs from here on out. This choice also makes it far easier to determine when backscattering or forward scattering is occurring, key indicators of non-lambertian behavior. 
+
+\begin{figure}[htbp]
+\includegraphics[scale = 0.55]{VGDisplayLabel.pdf}
+\centering
+\caption{Viewing Geometry Angles used in this paper. Incidence angle is represented by ``i'', emission angle by ``e'', and azimuth angle by ``$\phi$''. The arrows trace out a path from the sun (yellow circle), to some arbitrary spot on Titan's surface, to a detector (purple diamond). Diagrams modeled after this one appear in future figures, to give context for the data.}
+\label{fig:5}
+\end{figure}
+
+With 3 different albedos and 8 wavelengths, we produced a total of 24 restricted BRDFs ready to be compared with other restricted BRDFs compiled from real VIMS data.
+
+\section{Observations and Data} \label{sec:observe}
+
+Cassini performed over a hundred separate flybys of Titan during its mission \citep{Seal2017}, and most of those flybys have observations from Cassini VIMS. Viewing geometries on any single flyby are generally limited in scope, as the spacecraft itself could only examine geometries it personally encountered. Thus, in order to gain a proper understanding of the surface of Titan at a wide range of viewing geometries, observations from as many flybys as possible should be used. 
+
+The primary obstacle in properly using all the data is the sheer amount in play; over a hundred flybys, tens of thousands of individual observations, and in each of those hundreds of spectels, each with hundreds more individual values associated with them. If we wished to make a single global model, this would not be an issue, as an algorithm could easily ingest everything. However, simple inspection of VIMS images reveals that different terrains have different albedos, and our simulations in Figures \ref{fig:2}-\ref{fig:4} clearly show how much the appearance of the surface changes with albedo. Averaging all terrain types together could smooth out non-lambertian behavior, or allow a single non-lambertian terrain type to contaminate all the others. 
+
+As such, we need to limit our data to single terrain types. We also chose to focus on the equatorial regions between 30$^{\circ}$  and -30$^{\circ}$ latitude since that's where Huygens sampled the atmosphere \citep{Tomasko2008}, making this region the best characterized. We also want terrain types that are viewed from a wide variety of viewing geometries with a large number of reliable observations. We judged that only Titan's dunes met all these criteria. (The equatorial bright terrain was considered as well, but the results we obtained from it were inconsistent and unreliable. See Appendix \ref{Appendix} for more information.) In pursuit of this goal, we created a raster mask of Titan's equatorial dunes in Figure \ref{fig:6}.
+
+\begin{figure*}[tbp]
+\includegraphics[scale = 0.5]{TitanSurfaceMaskDunes.pdf}
+\centering
+\caption{Titan equatorial surface terrain mask for dunes, as informed by \cite{Lopes2020} mixed with VIMS observations. Black areas are ``Null'' pixels as outlined in the text, while the red are dunes. Almost all of the dunes on Titan are included in this mask, though there are a few regions outside the 30$^{\circ}$  and -30$^{\circ}$ latitude boundaries.}
+\label{fig:6}
+\end{figure*}
+
+The creation of the mask began with the Titan terrain map created by \cite{Lopes2020} using radar data. VIMS observations, which are taken in infrared, often don't match the radar observations \citep{Soderblom2007}, but tend to agree in the bulk of major features; most notably (and importantly for this paper), the dunes have good agreement on a global scale.
+
+The resolution in question for the mask is one pixel per degree on Titan's surface; 181 in latitude and 360 in longitude. The radar map was scaled down to this resolution. Any pixel that was not clearly or nearly a solid color was replaced with a ``Null'' pixel; one where we would not harvest data from when using the mask to identify terrain. We erred on the side of caution, more likely to assign ``Null'' to a pixel than not. Any pixels of different terrains that were adjacent were marked ``Null'' as well to avoid contamination. After this, we manually removed some areas that notably did not match VIMS data, were too small to be of use, or were known to have different spectral characteristics than other terrains given the same classification. Hotei Regio, Tui Regio, and Southern Xanadu were notable manual exclusions. The original mask had many different terrain types, but we reduced all non-dune terrains to ``Null'' for this paper.
+
+In addition to the terrain classification in Figure \ref{fig:6}, the mask also has a version with a hidden data point: each pixel's distance to the nearest ``Null'' pixel in km along Titan's surface. This allows the mask to be refined: pixels that are close to ``Null'' pixels can be excluded as likely to have contamination from pointing errors in the VIMS data, which are known to occur \citep{Barnes2008}. 
+
+VIMS observations come in the form of files called cubes. Our investigation procedure for these files began with a basic database search; in our specific case, we looked for any cubes that had spectels in the equatorial regions between 30 and -30 latitude, and also had spectels of 25 km ground resolution or lower. The database we were using had already filtered out clearly erroneous files, as well as so-called ``noodle'' images which are only a handful of spectels in diameter. The cubes themselves were calibrated with the standard VIMS pipeline \citep{Barnes2007}. 
+
+Once the cubes were identified, they were ingested and each individual spectel examined to see if it was satisfactory according to the provided restrictions; namely, the latitude and ground resolution limitations. If a spectel passed the test, it was added to a list. This list could be made with or without referring to the mask. When the mask was used, only spectels marked as dunes were cataloged. The spectels were then judged based on their proximity to a ``Null'' pixel on the mask. Two options existed for this: setting a minimum distance from a ``Null'' pixel that would be accepted, or setting an allowed maximum ratio of ground resolution to ``Null'' pixel distance. For this work, we set a minimum ``Null'' distance of 50 km and a maximum ratio of ground resolution to ``Null'' pixel distance of 1/4.
+
+When the mask was not used, ``Null'' values could be accepted. This was helpful when wanting to look at areas in or near ``Null'' pixels, which was the case for the Huygens Landing Site. 
+
+We then binned the list of spectels and created a restricted BRDF out of them in a process identical to that described in Section \ref{sec:mresults}. Unlike other investigations, we did not subtract off atmospheric contributions, as our simulations include atmospheric contributions. This saved us considerable processing difficulties.
+
+There are a few limitations to the created restricted BRDFs. The primary limitation is that certain viewing angles, usually at the extreme ends of allowed values, do not exist since Cassini was never in those positions. There was also no check for interfering clouds during the creation process.
+
+Particularly high-resolution cubes can reveal small details not visible in most views and thus are not reflected in the mask, such as a handful of observations that can see interdune areas \citep{Barnes2008}. These small details need not match the behavior of the terrain they are surrounded by, and could conceivably offset the final model. While the dunes themselves are known to be relatively homogeneous, the interdune areas vary considerably across Titan \citep{Bonnefoy2016}. Fortunately, the restricted BRDF created for the dunes exhibited remarkable consistency and order, despite the interdunes' presence. We are unsure precisely why this is--it could be that a single kind of interdune dominates most of Titan's dunes, and all others are insignificant, making the result orderly. Alternatively, the various interdune types could simply be drowned out by the sheer amount of data averaging occurring. This relatively smooth result is somewhat remarkable as the equatorial bright terrain's restricted BRDF is decidedly disorderly, despite not having a known equivalent of interdune interference in place (see Appendix \ref{Appendix}). 
+
+Any retrieved albedos from this model will be biased higher than pure dune sands, given the brighter interdunes \citep{Bonnefoy2016}. However, as we are examining the dunes terrain type as a whole, we do not believe this is a detriment to any of our results.
+
+In addition to the dunes, we also made a phase function for the Huygens Landing Site, as our atmosphere model ultimately draws from observations made by the Huygens lander \citep{Tomasko2008}. We performed a database search similarly to how we made the other models, but we also went in manually, cleaning up any situations where Cassini reported the wrong latitude and longitude for the spectels, ensuring that the data was devoid of any contamination; something we only had to do since the Huygens Landing Site was such a small area on the boundary of multiple terrain types. Unfortunately, there were relatively few viewing angles of the HLS despite it being among the most observed locations on Titan, which is why examining the dunes as a whole was necessary. 
+
+In order to counteract the lack of data for both the dunes and the HLS, we performed tetrahedral interpolation to fill in as many observation angles as possible in the restricted BRDFs using the PyVista package \citep{Sullivan2019}.
+
+\section{Model vs Data Comparison} \label{sec:compare}
+
+\subsection{Huygens Landing Site} \label{sec:huygensC}
+
+We choose to examine the HLS first as its data are simpler, though it covers significantly fewer viewing geometries than the dunes. As three-dimensional data are hard to visualize, we opt to plot individual ``skewers'' of data at a time, fixing two of the three viewing geometry angles while allowing the third to vary. We do this for all restricted BRDFs, be they models or real data. We plot select skewers of the three models and HLS data in Figures \ref{fig:7}-\ref{fig:9}. 
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{HLSInciSkewer.pdf}
+\centering
+\caption{Incidence angle skewer: incidence angle versus average I/F comparing phase function models with HLS data with fixed emission and azimuth angles. Showcases all eight wavelengths arranged from shortest to longest, with the central area occupied by a geometry diagram to illustrate the exact situation plotted. Model lines are monochromatic, HLS data are purple. Places with direct HLS observations have dots plotted over the lines, larger dots meaning more observations. Places on the HLS lines without dots are interpolated values. Note that the vertical axis scales with the data; not all wavelengths produce the same average I/F scale.}
+\label{fig:7}
+\end{figure*}
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{HLSEmisSkewer.pdf}
+\centering
+\caption{Same as Figure \ref{fig:7} but is instead a skewer through the emission angle, with incidence and azimuth held fixed. }
+\label{fig:8}
+\end{figure*}
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{HLSAzimuthSkewer.pdf}
+\centering
+\caption{Same as Figure \ref{fig:7} but is instead a skewer through the azimuth angle, with incidence and emission held fixed.}
+\label{fig:9}
+\end{figure*}
+
+Ignoring the HLS for a moment, the restricted BRDFs showcase a distinct shifting of behavior across the various wavelengths. The shorter wavelengths have rougher lines, while the longer ones are smoother. This is due to the general trend of the atmosphere having higher optical depth at shorter wavelengths \citep{EsSayeh2023}, allowing for more scattering events in more directions, which in turn means more simulation time would be required to smooth out all those directions. 
+
+We see characteristic behavioral differences in restricted BRDF behavior at the different wavelengths in Figure \ref{fig:7} and Figure \ref{fig:8}, with the general shape of emission skewers in particular changing drastically between 0.93 and 5.00 $\mu$m. When skewering across incidence or emission, this is common; though when skewering across azimuth, the general shape is usually similar in all wavelengths, including the skewer shown in Figure \ref{fig:9}. Keep in mind that across these three figures, only a small amount of the total models are shown; behavior can change significantly when skewering at different locations, though the transitions are always relatively smooth. These particular skewers were chosen because they are the places with the best HLS data visualizations.
+
+The HLS data are very well behaved for the most part, interpolating smoothly and forming lines that correspond rather well to the models. In 1.27 and 2.01 $\mu$m, the data lines up almost perfectly with the 0.1 albedo prediction, while the others sit somewhere between 0.0 and 0.1 albedo. 1.08 $\mu$m hugs the 0.0 albedo line, and of all the wavelengths, it shows the largest variation, most notable in Figure \ref{fig:7} here, but the variation is also visible in other views not shown. We are unsure why 1.08 $\mu$m in particular does this; we expect 0.93 and 1.08 $\mu$m data to be variable due to the large atmospheric contributions, but not for them to be very different from each other. Perhaps this is a feature of the HLS itself?
+
+Even considering 1.08 $\mu$m's quirks, the HLS appears consistent with a lambertian surface in all the viewing geometries we have access to, which admittedly is not very many. We chose the best skewers we could for Figures \ref{fig:7}-\ref{fig:9}, and even the azimuth skewer only covers about a third of the available values. Nothing probes the higher incidence and emission angles, and the extremes aren't even approached. This tells us nothing about SRTC++'s reliability beyond angles that are already probed well by other radiative transfer models. Thus, we move to a much larger data set: the dunes.
+
+\subsection{Equatorial Dunes} \label{sec:dunesC}
+
+Similarly to the HLS data, we plot a variety of select skewers for the dunes. We plot more than three as the dunes data cover a far wider range of viewing geometries, focusing on incidence skewers for Figures \ref{fig:10}-\ref{fig:12}. 
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{DunesISkewer1.pdf}
+\centering
+\caption{Incidence angle skewer: incidence angle versus average I/F comparing phase function models with dunes data with fixed emission and azimuth angles. Showcases all eight wavelengths arranged from shortest to longest, with the central area occupied by a geometry diagram to illustrate the exact situation plotted. Model lines are monochromatic, dunes data are brown. Places with direct dunes observations have dots plotted over the lines, larger dots meaning more observations. Places on the dunes lines without dots are interpolated values. Note that the vertical axis scales with the data; not all wavelengths produce the same average I/F scale.}
+\label{fig:10}
+\end{figure*}
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{DunesISkewer2.pdf}
+\centering
+\caption{Same as Figure \ref{fig:10} but at different fixed emission and azimuth angles.}
+\label{fig:11}
+\end{figure*}
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{DunesISkewer3.pdf}
+\centering
+\caption{Same as Figure \ref{fig:10} but at different fixed emission and azimuth angles.}
+\label{fig:12}
+\end{figure*}
+
+We find that most incidence skewers share a similar shape, visible in both Figure \ref{fig:10} and Figure \ref{fig:11}. Higher incidence angles have lower I/F across the board, the exception being skewers with high emission and low azimuth, but the dunes have no data at those viewing geometries, so we ignore them. The dunes data match the shape of the models very well in these views, though incidences higher than 80$^{\circ}$  should be taken with a grain of salt, as there is very little data at those extreme angles. That said, the points that do exist behave as expected in these views. 
+
+Curiously, the 2 $\mu$m has a very noticeable shift in retrieved albedo for the dunes between Figure \ref{fig:10} and Figure \ref{fig:11}, going from hugging the 0.1 albedo model to hanging somewhere around 0.05 albedo. 1.27 $\mu$m may do this as well, though it is harder to tell as the gap between 0.1 and 0.0 albedo models is smaller in that window and the data are less consistent. We will return to this effect when examining the emission skewers, as the effect is far more noticeable there.
+
+Most incidence skewers not shown look like Figure \ref{fig:10} and Figure \ref{fig:11} in the phase function models, except for those where there is no data. The dunes data usually match the models in shape rather well, indicating lambertian behavior when incidence is considered, with minor and momentary deviations for the most part. However, there are exceptions, which happen at high emission and high azimuth, exemplified by Figure \ref{fig:12}. Here, the 2.01, 2.69, and 2.79 $\mu$m windows do not have slopes that match the models. Unfortunately, there isn't a very large spread of points at this view, so this anomaly is hard to draw conclusions from. We will return to this when examining the emission skewers, as they shed some light on the anomaly. 
+
+Figure \ref{fig:12} also makes clear a physical impossibility that sometimes crops up in incidence slices: while the 0.93 and 1.08 $\mu$m windows have dune data shapes that match the models', the retrieved albedo is below 0.0, an impossibility. This may be because SRTC++ does not account for Rayleigh scattering, which is most relevant at short wavelengths \citep{EsSayeh2023}. Intuitively, one would expect adding Rayleigh scattering to make the model brighter, not dimmer, but subtle effects could be at play--to fully answer this question, we would have to implement Rayleigh scattering, which is on the list for future improvements to SRTC++.
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{DunesESkewer1.pdf}
+\centering
+\caption{Same as Figure \ref{fig:11} but is instead a skewer through the emission angle, with incidence and azimuth held fixed.}
+\label{fig:13}
+\end{figure*}
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{DunesESkewer2.pdf}
+\centering
+\caption{Same as Figure \ref{fig:13} but at different fixed incidence and azimuth angles.}
+\label{fig:14}
+\end{figure*}
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{DunesESkewer3.pdf}
+\centering
+\caption{Same as Figure \ref{fig:13} but at different fixed incidence and azimuth angles.}
+\label{fig:15}
+\end{figure*}
+
+The emission skewers for the phase function models generally show gradual increases in brightness with larger emission, though 5 $\mu$m is a notable exception, along with low incidence and high azimuth views. Selected views can be seen in Figures \ref{fig:13}-\ref{fig:15}. Figure \ref{fig:13} and Figure \ref{fig:14} clearly show that for low emission angles, up to around 40$^{\circ}$, the data match the models pretty well. However, at higher emission angles, this fails: Figure \ref{fig:13} shows the 0.93 - 1.59 $\mu$m windows dipping below the 0.0 albedo model at higher emission, while 2.01 - 2.79 $\mu$m do the opposite and sharply tick above the models. The dramatic brightening of 2.01 - 2.79 $\mu$m is just as strong, if not stronger, in Figure \ref{fig:14}, showing azimuthal independence of this effect. However, the 0.93 - 1.59 $\mu$m dimming below the 0.0 albedo model is not as strong, and doesn't clearly exist at the 1.27 $\mu$m and 1.59 $\mu$m windows. The dimming effect vanishes entirely in Figure \ref{fig:15}, while the brightening effect remains. (Notably, Figure \ref{fig:15} has few data points at high emission, but the fact that it follows the pattern laid out in other nearby skewers gives us confidence that its behavior is not just an interpolation artifact). These brightening and darkening effects explain the inconsistent retrieved albedo and values below 0.0 albedo noted in the incidence skewers; these deviations are emission dependent. Furthermore, the fact that brightening only occurs in 2.01 - 2.79 $\mu$m windows and that these are the only windows seen not matching the models in Figure \ref{fig:12} lends further credence that Figure \ref{fig:12}'s deviations are not just a bad series of observations.  
+
+So, how can we explain these discrepancies? There are two primary explanations. First, the model does not accurately account for some atmospheric effect at high emission. While we mentioned Rayleigh Scattering earlier, that will only have an important effect on short wavelengths \citep{EsSayeh2023}. We suspect the haze model is where the problem lies, as at higher emission angles, light escaping from the surface has to pass through a lot of atmospheric haze; if our model thinks the haze is thicker than it is in reality, more light will be let through unimpeded as emission rises. It is true that higher incidence angles (up to a point) will also result in a longer path through the haze; however, this will be counteracted by the fact that any spot on the surface of Titan is going to be diffusely illuminated due to light scattering from other directions. Whether this error lies in the atmospheric model or the way the code treats it is unknown at this juncture.
+
+The second explanation is that we're seeing a true non-lambertian effect from the surface. However, this seems unlikely, as the brightening effect appears azimuthally agnostic: no matter what azimuth we point at, the effect exists where we have enough data to see it, and a forward-scattering or backscattering effect would be particularly focused at 0$^{\circ}$  or 180$^{\circ}$, not present everywhere. Topogrpahy oriented explanations also seem unlikely, since the effect begins around 40$^{\circ}$ and only extreme emission angles should be greatly influenced by topography. Not to mention the fact that Titan is rather smooth, topographically speaking, with only a couple km elevation variation on the surface \citep{Corlies2017}. That said, if we eventually rule out an error in the simulation, we would be forced to consider a surface effect, which would be investigated in future work by testing out various non-lambertian BRDFs for the surface in the SRTC++ models and observing if any of them led to azimuthally agnostic effects. 
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{DunesASkewer1.pdf}
+\centering
+\caption{Same as Figure \ref{fig:11} but is instead a skewer through the azimuth angle, with incidence and emission held fixed.}
+\label{fig:16}
+\end{figure*}
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{DunesASkewer2.pdf}
+\centering
+\caption{Same as \ref{fig:16} but at different fixed incidence and emission angles.}
+\label{fig:17}
+\end{figure*}
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{DunesASkewer3.pdf}
+\centering
+\caption{Same as \ref{fig:16} but at different fixed incidence and emission angles.}
+\label{fig:18}
+\end{figure*}
+ 
+Despite this clear deviation at high emission, the overall model and data still match remarkably well. Nowhere is this easier shown than the azimuth skewers, which, unlike the incidence and emission skewers, regularly have data in large numbers and data points covering the entire range. In most situations, the result is flat, such as in Figure \ref{fig:16} and Figure \ref{fig:17}.
+
+Figure \ref{fig:16} importantly demonstrates in its short wavelength windows that we can still have points below 0.0 albedo even at low emission angles, not just high ones, indicating that there are probably at least two effects influencing this result. However, dark as the data are, they are all flat and uniform, as the models indicate it should be. Most azimuth views are completely flat in both model and real data. 
+
+The exception to the flatness is when both incidence and emission are high at the same time, at which point the models predict low azimuth should be brighter than the other azimuths, as can be seen in Figure \ref{fig:18}. This represents atmospheric backscatter. Unfortunately, we have very few observations in this region of the phase function, and the interpolation is rather suspect as there aren't other regions with similar behavior as was the case with the emission skewers. Figure \ref{fig:18}'s interpolation still shows an uptick at low azimuth despite this, which at least suggests the behavior is plausibly accurate. One saving grace is that at such angles, the effects of the atmosphere take over and almost drown out the surface effects, so the dunes themselves are unlikely to have much effect on real observations in the first place. Note that in Figure \ref{fig:18} the different albedo values are all very closely clustered together and nearly identical in shape, corroborating this thought. Even though the 5 $\mu$m window seems to be spread out over albedo, this is merely due to the fact that all the models report very dim I/F values, differing only by 0.05 overall. 
+
+In the end, where does this leave us? With the shapes of the dunes data matching the phase function models so closely in incidence and azimuth, it seems reasonable to conclude that Titan acts as a lambertian surface. The primary evidence for non-lambertian behavior comes from the emission skewers, which do not appear to have an azimuthal dependence and is likely an atmospheric effect not accounted for in the model, rather than a true non-lambertian phase function. The other minor deviation in Figure \ref{fig:12} correlates directly with the windows brightening in emission skewers, tying the effects together, lowering our expectations of a non-lambertian effect even further.
+
+However, we recognize that our method of binning pixels together and averaging them all makes us significantly less sensitive to dramatic changes over tiny angular extents, such as the sharp central peak often seen in the opposition effect, sometimes less than one degree away from opposition \citep{Kulyk2008, Schaefer2008}. It is worthwhile to perform a more focused check for such an effect.
+
+\section{Opposition Effect Search} \label{sec:oppositionC}
+
+We actively looked for opposition effects in the dune data discussed above and found none--these would occur at places where incidence and emission were close to each other, and azimuth was at or near 180$^{\circ}$. We unfortunately had very little data exactly at these points, but if the opposition effect was somewhat broad on Titan, we would have expected to still see some "humps" in the data that would not have been replicated in the models. This was not the case. Forward scattering is not a component of the opposition effect, though it would be similarly placed in the phase functions, just at 0$^{\circ}$ azimuth instead. We also do not observe it in our skewers.
+
+However, we would not have noticed an extremely sharp opposition effect, as it could conceivably only matter at angles extremely close to direct opposition; that is, near 0$^{\circ}$ incidence, 0$^{\circ}$ emission, 180$^{\circ}$ azimuth. Our dunes data only has a handful of points around this region, and it is at the very border of the phase function models, so looking at skewers is rather unhelpful. Instead, we went back to the original VIMS cube files and looked for ones of the dunes that had viewing geometries within 1$^{\circ}$ of opposition. There was precisely one cube in our data set that met this criterion: cube 1574127168\_1 from flyby T37. We then took the data from this cube and plotted its I/F versus the sun-to-spacecraft angle, which is a measure of how close each pixel was to opposition. The result is Figure \ref{fig:19}. 
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.6]{OppositionCubeDunes.pdf}
+\centering
+\caption{Cube 1574127168\_1 from flyby T37 with dunes pixels separated out and plotted by opposition proximity and I/F in all eight windows. The cube itself is plotted in the center with a color scheme of red 5.00 $\mu$m, green 2.01 $\mu$m, and blue 1.27 $\mu$m. Note that the image is significantly stretched;; the actual surface of Titan covered by this image is significant and greatly extended in the horizontal direction. The gap in the middle of the points exists due to those pixels not being dune pixels. Note that most of the points follow a generally linear trend, with the exception of a single spike at around 3$^{\circ}$ from opposition. We can visually see some somewhat brighter dunes pixels in the central image in the upper right, which no doubt cause this spike. The physical location of the pixels closest to true opposition is in the upper left region.}
+\label{fig:19}
+\end{figure*}
+
+While there does appear to be a spike in Figure \ref{fig:19}, it happens at around 3$^{\circ}$ and vanishes as we approach actual opposition. We can identify this feature with a slightly brighter section of the dunes in the lower left of the cube, near the central non-dune strip. We must consider the possibility that this could be a pointing error; Cassini is known to be off by a degree at times \citep{Barnes2008}. Due to the stretching of the cube, the brighter section is within one geographical degree of the pixels labeled closest to opposition. We examined other VIMS views of the nearby geography from different flybys in Figure \ref{fig:20} and found that the dunes consistently get slightly brighter in that direction (north), regardless of viewing geometry, so this is most likely a persistent feature and not a very narrow opposition effect. 
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.6]{OppositionContext.pdf}
+\centering
+\caption{Cylindrical projections of Titan near the opposition observation in flybys TA-, T10, and T35, with the opposition flyby itself (T37) there for comparison. Cylindrical projections made in a manner similar to \cite{Barnes2009b}, but from singular flybys only. While in T37 itself the observations are not of high enough quality to see, the others show that the dunes get slightly brighter to the north, consistent with a shift in dune properties, not an opposition effect. }
+\label{fig:20}
+\end{figure*}
+
+Curiously, there appears to be a slight uptick in brightness toward direct opposition in the three shortest wavelength windows, though this is within the average intensity of other dunes pixels, so it does not constitute any opposition effect. Furthermore, we must contend with the fact that the opposition effect is all but removed by diffuse lighting and indirect viewing angles from scattering \citep{Schroder2008}, which certainly occurs at the lower wavelength windows, making it so we would not expect to see any kind of signal here. That said, this is not true at other windows. 5.00 $\mu$m in particular sees significant unimpeded sunlight even when it is near sunset \citep{Barnes2018}. If there were an opposition effect being hidden by the atmosphere, we would expect to see it in 5.00 $\mu$m, but we do not. Figure \ref{fig:19}'s 5.00 $\mu$m window has some of the least evidence of a spike out of all windows. 
+
+With the spike at 3$^{\circ}$ explained, we find the increase in brightness with proximity to opposition appears vaguely linear, which is expected \citep{Kulyk2008}, though in a few windows the spread of intensities is such that no brightening trend can be discerned. With this, we conclude our search, declaring that we observe no opposition effect whatsoever in the dunes. However, we cannot say for certain that there is no opposition effect--this is a single observation, and we have no way of knowing if VIMS pointing was in error. The closest point to true opposition is reported as 0.25$^{\circ}$ degrees away; assuming this is correct, even it does not entirely rule out a narrow and sharp opposition effect, as these can be confined to within 0.1$^{\circ}$ \citep{Kulyk2008, Schaefer2008}. Huygens observed the opposition effect spike to begin around 0.2$^{\circ}$ \citep{Karkoschka2012}, so we have no reason to suspect our observations are sufficient to detect it. The observation angle simply does not exist for the dunes; we can only say that if the dunes have an opposition effect, it is a narrow one with little-to-no broad component.
+
+\section{Summary and Conclusion} \label{sec:conclusion}
+
+There were two primary purposes to this paper: to validate the SRTC++ simulation against real data, and to identify how lambertian Titan's dunes were. 
+
+On the validation front, SRTC++ in general gave phase function trends that matched the real data, but clearly didn't always get the correct albedo, as evidenced by situations where the recovered albedo is below 0.0, an impossibility. As these moments primarily occur at short wavelengths, this could be the influence of Rayleigh Scattering. Alternatively, or perhaps additionally, its source could be a mistake in the characterization of atmospheric haze--the deviations along emission skewers imply there's certainly something missing there. 
+
+Despite these caveats, SRTC++ still produces smooth lines that stand alongside the real data in most incidence and azimuth skewers, only with inconsistent albedo results. As such, the simulations are still useful for characterizing Titan's surface, particulary looking for clear deviations from the lambertian ideal. It is telling, then, that we found almost none. There is no evidence of an opposition effect and no evidence of a forward scattering component. The only potential deviation is the curious dimming and brightening some windows exhibit at high emission angles--but as this effect is azimuthally agnostic, it is most likely not a surface effect. 
+
+Which leads us to say Titan's dunes are lambertian surfaces, or very close to it. This is not an unexpected result, for Earth's sand is also generally lambertian  \citep{Hapke1963}, though Earth's sand exhibits an opposition effect within two degrees of ideal \citep{Wise2022} which would have been detectable were this the case on Titan. However, it is thought that the width of an opposition effect narrows the further an object is from the sun \citep{Karkoschka2012}, so we cannot say that we should have seen an opposition effect on the dunes. Furthermore, Earth's sand and Titan's dunes are characteristically different, as most of Earth's deserts are quite bright, while Titan's dunes are the darkest solid terrain on its surface.
+
+Future work would include improving SRTC++ to emulate the atmosphere properly at high emission--or, if that were to prove impossible, investigating what other effects might cause the inaccuracies at high emission. If we cannot track down a specific issue with SRTC++ through this, we will investigate unusual surface BRDFs and see if any of them can produce an azimuthally agnostic effect when seen through the atmosphere. This work could also be turned to the specular lakes at Titan's north pole; while the atmosphere is not as well characterized there, we can use the relatively simple lake phase functions to probe where specifically it's poorly characterized. Other terrain types on Titan could also be examined--it would just require a manual rather than automated approach, as the other terrains are not as distinct as the dunes. Preliminary investigations on this front can be found in the appendix. 
+
+\begin{acknowledgments}
+Acknowledgements:
+
+We wish to acknowledge the pyVIMS code \citep{Seignovert2021}, even though we did not end up using it in our final analysis; it was extremely helpful for preliminary investigations and early code. 
+
+The BRDFs created for this research are available by request in the form of numpy arrays.
+
+All authors are funded by grant \#80NSSC22K0340 from the NASA Cassini Data Analysis Program.
+\end{acknowledgments}
+\label{ACK}
+
+\appendix
+
+\section{Equatorial Bright Terrain} \label{Appendix}
+
+Like the dunes, the equatorial bright terrain (known as "plains" in radar maps) is extensive and has lots of observations over many viewing geometries. Originally, we had planned to treat it alongside the dunes and use both to bolster our conclusions. However, as can be seen in Figure \ref{fig:21}, the equatorial bright terrain was far less well-behaved than the dunes. 
+
+\begin{figure*}[htbp]
+\includegraphics[scale = 0.4]{BrightAzimuthSkewer.pdf}
+\centering
+\caption{Azimuth angle skewer: azimuth angle versus average I/F comparing phase function models with equatorial bright data with fixed incidence and emission angles. Showcases all eight wavelengths arranged from shortest to longest, with the central area occupied by a geometry diagram to illustrate the exact situation plotted. Model lines are monochromatic, equatorial bright data are green. Places with direct equatorial bright observations have dots plotted over the lines, larger dots meaning more observations. Places on the equatorial bright lines without dots are interpolated values. Note that the vertical axis scales with the data; not all wavelengths produce the same average I/F scale.}
+\label{fig:21}
+\end{figure*}
+
+If the inconsistency in the equatorial bright terrain was predictable, then we would likely have continued to try to draw conclusions from it. However, as we can see in Figure \ref{fig:21}, the observations have large stretches where the points are in line, before suddenly jumping up or down. This forces us to conclude that what is labeled as equatorial bright terrain is actually multiple different terrain types with their own phase functions. This is not just a distinction between flat areas and mountains--while VIMS has a hard time differentiating those, the radar data used to make the terrain maps had a separate "hummocky" terrain type that was not included in the equatorial bright terrain mask. 
+
+In general, the equatorial bright terrain would follow the lines of the restricted BRDFs, and it too exhibits the deviations at high emission, further suggesting that the deviation is in the atmospheric model and not a surface effect. But any other deviations in the equatorial bright terrain we noted could not have anything else said about them, and even the level to which the terrain followed the models' shapes was suspect due to the clear albedo inconsistencies in single skewers. A dedicated investigation will likely need to be devoted to this terrain in the future, perhaps even extending it beyond the equatorial regions if that is deemed reasonable. 
+
+It is curious that the dunes do not exhibit this behavior, despite it being known that different areas in the dunes have different interdune terrains under them \citep{Bonnefoy2016}. One would expect, since the dunes form on top of various terrains, that these interdunes would at least produce a lesser version of the oscillations seen in the equatorial bright terrain, but we do not observe that. Perhaps a single interdune terrain type dominates, or perhaps the placement of the dunes allows for effective averaging out of the variations. 
+
+\bibliography{Bibliography}{}
+\bibliographystyle{aasjournal}
+
+\end{document}

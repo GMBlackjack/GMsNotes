@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: LambertianPaper.aux
+The style file: aasjournal.bst
+Database file #1: Bibliography.bib
+Repeated entry---line 1073 of file Bibliography.bib
+ : @article{Rodriguez2018
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1349 of file Bibliography.bib
+ : @article{Barnes2018
+ :                    ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 43 entries,
+            3168 wiz_defined-function locations,
+            1006 strings with 19621 characters,
+and the built_in function-call counts, 23380 in all, are:
+= -- 1774
+> -- 2015
+< -- 10
++ -- 666
+- -- 729
+* -- 2287
+:= -- 4285
+add.period$ -- 43
+call.type$ -- 43
+change.case$ -- 237
+chr.to.int$ -- 43
+cite$ -- 43
+duplicate$ -- 735
+empty$ -- 1314
+format.name$ -- 782
+if$ -- 4706
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 40
+newline$ -- 137
+num.names$ -- 172
+pop$ -- 260
+preamble$ -- 1
+purify$ -- 237
+quote$ -- 0
+skip$ -- 743
+stack$ -- 0
+substring$ -- 1057
+swap$ -- 12
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 381
+warning$ -- 0
+while$ -- 148
+width$ -- 0
+write$ -- 479
+(There were 2 error messages)

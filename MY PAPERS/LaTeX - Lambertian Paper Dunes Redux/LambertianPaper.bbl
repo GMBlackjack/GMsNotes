@@ -28,6 +28,19 @@ Barnes, J.~W., Brown, R.~H., Soderblom, L., {et~al.} 2007, Icarus, 186, 242,
   Nicholson}]{Barnes2008}
 ---. 2008, Icarus, 195, 400, \dodoi{10.1016/j.icarus.2007.12.006}
 
+\bibitem[{Barnes {et~al.}(2009)Barnes, Soderblom, Brown, Buratti, Sotin,
+  Baines, Clark, Jaumann, McCord, Nelson, Le~Mouélic, Rodriguez, Griffith,
+  Penteado, Tosi, Pitman, Soderblom, Stephan, Hayne, Vixie, Bibring, Bellucci,
+  Capaccioni, Cerroni, Coradini, Cruikshank, Drossart, Formisano, Langevin,
+  Matson, Nicholson, \& Sicardy}]{Barnes2009b}
+Barnes, J.~W., Soderblom, J.~M., Brown, R.~H., {et~al.} 2009, Planetary and
+  Space Science, 57, 1950–1962, \dodoi{10.1016/j.pss.2009.04.013}
+
+\bibitem[{Bonnefoy {et~al.}(2016)Bonnefoy, Hayes, Hayne, Malaska, Le~Gall,
+  Solomonidou, \& Lucas}]{Bonnefoy2016}
+Bonnefoy, L.~E., Hayes, A.~G., Hayne, P.~O., {et~al.} 2016, Icarus, 270,
+  222–237, \dodoi{10.1016/j.icarus.2015.09.014}
+
 \bibitem[{Brossier {et~al.}(2018)Brossier, Rodriguez, Cornet, Lucas, Radebaugh,
   Maltagliati, Le~Mouélic, Solomonidou, Coustenis, Hirtzig, Jaumann, Stephan,
   \& Sotin}]{Brossier2018}
@@ -82,18 +95,34 @@ Griffith, C.~A., Doose, L., Tomasko, M.~G., Penteado, P.~F., \& See, C. 2012,
 Hapke, B., \& van Hoen, H. 1963, Journal of Geophysical Research, 68,
   4545–4570, \dodoi{10.1029/jz068i015p04545}
 
-\bibitem[{Hayes(2016)}]{Hayes2016}
-Hayes, A.~G. 2016, Annual Review of Earth and Planetary Sciences, 44, 57,
-  \dodoi{10.1146/annurev-earth-060115-012247}
+\bibitem[{Karkoschka {et~al.}(2012)Karkoschka, Schr\"{o}der, Tomasko, \&
+  Keller}]{Karkoschka2012}
+Karkoschka, E., Schr\"{o}der, S.~E., Tomasko, M.~G., \& Keller, H.~U. 2012,
+  Planetary and Space Science, 60, 342–355, \dodoi{10.1016/j.pss.2011.10.014}
 
 \bibitem[{Kazeminejad {et~al.}(2011)Kazeminejad, Atkinson, \&
   Lebreton}]{Kazeminejad2011}
 Kazeminejad, B., Atkinson, D.~H., \& Lebreton, J.-P. 2011, The Astrophysical
   Journal Letters, 47, 1622–1632, \dodoi{10.1016/j.asr.2011.01.019}
 
+\bibitem[{Keller {et~al.}(2008)Keller, Grieger, K\"{u}ppers, Schr\"{o}der,
+  Skorov, \& Tomasko}]{Keller2008}
+Keller, H., Grieger, B., K\"{u}ppers, M., {et~al.} 2008, Planetary and Space
+  Science, 56, 728–752, \dodoi{10.1016/j.pss.2007.11.020}
+
 \bibitem[{Kulyk(2008)}]{Kulyk2008}
 Kulyk, I. 2008, Planetary and Space Science, 56, 386–397,
   \dodoi{10.1016/j.pss.2007.11.011}
+
+\bibitem[{Le~Mouélic {et~al.}(2012)Le~Mouélic, Cornet, Rodriguez, Sotin,
+  Barnes, Baines, Brown, Lefèvre, Buratti, Clark, \& Nicholson}]{LeMoulic2012}
+Le~Mouélic, S., Cornet, T., Rodriguez, S., {et~al.} 2012, Planetary and Space
+  Science, 73, 178–190, \dodoi{10.1016/j.pss.2012.09.008}
+
+\bibitem[{Le~Mouélic {et~al.}(2019)Le~Mouélic, Cornet, Rodriguez, Sotin,
+  Seignovert, Barnes, Brown, Baines, Buratti, Clark, Nicholson, Lasue, Pasek,
+  \& Soderblom}]{LeMoulic2019}
+---. 2019, Icarus, 319, 121–132, \dodoi{10.1016/j.icarus.2018.09.017}
 
 \bibitem[{Lopes {et~al.}(2020)Lopes, Malaska, Schoenfeld, Solomonidou, Birch,
   Florence, Hayes, Williams, Radebaugh, Verlander, Turtle, Gall, \&
@@ -118,6 +147,19 @@ Pont, S.~C., \& Koenderink, J.~J. 2007, Perception amp; Psychophysics, 69,
 Rannou, P., Coutelier, M., Rivière, E., {et~al.} 2021, The Astrophysical
   Journal, 922, 239, \dodoi{10.3847/1538-4357/ac2904}
 
+\bibitem[{Rodriguez {et~al.}(2006)Rodriguez, Le~Mouélic, Sotin, Clénet,
+  Clark, Buratti, Brown, McCord, Nicholson, \& Baines}]{Rodriguez2006}
+Rodriguez, S., Le~Mouélic, S., Sotin, C., {et~al.} 2006, Planetary and Space
+  Science, 54, 1510–1523, \dodoi{10.1016/j.pss.2006.06.016}
+
+\bibitem[{Rodriguez {et~al.}(2018)Rodriguez, Le~Mouélic, Barnes, Kok, Rafkin,
+  Lorenz, Charnay, Radebaugh, Narteau, Cornet, Bourgeois, Lucas, Rannou,
+  Griffith, Coustenis, Appéré, Hirtzig, Sotin, Soderblom, Brown, Bow, Vixie,
+  Maltagliati, Courrech~du Pont, Jaumann, Stephan, Baines, Buratti, Clark, \&
+  Nicholson}]{Rodriguez2018}
+Rodriguez, S., Le~Mouélic, S., Barnes, J.~W., {et~al.} 2018, Nature
+  Geoscience, 11, 727–732, \dodoi{10.1038/s41561-018-0233-2}
+
 \bibitem[{Schaefer {et~al.}(2008)Schaefer, Rabinowitz, \&
   Tourtellotte}]{Schaefer2008}
 Schaefer, B.~E., Rabinowitz, D.~L., \& Tourtellotte, S.~W. 2008, The
@@ -127,9 +169,18 @@ Schaefer, B.~E., Rabinowitz, D.~L., \& Tourtellotte, S.~W. 2008, The
 Schr\"{o}der, S., \& Keller, H. 2008, Planetary and Space Science, 56,
   753–769, \dodoi{10.1016/j.pss.2007.10.011}
 
+\bibitem[{Schr\"{o}der \& Keller(2009)}]{Schroder2009}
+---. 2009, Planetary and Space Science, 57, 1963–1974,
+  \dodoi{10.1016/j.pss.2009.03.012}
+
 \bibitem[{Seal \& Bittner(2017)}]{Seal2017}
 Seal, D., \& Bittner, M. 2017, in 2017 IEEE Aerospace Conference (IEEE),
   1–12, \dodoi{10.1109/aero.2017.7943848}
+
+\bibitem[{Seignovert {et~al.}(2023)Seignovert, Mouélic, Heslar, Cordier,
+  Coutelier, \& MacKenzie}]{Seignovert2021}
+Seignovert, B., Mouélic, S.~L., Heslar, M., {et~al.} 2023, PyVIMS,  Zenodo,
+  \dodoi{10.5281/ZENODO.4708004}
 
 \bibitem[{Soderblom {et~al.}(2007)Soderblom, Kirk, Lunine, Anderson, Baines,
   Barnes, Barrett, Brown, Buratti, Clark, Cruikshank, Elachi, Janssen, Jaumann,
@@ -158,6 +209,11 @@ Sullivan, C.~B., \& Kaszynski, A.~A. 2019, Journal of Open Source Software, 4,
   Karkoschka, \& See}]{Tomasko2008}
 Tomasko, M.~G., Doose, L., Engel, S., {et~al.} 2008, Planetary and Space
   Science, 56, 669, \dodoi{10.1016/j.pss.2007.11.019}
+
+\bibitem[{Vinatier {et~al.}(2007)Vinatier, Bezard, Fouchet, Teanby, Dekok,
+  Irwin, Conrath, Nixon, Romani, \& Flasar}]{Vinatier2007}
+Vinatier, S., Bezard, B., Fouchet, T., {et~al.} 2007, Icarus, 188, 120–138,
+  \dodoi{10.1016/j.icarus.2006.10.031}
 
 \bibitem[{Wise \& Mars(2022)}]{Wise2022}
 Wise, J.~E., \& Mars, J.~C. 2022, Remote Sensing, 14, 5020,

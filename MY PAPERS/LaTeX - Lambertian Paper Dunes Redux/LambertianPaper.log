@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  23 OCT 2025 13:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.24)  11 NOV 2025 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -818,219 +818,208 @@ Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input
 line 12.
 Class revtex4-1 Info: Reinvoke \linenumbers on input line 12.
 Class revtex4-1 Info: Overriding \@LN@LLerror on input line 12.
-
-
-Class revtex4-1 Warning: Assuming \noaffiliation for authors.
-
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-3.
+1.
+
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line
- 43.
+ 41.
 
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 43
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 41
 .
 
 (c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+psy on input line 43.
+LaTeX Font Info:    Trying to load font information for U+psy on input line 41.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 43
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 41
 .
 
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2
 024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 2418) in paragraph at lines 63--64
+Underfull \hbox (badness 2418) in paragraph at lines 59--60
 [][]\T1/ptm/b/n/10 METHODS: Ja-son's Sec-tion. Brief sum-mary of
  []
 
-<SRTCLayout.pdf, id=130, 462.52798pt x 252.22733pt>
+<SRTCLayout.pdf, id=162, 482.895pt x 252.22733pt>
 File: SRTCLayout.pdf Graphic file (type pdf)
 <use SRTCLayout.pdf>
-Package pdftex.def Info: SRTCLayout.pdf  used on input line 74.
-(pdftex.def)             Requested size: 231.26341pt x 126.11334pt.
-<LambertianSimA0.pdf, id=135, 575.49042pt x 297.511pt>
+Package pdftex.def Info: SRTCLayout.pdf  used on input line 70.
+(pdftex.def)             Requested size: 241.4469pt x 126.11334pt.
+<LambertianSimA0.pdf, id=169, 586.59103pt x 296.06563pt>
 File: LambertianSimA0.pdf Graphic file (type pdf)
 <use LambertianSimA0.pdf>
-Package pdftex.def Info: LambertianSimA0.pdf  used on input line 83.
-(pdftex.def)             Requested size: 230.19208pt x 119.00227pt.
-<LambertianSim.pdf, id=136, 575.49042pt x 297.511pt>
+Package pdftex.def Info: LambertianSimA0.pdf  used on input line 79.
+(pdftex.def)             Requested size: 234.63225pt x 118.42415pt.
+<LambertianSim.pdf, id=170, 586.59103pt x 296.06563pt>
 File: LambertianSim.pdf Graphic file (type pdf)
 <use LambertianSim.pdf>
-Package pdftex.def Info: LambertianSim.pdf  used on input line 90.
-(pdftex.def)             Requested size: 230.19208pt x 119.00227pt.
-<LambertianSimA2.pdf, id=137, 575.49042pt x 297.511pt>
+Package pdftex.def Info: LambertianSim.pdf  used on input line 86.
+(pdftex.def)             Requested size: 234.63225pt x 118.42415pt.
+<LambertianSimA2.pdf, id=173, 586.59103pt x 296.06563pt>
 File: LambertianSimA2.pdf Graphic file (type pdf)
 <use LambertianSimA2.pdf>
-Package pdftex.def Info: LambertianSimA2.pdf  used on input line 97.
-(pdftex.def)             Requested size: 230.19208pt x 119.00227pt.
-[2 <./SRTCLayout.pdf> <./LambertianSimA0.pdf>]
+Package pdftex.def Info: LambertianSimA2.pdf  used on input line 93.
+(pdftex.def)             Requested size: 234.63225pt x 118.42415pt.
+[2 <./SRTCLayout.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 104.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 100.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 104.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 100.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<VGDisplayLabel.pdf, id=241, 462.52798pt x 307.87523pt>
+[3 <./LambertianSimA0.pdf> <./LambertianSim.pdf> <./LambertianSimA2.pdf>]
+<VGDisplayLabel.pdf, id=281, 462.52798pt x 307.87523pt>
 File: VGDisplayLabel.pdf Graphic file (type pdf)
 <use VGDisplayLabel.pdf>
-Package pdftex.def Info: VGDisplayLabel.pdf  used on input line 116.
+Package pdftex.def Info: VGDisplayLabel.pdf  used on input line 112.
 (pdftex.def)             Requested size: 254.39116pt x 169.3319pt.
 
-Overfull \hbox (12.12463pt too wide) in paragraph at lines 116--118
+Overfull \hbox (12.12463pt too wide) in paragraph at lines 112--114
  [][] 
  []
 
-[3 <./LambertianSim.pdf> <./LambertianSimA2.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 127.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 127.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-<TitanSurfaceMaskDunes.pdf, id=341, 875.67104pt x 186.48589pt>
+<TitanSurfaceMaskDunes.pdf, id=290, 875.67104pt x 193.82663pt>
 File: TitanSurfaceMaskDunes.pdf Graphic file (type pdf)
 <use TitanSurfaceMaskDunes.pdf>
-Package pdftex.def Info: TitanSurfaceMaskDunes.pdf  used on input line 131.
-(pdftex.def)             Requested size: 218.91722pt x 46.62135pt.
-[4 <./VGDisplayLabel.pdf> <./TitanSurfaceMaskDunes.pdf>]
-<HLSInciSkewer.pdf, id=434, 1164.75104pt x 731.13103pt>
+Package pdftex.def Info: TitanSurfaceMaskDunes.pdf  used on input line 129.
+(pdftex.def)             Requested size: 437.83444pt x 96.91307pt.
+[4 <./VGDisplayLabel.pdf>] [5 <./TitanSurfaceMaskDunes.pdf>]
+<HLSInciSkewer.pdf, id=401, 1164.75104pt x 731.13103pt>
 File: HLSInciSkewer.pdf Graphic file (type pdf)
 <use HLSInciSkewer.pdf>
-Package pdftex.def Info: HLSInciSkewer.pdf  used on input line 162.
+Package pdftex.def Info: HLSInciSkewer.pdf  used on input line 166.
 (pdftex.def)             Requested size: 465.89217pt x 292.44722pt.
-<HLSEmisSkewer.pdf, id=435, 1164.75104pt x 731.13103pt>
+<HLSEmisSkewer.pdf, id=402, 1164.75104pt x 731.13103pt>
 File: HLSEmisSkewer.pdf Graphic file (type pdf)
 <use HLSEmisSkewer.pdf>
-Package pdftex.def Info: HLSEmisSkewer.pdf  used on input line 169.
+Package pdftex.def Info: HLSEmisSkewer.pdf  used on input line 173.
 (pdftex.def)             Requested size: 465.89217pt x 292.44722pt.
-<HLSAzimuthSkewer.pdf, id=436, 1164.75104pt x 731.13103pt>
+<HLSAzimuthSkewer.pdf, id=404, 1164.75104pt x 731.13103pt>
 File: HLSAzimuthSkewer.pdf Graphic file (type pdf)
 <use HLSAzimuthSkewer.pdf>
-Package pdftex.def Info: HLSAzimuthSkewer.pdf  used on input line 176.
+Package pdftex.def Info: HLSAzimuthSkewer.pdf  used on input line 180.
 (pdftex.def)             Requested size: 465.89217pt x 292.44722pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./DunesISkewer1.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<DunesISkewer1.pdf, id=439, 1165.35374pt x 731.73375pt>
+<DunesISkewer1.pdf, id=416, 1165.35374pt x 731.73375pt>
 File: DunesISkewer1.pdf Graphic file (type pdf)
 <use DunesISkewer1.pdf>
-Package pdftex.def Info: DunesISkewer1.pdf  used on input line 195.
+Package pdftex.def Info: DunesISkewer1.pdf  used on input line 199.
 (pdftex.def)             Requested size: 466.13324pt x 292.68831pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./DunesISkewer2.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<DunesISkewer2.pdf, id=440, 1165.35374pt x 731.73375pt>
+<DunesISkewer2.pdf, id=417, 1165.35374pt x 731.73375pt>
 File: DunesISkewer2.pdf Graphic file (type pdf)
 <use DunesISkewer2.pdf>
-Package pdftex.def Info: DunesISkewer2.pdf  used on input line 202.
+Package pdftex.def Info: DunesISkewer2.pdf  used on input line 206.
 (pdftex.def)             Requested size: 466.13324pt x 292.68831pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./DunesISkewer3.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<DunesISkewer3.pdf, id=441, 1165.35374pt x 731.73375pt>
+<DunesISkewer3.pdf, id=419, 1165.35374pt x 731.73375pt>
 File: DunesISkewer3.pdf Graphic file (type pdf)
 <use DunesISkewer3.pdf>
-Package pdftex.def Info: DunesISkewer3.pdf  used on input line 209.
+Package pdftex.def Info: DunesISkewer3.pdf  used on input line 213.
 (pdftex.def)             Requested size: 466.13324pt x 292.68831pt.
-[5]
+
 
 pdfTeX warning: pdflatex.exe (file ./DunesESkewer1.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<DunesESkewer1.pdf, id=450, 1165.35374pt x 731.73375pt>
+<DunesESkewer1.pdf, id=431, 1165.35374pt x 731.73375pt>
 File: DunesESkewer1.pdf Graphic file (type pdf)
 <use DunesESkewer1.pdf>
-Package pdftex.def Info: DunesESkewer1.pdf  used on input line 224.
+Package pdftex.def Info: DunesESkewer1.pdf  used on input line 228.
 (pdftex.def)             Requested size: 466.13324pt x 292.68831pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./DunesESkewer2.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<DunesESkewer2.pdf, id=451, 1165.35374pt x 731.73375pt>
+<DunesESkewer2.pdf, id=433, 1165.35374pt x 731.73375pt>
 File: DunesESkewer2.pdf Graphic file (type pdf)
 <use DunesESkewer2.pdf>
-Package pdftex.def Info: DunesESkewer2.pdf  used on input line 231.
+Package pdftex.def Info: DunesESkewer2.pdf  used on input line 235.
 (pdftex.def)             Requested size: 466.13324pt x 292.68831pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./DunesESkewer3.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<DunesESkewer3.pdf, id=452, 1165.35374pt x 731.73375pt>
+<DunesESkewer3.pdf, id=435, 1165.35374pt x 731.73375pt>
 File: DunesESkewer3.pdf Graphic file (type pdf)
 <use DunesESkewer3.pdf>
-Package pdftex.def Info: DunesESkewer3.pdf  used on input line 238.
+Package pdftex.def Info: DunesESkewer3.pdf  used on input line 242.
 (pdftex.def)             Requested size: 466.13324pt x 292.68831pt.
-[6 <./HLSInciSkewer.pdf>] [7 <./HLSEmisSkewer.pdf> <./HLSAzimuthSkewer.pdf>]
+[6] [7 <./HLSInciSkewer.pdf>] [8 <./HLSEmisSkewer.pdf> <./HLSAzimuthSkewer.pdf>
+]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 245.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 253.
 
-[8 <./DunesISkewer1.pdf>]
+[9 <./DunesISkewer1.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 245.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 253.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[9 <./DunesISkewer2.pdf> <./DunesISkewer3.pdf
+[10 <./DunesISkewer2.pdf> <./DunesISkewer3.pdf
 
 pdfTeX warning: pdflatex.exe (file ./DunesISkewer3.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 245.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 253.
 
-[10 <./DunesESkewer1.pdf> <./DunesESkewer2.pdf
+[11 <./DunesESkewer1.pdf> <./DunesESkewer2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./DunesESkewer2.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 245.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 253.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
@@ -1039,75 +1028,71 @@ Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 pdfTeX warning: pdflatex.exe (file ./DunesASkewer1.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<DunesASkewer1.pdf, id=828, 1165.35374pt x 731.73375pt>
+<DunesASkewer1.pdf, id=835, 1165.35374pt x 731.73375pt>
 File: DunesASkewer1.pdf Graphic file (type pdf)
 <use DunesASkewer1.pdf>
-Package pdftex.def Info: DunesASkewer1.pdf  used on input line 251.
+Package pdftex.def Info: DunesASkewer1.pdf  used on input line 255.
 (pdftex.def)             Requested size: 466.13324pt x 292.68831pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./DunesASkewer2.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<DunesASkewer2.pdf, id=829, 1165.35374pt x 731.73375pt>
+<DunesASkewer2.pdf, id=837, 1165.35374pt x 731.73375pt>
 File: DunesASkewer2.pdf Graphic file (type pdf)
 <use DunesASkewer2.pdf>
-Package pdftex.def Info: DunesASkewer2.pdf  used on input line 258.
+Package pdftex.def Info: DunesASkewer2.pdf  used on input line 262.
 (pdftex.def)             Requested size: 466.13324pt x 292.68831pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./DunesASkewer3.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<DunesASkewer3.pdf, id=830, 1165.35374pt x 731.73375pt>
+<DunesASkewer3.pdf, id=839, 1165.35374pt x 731.73375pt>
 File: DunesASkewer3.pdf Graphic file (type pdf)
 <use DunesASkewer3.pdf>
-Package pdftex.def Info: DunesASkewer3.pdf  used on input line 265.
+Package pdftex.def Info: DunesASkewer3.pdf  used on input line 269.
 (pdftex.def)             Requested size: 466.13324pt x 292.68831pt.
-[11 <./DunesESkewer3.pdf>] [12 <./DunesASkewer1.pdf> <./DunesASkewer2.pdf
+[12 <./DunesESkewer3.pdf>] [13 <./DunesASkewer1.pdf> <./DunesASkewer2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./DunesASkewer2.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 274.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 284.
 
-[13 <./DunesASkewer3.pdf>]
-<OppositionCubeDunes.pdf, id=921, 658.86104pt x 658.86104pt>
+[14 <./DunesASkewer3.pdf>]
+<OppositionCubeDunes.pdf, id=936, 658.86104pt x 658.86104pt>
 File: OppositionCubeDunes.pdf Graphic file (type pdf)
 <use OppositionCubeDunes.pdf>
-Package pdftex.def Info: OppositionCubeDunes.pdf  used on input line 288.
+Package pdftex.def Info: OppositionCubeDunes.pdf  used on input line 292.
 (pdftex.def)             Requested size: 395.31967pt x 395.31967pt.
- [14] [15 <./OppositionCubeDunes.pdf>]
-Underfull \hbox (badness 2197) in paragraph at lines 312--313
-[]\T1/ptm/m/n/10 Future work on this front would in-clude im-prov-ing
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 312--313
-\T1/ptm/m/n/10 SRTC++ to em-u-late the at-mo-sphere prop-erly at high
- []
-
-<BrightAzimuthSkewer.pdf, id=1008, 1164.75104pt x 731.13103pt>
+<OppositionContext.pdf, id=941, 571.40932pt x 586.59103pt>
+File: OppositionContext.pdf Graphic file (type pdf)
+<use OppositionContext.pdf>
+Package pdftex.def Info: OppositionContext.pdf  used on input line 301.
+(pdftex.def)             Requested size: 342.84822pt x 351.95734pt.
+ [15] [16 <./OppositionCubeDunes.pdf>] [17 <./OppositionContext.pdf>]
+<BrightAzimuthSkewer.pdf, id=1074, 1164.75104pt x 731.13103pt>
 File: BrightAzimuthSkewer.pdf Graphic file (type pdf)
 <use BrightAzimuthSkewer.pdf>
-Package pdftex.def Info: BrightAzimuthSkewer.pdf  used on input line 329.
+Package pdftex.def Info: BrightAzimuthSkewer.pdf  used on input line 341.
 (pdftex.def)             Requested size: 465.89217pt x 292.44722pt.
-(./LambertianPaper.bbl [16] [17 <./BrightAzimuthSkewer.pdf>]) [18]
-(./LambertianPaper.aux)
+ (./LambertianPaper.bbl [18 <./BrightAzimuthSkewer.pdf>]
+[19]) [20] (./LambertianPaper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `LambertianPaper.out' has not changed.
-(rerunfilecheck)             Checksum: 16CFF43EA7333B90E0130F1D90011857;1472.
+(rerunfilecheck)             Checksum: 0B497864072666EC8A6CB507B3D7D9C5;1458.
  ) 
 Here is how much of TeX's memory you used:
- 15328 strings out of 473207
- 227867 string characters out of 5720461
- 704418 words of memory out of 5000000
- 38249 multiletter control sequences out of 15000+600000
+ 15380 strings out of 473207
+ 228905 string characters out of 5720461
+ 719143 words of memory out of 5000000
+ 38288 multiletter control sequences out of 15000+600000
  634852 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,8n,93p,1983b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,8n,93p,1787b,723s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist
@@ -1115,10 +1100,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist
 e1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texli
 ve/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LambertianPaper.pdf (18 pages, 3020566 bytes).
+Output written on LambertianPaper.pdf (20 pages, 3341773 bytes).
 PDF statistics:
- 1207 PDF objects out of 1440 (max. 8388607)
- 618 compressed objects within 7 object streams
- 83 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1283 PDF objects out of 1440 (max. 8388607)
+ 745 compressed objects within 8 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

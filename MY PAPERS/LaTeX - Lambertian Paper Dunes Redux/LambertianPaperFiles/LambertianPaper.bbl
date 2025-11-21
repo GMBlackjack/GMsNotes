@@ -1,0 +1,230 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{Barnes {et~al.}(2018)Barnes, MacKenzie, Lorenz, \&
+  Turtle}]{Barnes2018}
+Barnes, J.~W., MacKenzie, S.~M., Lorenz, R.~D., \& Turtle, E.~P. 2018, The
+  Astronomical Journal, 156, 247, \dodoi{10.3847/1538-3881/aae519}
+
+\bibitem[{Barnes {et~al.}(2005)Barnes, Brown, Turtle, McEwen, Lorenz, Janssen,
+  Schaller, Brown, Buratti, Sotin, Griffith, Clark, Perry, Fussner, Barbara,
+  West, Elachi, Bouchez, Roe, Baines, Bellucci, Bibring, Capaccioni, Cerroni,
+  Combes, Coradini, Cruikshank, Drossart, Formisano, Jaumann, Langevin, Matson,
+  McCord, Nicholson, \& Sicardy}]{Barnes2005}
+Barnes, J.~W., Brown, R.~H., Turtle, E.~P., {et~al.} 2005, Science, 310, 92,
+  \dodoi{10.1126/science.1117075}
+
+\bibitem[{Barnes {et~al.}(2007)Barnes, Brown, Soderblom, Buratti, Sotin,
+  Rodriguez, {Le Mouèlic}, Baines, Clark, \& Nicholson}]{Barnes2007}
+Barnes, J.~W., Brown, R.~H., Soderblom, L., {et~al.} 2007, Icarus, 186, 242,
+  \dodoi{10.1016/j.icarus.2006.08.0219}
+
+\bibitem[{Barnes {et~al.}(2008)Barnes, Brown, Soderblom, Sotin, {Le Mouèlic},
+  Rodriguez, Jaumann, Beyer, Buratti, Pitman, Baines, Clark, \&
+  Nicholson}]{Barnes2008}
+---. 2008, Icarus, 195, 400, \dodoi{10.1016/j.icarus.2007.12.006}
+
+\bibitem[{Barnes {et~al.}(2009)Barnes, Soderblom, Brown, Buratti, Sotin,
+  Baines, Clark, Jaumann, McCord, Nelson, Le~Mouélic, Rodriguez, Griffith,
+  Penteado, Tosi, Pitman, Soderblom, Stephan, Hayne, Vixie, Bibring, Bellucci,
+  Capaccioni, Cerroni, Coradini, Cruikshank, Drossart, Formisano, Langevin,
+  Matson, Nicholson, \& Sicardy}]{Barnes2009b}
+Barnes, J.~W., Soderblom, J.~M., Brown, R.~H., {et~al.} 2009, Planetary and
+  Space Science, 57, 1950–1962, \dodoi{10.1016/j.pss.2009.04.013}
+
+\bibitem[{Bonnefoy {et~al.}(2016)Bonnefoy, Hayes, Hayne, Malaska, Le~Gall,
+  Solomonidou, \& Lucas}]{Bonnefoy2016}
+Bonnefoy, L.~E., Hayes, A.~G., Hayne, P.~O., {et~al.} 2016, Icarus, 270,
+  222–237, \dodoi{10.1016/j.icarus.2015.09.014}
+
+\bibitem[{Brossier {et~al.}(2018)Brossier, Rodriguez, Cornet, Lucas, Radebaugh,
+  Maltagliati, Le~Mouélic, Solomonidou, Coustenis, Hirtzig, Jaumann, Stephan,
+  \& Sotin}]{Brossier2018}
+Brossier, J.~F., Rodriguez, S., Cornet, T., {et~al.} 2018, Journal of
+  Geophysical Research: Planets, 123, 1089–1112, \dodoi{10.1029/2017je005399}
+
+\bibitem[{Buratti {et~al.}(2006)Buratti, Sotin, Brown, Hicks, Clark, Mosher,
+  McCord, Jaumann, Baines, Nicholson, Momary, Simonelli, \&
+  Sicardy}]{Buratti2006}
+Buratti, B., Sotin, C., Brown, R., {et~al.} 2006, Planetary and Space Science,
+  54, 1498, \dodoi{10.1016/j.pss.2006.06.015}
+
+\bibitem[{Cooper {et~al.}(2025)Cooper, Robinson, Barnes, Mayorga, \&
+  Robinthal}]{Cooper2025}
+Cooper, C.~A., Robinson, T.~D., Barnes, J.~W., Mayorga, L.~C., \& Robinthal, L.
+  2025, Extreme Forward Scattering Observed in Disk-Averaged Near-Infrared
+  Phase Curves of Titan,  arXiv, \dodoi{10.48550/ARXIV.2507.00924}
+
+\bibitem[{Corlies {et~al.}(2017)Corlies, Hayes, Birch, Lorenz, Stiles, Kirk,
+  Poggiali, Zebker, \& Iess}]{Corlies2017}
+Corlies, P., Hayes, A.~G., Birch, S. P.~D., {et~al.} 2017, Geophysical Research
+  Letters, 44, \dodoi{10.1002/2017gl075518}
+
+\bibitem[{Corlies {et~al.}(2021)Corlies, McDonald, Hayes, Wray, Ádámkovics,
+  Malaska, Cable, Hofgartner, Hörst, Liuzzo, Buffo, Lorenz, \&
+  Turtle}]{Corlies2021}
+Corlies, P., McDonald, G.~D., Hayes, A.~G., {et~al.} 2021, Icarus, 357, 114228,
+  \dodoi{10.1016/j.icarus.2020.114228}
+
+\bibitem[{Déau {et~al.}(2009)Déau, Dones, Rodriguez, Charnoz, \&
+  Brahic}]{Deau2009}
+Déau, E., Dones, L., Rodriguez, S., Charnoz, S., \& Brahic, A. 2009, Planetary
+  and Space Science, 57, 1282, \dodoi{10.1016/j.pss.2009.05.005}
+
+\bibitem[{Es-sayeh {et~al.}(2023)Es-sayeh, Rodriguez, Coutelier, Rannou,
+  Bézard, Maltagliati, Cornet, Grieger, Karkoschka, Le~Mouélic, Le~Gall,
+  Neish, MacKenzie, Solomonidou, Sotin, \& Coustenis}]{EsSayeh2023}
+Es-sayeh, M., Rodriguez, S., Coutelier, M., {et~al.} 2023, The Planetary
+  Science Journal, 4, 44, \dodoi{10.3847/PSJ/acbd37}
+
+\bibitem[{García~Muñoz {et~al.}(2017)García~Muñoz, Lavvas, \&
+  West}]{GarcaMuoz2017}
+García~Muñoz, A., Lavvas, P., \& West, R.~A. 2017, Nature Astronomy, 1,
+  \dodoi{10.1038/s41550-017-0114}
+
+\bibitem[{Griffith {et~al.}(2012)Griffith, Doose, Tomasko, Penteado, \&
+  See}]{Griffith2012}
+Griffith, C.~A., Doose, L., Tomasko, M.~G., Penteado, P.~F., \& See, C. 2012,
+  Icarus, 218, 975, \dodoi{10.1016/j.icarus.2011.11.034}
+
+\bibitem[{Hapke \& van Hoen(1963)}]{Hapke1963}
+Hapke, B., \& van Hoen, H. 1963, Journal of Geophysical Research, 68,
+  4545–4570, \dodoi{10.1029/jz068i015p04545}
+
+\bibitem[{Karkoschka {et~al.}(2012)Karkoschka, Schr\"{o}der, Tomasko, \&
+  Keller}]{Karkoschka2012}
+Karkoschka, E., Schr\"{o}der, S.~E., Tomasko, M.~G., \& Keller, H.~U. 2012,
+  Planetary and Space Science, 60, 342–355, \dodoi{10.1016/j.pss.2011.10.014}
+
+\bibitem[{Kazeminejad {et~al.}(2011)Kazeminejad, Atkinson, \&
+  Lebreton}]{Kazeminejad2011}
+Kazeminejad, B., Atkinson, D.~H., \& Lebreton, J.-P. 2011, The Astrophysical
+  Journal Letters, 47, 1622–1632, \dodoi{10.1016/j.asr.2011.01.019}
+
+\bibitem[{Keller {et~al.}(2008)Keller, Grieger, K\"{u}ppers, Schr\"{o}der,
+  Skorov, \& Tomasko}]{Keller2008}
+Keller, H., Grieger, B., K\"{u}ppers, M., {et~al.} 2008, Planetary and Space
+  Science, 56, 728–752, \dodoi{10.1016/j.pss.2007.11.020}
+
+\bibitem[{Kulyk(2008)}]{Kulyk2008}
+Kulyk, I. 2008, Planetary and Space Science, 56, 386–397,
+  \dodoi{10.1016/j.pss.2007.11.011}
+
+\bibitem[{Le~Mouélic {et~al.}(2012)Le~Mouélic, Cornet, Rodriguez, Sotin,
+  Barnes, Baines, Brown, Lefèvre, Buratti, Clark, \& Nicholson}]{LeMoulic2012}
+Le~Mouélic, S., Cornet, T., Rodriguez, S., {et~al.} 2012, Planetary and Space
+  Science, 73, 178–190, \dodoi{10.1016/j.pss.2012.09.008}
+
+\bibitem[{Le~Mouélic {et~al.}(2019)Le~Mouélic, Cornet, Rodriguez, Sotin,
+  Seignovert, Barnes, Brown, Baines, Buratti, Clark, Nicholson, Lasue, Pasek,
+  \& Soderblom}]{LeMoulic2019}
+---. 2019, Icarus, 319, 121–132, \dodoi{10.1016/j.icarus.2018.09.017}
+
+\bibitem[{Lopes {et~al.}(2020)Lopes, Malaska, Schoenfeld, Solomonidou, Birch,
+  Florence, Hayes, Williams, Radebaugh, Verlander, Turtle, Gall, \&
+  Wall}]{Lopes2020}
+Lopes, R. M.~C., Malaska, M.~J., Schoenfeld, A.~M., {et~al.} 2020, Nature
+  Astronomy, 4, 228, \dodoi{10.1038/s41550-019-0917-6}
+
+\bibitem[{Lynch \& Livingston(2004)}]{Lynch2004}
+Lynch, D.~K., \& Livingston, W. 2004, Color and light in nature (Cambridge
+  Univ. Press)
+
+\bibitem[{Neish {et~al.}(2010)Neish, Lorenz, Kirk, \& Wye}]{Neish2010}
+Neish, C.~D., Lorenz, R.~D., Kirk, R.~L., \& Wye, L.~C. 2010, Icarus, 208,
+  385–394, \dodoi{10.1016/j.icarus.2010.01.023}
+
+\bibitem[{Pont \& Koenderink(2007)}]{Pont2007}
+Pont, S.~C., \& Koenderink, J.~J. 2007, Perception amp; Psychophysics, 69,
+  459–468, \dodoi{10.3758/bf03193766}
+
+\bibitem[{Rannou {et~al.}(2021)Rannou, Coutelier, Rivière, Lebonnois, Rey, \&
+  Maltagliati}]{Rannou2021}
+Rannou, P., Coutelier, M., Rivière, E., {et~al.} 2021, The Astrophysical
+  Journal, 922, 239, \dodoi{10.3847/1538-4357/ac2904}
+
+\bibitem[{Rodriguez {et~al.}(2006)Rodriguez, Le~Mouélic, Sotin, Clénet,
+  Clark, Buratti, Brown, McCord, Nicholson, \& Baines}]{Rodriguez2006}
+Rodriguez, S., Le~Mouélic, S., Sotin, C., {et~al.} 2006, Planetary and Space
+  Science, 54, 1510–1523, \dodoi{10.1016/j.pss.2006.06.016}
+
+\bibitem[{Rodriguez {et~al.}(2018)Rodriguez, Le~Mouélic, Barnes, Kok, Rafkin,
+  Lorenz, Charnay, Radebaugh, Narteau, Cornet, Bourgeois, Lucas, Rannou,
+  Griffith, Coustenis, Appéré, Hirtzig, Sotin, Soderblom, Brown, Bow, Vixie,
+  Maltagliati, Courrech~du Pont, Jaumann, Stephan, Baines, Buratti, Clark, \&
+  Nicholson}]{Rodriguez2018}
+Rodriguez, S., Le~Mouélic, S., Barnes, J.~W., {et~al.} 2018, Nature
+  Geoscience, 11, 727–732, \dodoi{10.1038/s41561-018-0233-2}
+
+\bibitem[{Schaefer {et~al.}(2008)Schaefer, Rabinowitz, \&
+  Tourtellotte}]{Schaefer2008}
+Schaefer, B.~E., Rabinowitz, D.~L., \& Tourtellotte, S.~W. 2008, The
+  Astronomical Journal, 137, 129–144, \dodoi{10.1088/0004-6256/137/1/129}
+
+\bibitem[{Schr\"{o}der \& Keller(2008)}]{Schroder2008}
+Schr\"{o}der, S., \& Keller, H. 2008, Planetary and Space Science, 56,
+  753–769, \dodoi{10.1016/j.pss.2007.10.011}
+
+\bibitem[{Schr\"{o}der \& Keller(2009)}]{Schroder2009}
+---. 2009, Planetary and Space Science, 57, 1963–1974,
+  \dodoi{10.1016/j.pss.2009.03.012}
+
+\bibitem[{Seal \& Bittner(2017)}]{Seal2017}
+Seal, D., \& Bittner, M. 2017, in 2017 IEEE Aerospace Conference (IEEE),
+  1–12, \dodoi{10.1109/aero.2017.7943848}
+
+\bibitem[{Seignovert {et~al.}(2023)Seignovert, Mouélic, Heslar, Cordier,
+  Coutelier, \& MacKenzie}]{Seignovert2021}
+Seignovert, B., Mouélic, S.~L., Heslar, M., {et~al.} 2023, PyVIMS,  Zenodo,
+  \dodoi{10.5281/ZENODO.4708004}
+
+\bibitem[{Soderblom {et~al.}(2007)Soderblom, Kirk, Lunine, Anderson, Baines,
+  Barnes, Barrett, Brown, Buratti, Clark, Cruikshank, Elachi, Janssen, Jaumann,
+  Karkoschka, Mouélic, Lopes, Lorenz, McCord, Nicholson, Radebaugh, Rizk,
+  Sotin, Stofan, Sucharski, Tomasko, \& Wall}]{Soderblom2007}
+Soderblom, L.~A., Kirk, R.~L., Lunine, J.~I., {et~al.} 2007, Planetary and
+  Space Science, 55, 2025, \dodoi{10.1016/j.pss.2007.04.014}
+
+\bibitem[{Soderblom {et~al.}(2009)Soderblom, Brown, Soderblom, Barnes, Kirk,
+  Sotin, Jaumann, Mackinnon, Mackowski, Baines, Buratti, Clark, \&
+  Nicholson}]{Soderblom2009}
+Soderblom, L.~A., Brown, R.~H., Soderblom, J.~M., {et~al.} 2009, Icarus, 204,
+  610, \dodoi{10.1016/j.icarus.2009.07.033}
+
+\bibitem[{Solomonidou {et~al.}(2024)Solomonidou, Malaska, Lopes, Coustenis,
+  Schoenfeld, Schmitt, Birch, {Le Gall}, Lawrence, Matsoukas, Wall, \&
+  Elachi}]{Solomonidou2024}
+Solomonidou, A., Malaska, M., Lopes, R., {et~al.} 2024, Icarus, 421, 116215,
+  \dodoi{10.1016/j.icarus.2024.116215}
+
+\bibitem[{Sullivan \& Kaszynski(2019)}]{Sullivan2019}
+Sullivan, C.~B., \& Kaszynski, A.~A. 2019, Journal of Open Source Software, 4,
+  1450, \dodoi{10.21105/joss.01450}
+
+\bibitem[{Tomasko {et~al.}(2008)Tomasko, Doose, Engel, Dafoe, West, Lemmon,
+  Karkoschka, \& See}]{Tomasko2008}
+Tomasko, M.~G., Doose, L., Engel, S., {et~al.} 2008, Planetary and Space
+  Science, 56, 669, \dodoi{10.1016/j.pss.2007.11.019}
+
+\bibitem[{Vinatier {et~al.}(2007)Vinatier, Bezard, Fouchet, Teanby, Dekok,
+  Irwin, Conrath, Nixon, Romani, \& Flasar}]{Vinatier2007}
+Vinatier, S., Bezard, B., Fouchet, T., {et~al.} 2007, Icarus, 188, 120–138,
+  \dodoi{10.1016/j.icarus.2006.10.031}
+
+\bibitem[{Wise \& Mars(2022)}]{Wise2022}
+Wise, J.~E., \& Mars, J.~C. 2022, Remote Sensing, 14, 5020,
+  \dodoi{10.3390/rs14195020}
+
+\bibitem[{Wye(2011)}]{Wye2011}
+Wye, L.~C. 2011, Radar scattering from Titan and Saturn's icy satellites using
+  the Cassini spacecraft (stanford university)
+
+\bibitem[{Xu {et~al.}(2013)Xu, West, \& Davis}]{Xu2013}
+Xu, F., West, R.~A., \& Davis, A.~B. 2013, Journal of Quantitative Spectroscopy
+  and Radiative Transfer, 117, 59, \dodoi{10.1016/j.jqsrt.2012.10.013}
+
+\end{thebibliography}
