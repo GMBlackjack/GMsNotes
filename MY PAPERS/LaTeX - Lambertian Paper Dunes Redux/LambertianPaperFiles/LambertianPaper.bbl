@@ -5,10 +5,16 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
-\bibitem[{Barnes {et~al.}(2018)Barnes, MacKenzie, Lorenz, \&
-  Turtle}]{Barnes2018}
-Barnes, J.~W., MacKenzie, S.~M., Lorenz, R.~D., \& Turtle, E.~P. 2018, The
-  Astronomical Journal, 156, 247, \dodoi{10.3847/1538-3881/aae519}
+\bibitem[{Anton(1999)}]{Anton1999}
+Anton, C.~H. 1999, in 30th Annual Lunar and Planetary Science Conference,
+  1233--1234.
+\newblock \url{https://ui.adsabs.harvard.edu/abs/1999LPI....30.1233A/abstract}
+
+\bibitem[{Barnes {et~al.}(2018{\natexlab{a}})Barnes, MacKenzie, Lorenz, \&
+  Turtle}]{Barnes2018b}
+Barnes, J.~W., MacKenzie, S.~M., Lorenz, R.~D., \& Turtle, E.~P.
+  2018{\natexlab{a}}, The Astronomical Journal, 156, 247,
+  \dodoi{10.3847/1538-3881/aae519}
 
 \bibitem[{Barnes {et~al.}(2005)Barnes, Brown, Turtle, McEwen, Lorenz, Janssen,
   Schaller, Brown, Buratti, Sotin, Griffith, Clark, Perry, Fussner, Barbara,
@@ -21,20 +27,24 @@ Barnes, J.~W., Brown, R.~H., Turtle, E.~P., {et~al.} 2005, Science, 310, 92,
 \bibitem[{Barnes {et~al.}(2007)Barnes, Brown, Soderblom, Buratti, Sotin,
   Rodriguez, {Le Mouèlic}, Baines, Clark, \& Nicholson}]{Barnes2007}
 Barnes, J.~W., Brown, R.~H., Soderblom, L., {et~al.} 2007, Icarus, 186, 242,
-  \dodoi{10.1016/j.icarus.2006.08.0219}
+  \dodoi{10.1016/j.icarus.2006.08.021}
 
 \bibitem[{Barnes {et~al.}(2008)Barnes, Brown, Soderblom, Sotin, {Le Mouèlic},
   Rodriguez, Jaumann, Beyer, Buratti, Pitman, Baines, Clark, \&
   Nicholson}]{Barnes2008}
 ---. 2008, Icarus, 195, 400, \dodoi{10.1016/j.icarus.2007.12.006}
 
-\bibitem[{Barnes {et~al.}(2009)Barnes, Soderblom, Brown, Buratti, Sotin,
-  Baines, Clark, Jaumann, McCord, Nelson, Le~Mouélic, Rodriguez, Griffith,
-  Penteado, Tosi, Pitman, Soderblom, Stephan, Hayne, Vixie, Bibring, Bellucci,
-  Capaccioni, Cerroni, Coradini, Cruikshank, Drossart, Formisano, Langevin,
-  Matson, Nicholson, \& Sicardy}]{Barnes2009b}
-Barnes, J.~W., Soderblom, J.~M., Brown, R.~H., {et~al.} 2009, Planetary and
-  Space Science, 57, 1950–1962, \dodoi{10.1016/j.pss.2009.04.013}
+\bibitem[{Barnes {et~al.}(2011)Barnes, Soderblom, Brown, Soderblom, Stephan,
+  Jaumann, Mouélic, Rodriguez, Sotin, Buratti, Baines, Clark, \&
+  Nicholson}]{Barnes2011}
+Barnes, J.~W., Soderblom, J.~M., Brown, R.~H., {et~al.} 2011, Icarus, 211,
+  722–731, \dodoi{10.1016/j.icarus.2010.09.022}
+
+\bibitem[{Barnes {et~al.}(2018{\natexlab{b}})Barnes, MacKenzie, Young,
+  Trouille, Rodriguez, Cornet, Jackson, Ádámkovics, Sotin, \&
+  Soderblom}]{Barnes2018a}
+Barnes, J.~W., MacKenzie, S.~M., Young, E.~F., {et~al.} 2018{\natexlab{b}}, The
+  Astrophysical Journal, 155, 264, \dodoi{10.3847/1538-3881/aac2db}
 
 \bibitem[{Bonnefoy {et~al.}(2016)Bonnefoy, Hayes, Hayne, Malaska, Le~Gall,
   Solomonidou, \& Lucas}]{Bonnefoy2016}
@@ -91,6 +101,10 @@ García~Muñoz, A., Lavvas, P., \& West, R.~A. 2017, Nature Astronomy, 1,
 Griffith, C.~A., Doose, L., Tomasko, M.~G., Penteado, P.~F., \& See, C. 2012,
   Icarus, 218, 975, \dodoi{10.1016/j.icarus.2011.11.034}
 
+\bibitem[{Hapke(2012)}]{Hapke2012}
+Hapke, B. 2012, Theory of Reflectance and Emittance Spectroscopy (Cambridge
+  University Press), \dodoi{10.1017/cbo9781139025683}
+
 \bibitem[{Hapke \& van Hoen(1963)}]{Hapke1963}
 Hapke, B., \& van Hoen, H. 1963, Journal of Geophysical Research, 68,
   4545–4570, \dodoi{10.1029/jz068i015p04545}
@@ -133,6 +147,12 @@ Lopes, R. M.~C., Malaska, M.~J., Schoenfeld, A.~M., {et~al.} 2020, Nature
 \bibitem[{Lynch \& Livingston(2004)}]{Lynch2004}
 Lynch, D.~K., \& Livingston, W. 2004, Color and light in nature (Cambridge
   Univ. Press)
+
+\bibitem[{McCord {et~al.}(2006)McCord, Hansen, Buratti, Clark, Cruikshank,
+  D’Aversa, Griffith, Baines, Brown, Dalle~Ore, Filacchione, Formisano,
+  Hibbitts, Jaumann, Lunine, Nelson, \& Sotin}]{McCord2006}
+McCord, T., Hansen, G., Buratti, B., {et~al.} 2006, Planetary and Space
+  Science, 54, 1524–1539, \dodoi{10.1016/j.pss.2006.06.007}
 
 \bibitem[{Neish {et~al.}(2010)Neish, Lorenz, Kirk, \& Wye}]{Neish2010}
 Neish, C.~D., Lorenz, R.~D., Kirk, R.~L., \& Wye, L.~C. 2010, Icarus, 208,
@@ -194,6 +214,14 @@ Soderblom, L.~A., Kirk, R.~L., Lunine, J.~I., {et~al.} 2007, Planetary and
   Nicholson}]{Soderblom2009}
 Soderblom, L.~A., Brown, R.~H., Soderblom, J.~M., {et~al.} 2009, Icarus, 204,
   610, \dodoi{10.1016/j.icarus.2009.07.033}
+
+\bibitem[{Solomonidou {et~al.}(2018)Solomonidou, Coustenis, Lopes, Malaska,
+  Rodriguez, Drossart, Elachi, Schmitt, Philippe, Janssen, Hirtzig, Wall,
+  Sotin, Lawrence, Altobelli, Bratsolis, Radebaugh, Stephan, Brown,
+  Le~Mouélic, Le~Gall, Villanueva, Brossier, Bloom, Witasse, Matsoukas, \&
+  Schoenfeld}]{Solomonidou2018}
+Solomonidou, A., Coustenis, A., Lopes, R. M.~C., {et~al.} 2018, Journal of
+  Geophysical Research: Planets, 123, 489–507, \dodoi{10.1002/2017je005477}
 
 \bibitem[{Solomonidou {et~al.}(2024)Solomonidou, Malaska, Lopes, Coustenis,
   Schoenfeld, Schmitt, Birch, {Le Gall}, Lawrence, Matsoukas, Wall, \&

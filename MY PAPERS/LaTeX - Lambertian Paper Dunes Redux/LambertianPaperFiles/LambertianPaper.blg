@@ -3,54 +3,45 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: LambertianPaper.aux
 The style file: aasjournal.bst
 Database file #1: Bibliography.bib
-Repeated entry---line 1073 of file Bibliography.bib
- : @article{Rodriguez2018
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1349 of file Bibliography.bib
- : @article{Barnes2018
- :                    ,
-I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 43 entries,
+You've used 48 entries,
             3168 wiz_defined-function locations,
-            1006 strings with 19621 characters,
-and the built_in function-call counts, 23380 in all, are:
-= -- 1774
-> -- 2015
-< -- 10
-+ -- 666
-- -- 729
-* -- 2287
-:= -- 4285
-add.period$ -- 43
-call.type$ -- 43
-change.case$ -- 237
-chr.to.int$ -- 43
-cite$ -- 43
-duplicate$ -- 735
-empty$ -- 1314
-format.name$ -- 782
-if$ -- 4706
-int.to.chr$ -- 1
+            1043 strings with 21126 characters,
+and the built_in function-call counts, 25903 in all, are:
+= -- 1969
+> -- 2195
+< -- 12
++ -- 725
+- -- 791
+* -- 2518
+:= -- 4733
+add.period$ -- 49
+call.type$ -- 48
+change.case$ -- 257
+chr.to.int$ -- 47
+cite$ -- 48
+duplicate$ -- 827
+empty$ -- 1489
+format.name$ -- 849
+if$ -- 5235
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 40
-newline$ -- 137
-num.names$ -- 172
-pop$ -- 260
+missing$ -- 44
+newline$ -- 153
+num.names$ -- 192
+pop$ -- 282
 preamble$ -- 1
-purify$ -- 237
+purify$ -- 257
 quote$ -- 0
-skip$ -- 743
+skip$ -- 839
 stack$ -- 0
-substring$ -- 1057
-swap$ -- 12
+substring$ -- 1194
+swap$ -- 24
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 381
+type$ -- 423
 warning$ -- 0
-while$ -- 148
+while$ -- 165
 width$ -- 0
-write$ -- 479
-(There were 2 error messages)
+write$ -- 535
